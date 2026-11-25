@@ -1,5 +1,11 @@
 # Changelog
 
+## [v5.2] 2026-11-26: ready for the JSDSS GitHub review stage
+### Changed
+- The manuscript now draws all 11 figures itself, in code chunks that read `results/`. The new module `code/src/paperfigs.py` holds one function per figure, using the same drawing code as the analysis scripts. This is what JSDSS requires at the GitHub review stage: the code for every graphic lives in the Quarto manuscript, not in uploaded PNGs.
+- `publish.yml` installs Python (jupyter, numpy, pandas, matplotlib, pyarrow) so GitHub Actions can execute those chunks. Notebook links are switched off in the HTML and PDF output.
+- The rendered PDF has the same 48 pages, figures and numbers as submission #2361.
+
 ## [v5.1] 2026-11-26: reference check before JSDSS submission
 ### Fixed
 - Checked the cited references. Fixed the Opta Analyst dribbling guide: author Ryan Benson, published November 2023, not 2025.

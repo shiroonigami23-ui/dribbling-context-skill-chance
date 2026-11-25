@@ -8,11 +8,15 @@ execute:
 
 format:
   html:
+    notebook-links: false
+    notebook-view: false
     toc: true
     comments:
       hypothesis: true
     template-partials:
       - _extensions/quarto-journals/jasa/partials/title-metadata.html
   jasa-pdf:
+    notebook-links: false
+    notebook-view: false
     keep-tex: true
     pdf-engine: pdflatex

@@ -115,7 +115,7 @@ python src/check_reproduction.py         # compares code/results/ with the commi
 
 **Verified:** a clean run on 25 Nov 2026 reproduced all **289,371** numbers in `results/` within 1%. A shorter version of this check runs in [GitHub Actions](.github/workflows/reproducibility.yml) on every push: it re-downloads the Study 1 data, re-fits Study 1 and compares the results.
 
-To rebuild the manuscript: `quarto render index.qmd --to jasa-pdf` (needs Quarto and LaTeX).
+To rebuild the manuscript: `quarto render index.qmd --to jasa-pdf` (needs Quarto, LaTeX and Python with numpy, pandas, matplotlib and pyarrow). The manuscript draws all 11 figures itself from `results/` through `code/src/paperfigs.py`. The PNGs in `figures/` are only for this README, and `python code/src/paperfigs.py` regenerates them.
 
 ## 📁 Repository layout
 

@@ -26,8 +26,23 @@ bibliography: references.bib
 citation:
   container-title: Statistics and Data Science in Sports
 number-sections: true
+execute:
+  echo: false
+  warning: false
+jupyter: python3
 fig-pos: "H"
 ---
+
+```{python}
+#| include: false
+# Every figure is drawn here from the released results (code/src/paperfigs.py), as JSDSS requires.
+import sys
+sys.path.insert(0, "code/src")
+import matplotlib
+matplotlib.rcParams.update({"figure.dpi": 150, "savefig.dpi": 200})
+import paperfigs as P
+R = "results"
+```
 
 ## Introduction {#sec-intro}
 
@@ -126,8 +141,12 @@ The benchmark contains every player with at least 900 minutes in the four comple
 
 **Pitch zone dominates.** Adjusted success falls steadily with depth and is lower on the wings than in the central channels at every depth (@fig-context). In a team's own half it is about 70% in the centre and half-spaces and about 60% on the wings. In the final third it is about 60% centrally and 52--53% wide, and in the penalty area it falls to 55% in the centre and 44% on the wings, the hardest cells on the pitch. The spread between the easiest and hardest zones, 27 points, is more than four times the spread of true skill between players (@sec-reliability).
 
-![Context-adjusted take-on success by pitch zone (all 78,910 take-ons; attack runs left to right; rows are width bands, top and bottom rows are the wings). Each cell is the model's average prediction if every take-on started in that zone, with other context as observed; $n$ is the number of attempts that did start there.](figures/fig_context.png){#fig-context width="85%"}
-
+```{python}
+#| label: fig-context
+#| fig-cap: |
+#|   Context-adjusted take-on success by pitch zone (all 78,910 take-ons; attack runs left to right; rows are width bands, top and bottom rows are the wings). Each cell is the model's average prediction if every take-on started in that zone, with other context as observed; $n$ is the number of attempts that did start there.
+P.fig_context(R);
+```
 **Phase of play and score state.** Counter-attacks raise adjusted success to 68.5%, against 59.1% in regular play and 54.9% in other phases (mostly restarts and their second phase), a gain of about 9 points from attacking a defence before it is set. Score state matters little: 57.0% when trailing, 56.9% level and 58.3% leading.
 
 **What completion is worth.** Across all take-ons, a completed one is followed by 0.028 xG later in the same possession, against 0.005 after a failure. shows where that gap comes from. In the final third, a completed central take-on is followed by 0.082 xG and a completed wide one by 0.024: the central take-on is both more likely to succeed (59% against 48% observed) and worth about three times as much. In the central zone of the penalty area a completed take-on is followed by 0.20 xG, against 0.025 after a failure. In the team's own third, completion is followed by almost nothing in shot value (0.008--0.011 xG), so there its value lies in keeping the ball, not in creating chances.
@@ -154,22 +173,34 @@ The benchmark contains every player with at least 900 minutes in the four comple
 
 Once context is removed, the true between-player standard deviation of take-on success is $\hat\tau=5.8$ percentage points. That is real but small next to binomial noise. By @eq-rel, a rating needs 74 attempts to have reliability 0.5 (half signal, half noise), 172 for 0.7 and 294 for 0.8 (@fig-reliability). The empirical split-half check agrees: for benchmark players with at least 15 attempts in each half of the season, the correlation between halves is 0.25, a full-season reliability of 0.40.
 
-![Reliability of a context-adjusted take-on rating as a function of attempts (@eq-rel), with the distribution of season attempts for the 1,293 benchmark players who attempted at least one take-on in 2015/16 (green).](figures/fig_reliability.png){#fig-reliability width="85%"}
-
+```{python}
+#| label: fig-reliability
+#| fig-cap: |
+#|   Reliability of a context-adjusted take-on rating as a function of attempts (@eq-rel), with the distribution of season attempts for the 1,293 benchmark players who attempted at least one take-on in 2015/16 (green).
+P.fig_reliability(R);
+```
 Few players get there in a season. The median benchmark player attempted 27 take-ons in 2015/16, for a reliability of about 0.27. Only 11.5% of players reached 0.5 and 0.6% reached 0.7. At the median rate of 1.28 attempts per 90, a player needs about 134 full matches, more than three seasons, to reach 0.7; a specialist dribbler attempting four per 90 needs about 43. Raw completion rates are noisier still, because they also carry the context effects of @sec-context.
 
 Volume and adjusted success are essentially unrelated across players (Spearman $\rho=-0.09$), so the players who attempt most are not the most efficient, and volume cannot stand in for skill.
 
 **Which rating predicts the rest of the season?** @fig-validity scores five first-half predictions on 19,549 second-half take-ons by 803 players. A player's raw completion rate is the worst predictor, worse even than giving every player the league average (log loss 0.704 against 0.688): it chases noise and ignores where the player dribbles. Adding the unshrunk context-adjusted rating to the context model also hurts (0.697 against 0.677 for the context model alone). Only the shrunk rating improves on the context model (0.6755 against 0.6769; 95% interval of the gain 0.0001--0.0029), and it beats the raw rate by a wide margin (gain 0.023--0.034). At player level, predicting each player's second-half success above expectation from his unshrunk first-half value gives a weighted mean squared error 54% larger than predicting zero for everyone, while the shrunk value reduces it by 6%. The gain from skill is small, as @fig-reliability implies, but it is real only once the rating is adjusted for context and shrunk.
 
-![Out-of-sample test. Every second-half 2015/16 take-on by the 803 players with at least 10 first-half attempts is predicted from first-half data only (context model, $\tau^2$ and ratings all refitted on the first half). Lower log loss is better.](figures/fig_validity.png){#fig-validity width="85%"}
-
+```{python}
+#| label: fig-validity
+#| fig-cap: |
+#|   Out-of-sample test. Every second-half 2015/16 take-on by the 803 players with at least 10 first-half attempts is predicted from first-half data only (context model, $\tau^2$ and ratings all refitted on the first half). Lower log loss is better.
+P.fig_validity(R);
+```
 ### RQ3: When is a take-on worth more than a pass? {#sec-decision}
 
 @fig-breakeven and @tbl-breakeven give the break-even success rate of @eq-breakeven for each area. Only in the centre of the penalty area does the average take-on clearly beat a pass: there a completed take-on is followed by 0.21 net xG, so it pays off at a success rate of 28% (90% interval 22--34%), and the average take-on, at 53%, adds about 4.7 xG per 100 attempts. Everywhere else the break-even rate is at or above the average success rate. The gap is small in the central channel of the middle and final thirds (2--3 points) and on the wings of a team's own third, so better-than-average dribblers gain there. It is large on the wings of the final third and the box, where a take-on needs 83--84% success to match a pass (in practice a cross or cut-back) and the average is 42--50%.
 
-![Success rate a take-on needs to match an open-play pass from the same area (bold), and the average take-on success there (2015/16, four leagues; wings and half-spaces pooled across both sides). Blue: the average take-on beats the pass; red: it falls short, darker for a larger shortfall.](figures/fig_breakeven.png){#fig-breakeven width="85%"}
-
+```{python}
+#| label: fig-breakeven
+#| fig-cap: |
+#|   Success rate a take-on needs to match an open-play pass from the same area (bold), and the average take-on success there (2015/16, four leagues; wings and half-spaces pooled across both sides). Blue: the average take-on beats the pass; red: it falls short, darker for a larger shortfall.
+P.fig_breakeven(R);
+```
 ::: {#tbl-breakeven}
 |                 |            |         | Net value per 100 |        |      |                 | Worth it for |         |
 |:----------------|:-----------|--------:|------------------:|-------:|-----:|----------------:|:------------:|:-------:|
@@ -214,8 +245,12 @@ The most extreme take-on profile in the 2015/16 benchmark belongs to Lionel Mess
 
 **Raw rate understates him; adjusted rate is uncertain; extra completions are clear.** His raw completion rate (74.3%) sits only at the 78th percentile: about a fifth of players had a higher rate, mostly on far fewer attempts. His situations were barely easier than average (expected completion 56.9% against 55.6% for all 2015/16 attempts), even though 54% of his attempts started in the central 28 yards of the pitch's width, against 24% for the pool. He completed 179 take-ons against 137 expected, $+17.3$ points, or $+13.2$ after shrinkage, the highest of 604 players. With 241 attempts his rating has reliability 0.77 (@eq-rel), unusually high for one season. Even so, his posterior probability of being truly first on the adjusted rate is only 0.15 (match bootstrap: 0.17), of the top three 0.37, and of the top ten 0.72, with a 90% rank interval of 1--32: several low-volume players could plausibly be better. On extra completions per 90 he is far clearer: 1.02, against 0.57 for the next player, with a posterior probability of 0.87 of ranking first and 0.98 of the top three (@fig-uncertainty, right). Volume makes the estimate precise and multiplies the advantage.
 
-![Left: calibration of the context model on held-out matches (five folds grouped by match); points are deciles of predicted probability. Right: empirical-Bayes posterior distribution of Messi's rank among 604 players in 2015/16 for the adjusted success rate (blue) and for extra completions per 90 (orange).](figures/fig_uncertainty.png){#fig-uncertainty width="100%"}
-
+```{python}
+#| label: fig-uncertainty
+#| fig-cap: |
+#|   Left: calibration of the context model on held-out matches (five folds grouped by match); points are deciles of predicted probability. Right: empirical-Bayes posterior distribution of Messi's rank among 604 players in 2015/16 for the adjusted success rate (blue) and for extra completions per 90 (orange).
+P.fig_uncertainty(R);
+```
 The point estimates are stable across seven alternative specifications, and over a career a single season varies by several points even for this player (Appendix B).
 
 ## Replication and extension: Studies 2--6 {#sec-replication}
@@ -260,8 +295,12 @@ Study 1 rests on one complete season of men's club football and on event context
 
 The test that matters for recruitment, whether a first-period rating predicts a later period, repeats in every dataset with enough players (@fig-replication). The raw completion rate always predicts worse than the league average, and the shrunk rating always does best; in the WSL, where three consecutive seasons are available, the shrunk rating also predicts the next season better than the raw rate.
 
-![Out-of-sample log-loss gain of the shrunk, context-adjusted rating over the raw completion rate (left) and over the context model alone (right), in every dataset with enough players. Half-season tests rate players on the first half of a league season and score the second; next-season tests rate on one WSL season and score the next. 95% intervals from resampling players; $n$ is the number of players.](figures/fig_replication.png){#fig-replication width="92%"}
-
+```{python}
+#| label: fig-replication
+#| fig-cap: |
+#|   Out-of-sample log-loss gain of the shrunk, context-adjusted rating over the raw completion rate (left) and over the context model alone (right), in every dataset with enough players. Half-season tests rate players on the first half of a league season and score the second; next-season tests rate on one WSL season and score the next. 95% intervals from resampling players; $n$ is the number of players.
+P.fig_replication(R);
+```
 ### What the extensions add
 
 -   **Defenders and teammates (Study 4, 360 freeze frames).** Distance to the nearest opponent moves adjusted success from 47% (within a yard) to 72% (beyond three yards), and defender features raise the cross-validated AUC from 0.58 to 0.63; yet player ratings with and without them correlate at 0.97. With a forward teammate open, a take-on outside the box needs 92--96% success to beat a pass; with none open the bar falls to 64--73%, which confirms that the break-even rates of @tbl-breakeven are conservative for the take-on (Appendix A.3).
@@ -371,14 +410,22 @@ StatsBomb 360 data give, for each event, the positions of all players in the bro
 
 **Defender context matters, and it is mostly distance.** Adding the defender features to @eq-glm raises the cross-validated AUC from 0.585 to 0.627 and lowers the Brier score from 0.243 to 0.236 (0.248 for a constant). Distance to the nearest opponent has the largest effect: adjusted success is 47% with an opponent within a yard, 56% at 1--2 yards, 61% at 2--3 yards and 72% beyond 3 yards (@fig-360). More open forward teammates go with higher success (51% with none, 63% with three or more), probably because a spread defence leaves more room for the dribbler.
 
-![Adjusted take-on success by distance to the nearest opponent and by the number of opponents goal-side of the ball, from the model with defender features (414 matches with 360 data; frames re-oriented as described in the text).](figures/fig_360_context.png){#fig-360 width="85%"}
-
+```{python}
+#| label: fig-360
+#| fig-cap: |
+#|   Adjusted take-on success by distance to the nearest opponent and by the number of opponents goal-side of the ball, from the model with defender features (414 matches with 360 data; frames re-oriented as described in the text).
+P.fig_360_context(R);
+```
 **Ratings barely move.** Study 1 warned that some of what it called skill might be unmodelled context. On the same take-ons, player ratings computed with and without the defender features correlate at 0.97 (147 players with at least 15 attempts; 0.96 and 0.97 at 20 and 30 attempts). The estimate of the skill spread itself is too imprecise in this sample to say whether it shrinks (4.6 points without defender features and 3.8 with them at 15 attempts; 4.5 and 4.7 at 30), but the ordering of players, which is what scouting uses, is almost unchanged.
 
 **When no teammate is open, the take-on comes closer to paying.** The main weakness of the break-even analysis in @sec-decision is that passes from the same area are not the option a dribbler actually had. The freeze frames let us compare like with like: take-ons and passes made when at least one forward teammate was open, and those made when none was (@fig-360be). Outside the box, with a forward teammate open, a take-on needs 92--96% success to match a pass and averages about 61%: the pass is clearly better. With no forward teammate open, the break-even rate falls to 73% (90% interval 58--100%) in a team's own half and middle third and to 64% (49--83%) in the final third, against an average of about 50%. Players already respond to this: take-ons make up 15% of actions in the final third when no forward teammate is open, against 8% when one is. In the box the break-even rate is about 48% either way, close to the average success of 46--52%.
 
-![Break-even success rate of a take-on against a pass made in the same situation, split by whether at least one forward teammate was open in the freeze frame (bars, with 90% match-resampled intervals), and the average success of take-ons in that situation (diamonds). 414 matches, men and women pooled.](figures/fig_360_breakeven.png){#fig-360be width="85%"}
-
+```{python}
+#| label: fig-360be
+#| fig-cap: |
+#|   Break-even success rate of a take-on against a pass made in the same situation, split by whether at least one forward teammate was open in the freeze frame (bars, with 90% match-resampled intervals), and the average success of take-ons in that situation (diamonds). 414 matches, men and women pooled.
+P.fig_360_breakeven(R);
+```
 ### A.4 Study 5: a second data provider {#sec-wyscout .unnumbered}
 
 All of Studies 1--4 use StatsBomb's definitions. Study 5 repeats the analysis on the public Wyscout release [@pappalardo2019data]: every match of the five major European leagues in 2017/18, plus the 2018 World Cup and Euro 2016 (1,941 matches, 3.25 million events). Wyscout is coded by a different company with different definitions, two seasons later, so agreement here is not an artefact of one provider's conventions.
@@ -399,8 +446,12 @@ The empirical Bayes rating of @eq-oe credits the attacker with everything the co
 
 **Defenders differ more than attackers.** @fig-attdef shows the result. The attacker standard deviation is 5.7 points in StatsBomb and 6.0 in Wyscout, matching the two-stage estimates, so the reliability arithmetic of @sec-reliability stands (178 and 157 attempts for reliability 0.7). The individual defender varies more: 9.6 points in StatsBomb and 7.2 in Wyscout. Adding defenders improves the model decisively (likelihood-ratio $\chi^2_1=459$ and 184; AIC falls by 457 and 182), whereas the defending team adds little (1.7 and 2.1 points). Of the variance that the two players in a duel contribute, the attacker accounts for 26% (StatsBomb) to 41% (Wyscout). The StatsBomb figure may overstate the defender's share, because the recorded defender of a completed take-on (the player dribbled past) and of a failed one (the tackler) are identified differently; Wyscout pairs the duel the same way whatever the outcome and still finds defenders more variable than attackers. On the latent scale both shares are small next to the logistic residual [@nakagawa2013]: a single duel is mostly decided by things neither player's average explains.
 
-![Standard deviation, on the probability scale, of the attacker, individual-defender and defending-team effects in @eq-glmm, for StatsBomb 2015/16 and Wyscout 2017/18 (four and five complete leagues).](figures/fig_attack_defence.png){#fig-attdef width="82%"}
-
+```{python}
+#| label: fig-attdef
+#| fig-cap: |
+#|   Standard deviation, on the probability scale, of the attacker, individual-defender and defending-team effects in @eq-glmm, for StatsBomb 2015/16 and Wyscout 2017/18 (four and five complete leagues).
+P.fig_attack_defence(R);
+```
 **Attacker ratings survive.** For attackers with at least 30 take-ons, the attacker effects with and without defenders in the model correlate at 0.99 (StatsBomb) and 0.996 (Wyscout): over a season, attackers face a broad enough mix of defenders that the defender effects average out. The mixed-model attacker effects also agree with the two-stage empirical Bayes ratings of Study 1 (correlation 0.96 over the 604 rated players), and the player ranked first by the two-stage rating is also first in the mixed model. The simpler two-stage method used for the released ratings is therefore a good approximation. The new information is on the other side of the ball: one-against-one defending is a larger and equally measurable individual difference, which event-data ratings of defenders could exploit.
 
 ### A.6 Bayesian dribble-or-pass decisions for individual players {#sec-bayesdec .unnumbered}
@@ -409,8 +460,12 @@ The break-even analysis of @sec-decision gives a threshold per area; a player ha
 
 **Results.** Over the 604 benchmark players and 12 areas, 8% of player--area cells are confident take-on calls, 69% confident pass calls and 22% uncertain. The central box is a confident take-on call for every player; the central channel of the middle and final thirds and the wings of a team's own third are uncertain for most players, which is exactly where an individual player's skill decides; everywhere else the pass is the confident call. Decision scores correlate with skill ($r=0.58$), but where a player chooses to dribble matters more: with every player's skill set to average and his own mix of areas kept, the scores retain two-thirds of their variance (correlation 0.83 with the full score). Messi in 2015/16 has by far the highest score, $+0.47$ xG per 100 take-ons above passing in the same areas, because he is both the most skilled dribbler and attempts a third of his take-ons where a take-on is the confident call for him (@fig-decqual). Because the pass comparator is conservative (Appendix A.3; Appendix A.4), the absolute scores are biased against take-ons and only their ranking should be used.
 
-![Take-on skill (shrunk success above expectation) against the decision score: expected xG of a player's take-ons relative to passing in the same areas, per 100 take-ons, from @eq-bayesdec. StatsBomb 2015/16 benchmark players with at least 60 attempts; point size is proportional to attempts. Absolute levels are conservative (see text).](figures/fig_decision_quality.png){#fig-decqual width="85%"}
-
+```{python}
+#| label: fig-decqual
+#| fig-cap: |
+#|   Take-on skill (shrunk success above expectation) against the decision score: expected xG of a player's take-ons relative to passing in the same areas, per 100 take-ons, from @eq-bayesdec. StatsBomb 2015/16 benchmark players with at least 60 attempts; point size is proportional to attempts. Absolute levels are conservative (see text).
+P.fig_decision_quality(R);
+```
 ## Appendix B: Sensitivity and career {.unnumbered}
 
 ::: {#tbl-sens}
@@ -432,4 +487,9 @@ The 2015/16 ranking is stable across seven alternative specifications (@tbl-sens
 
 **One season is not a career.** Across 18 seasons with at least 50 attempts, Messi was above expectation in 17, and the match-clustered lower bound was above zero in 12 (@fig-career). His median season was $+6.9$ points, which would rank about eleventh of 604 in 2015/16. The one season with complete leagues happens to be his best adjusted season, so "first" describes a peak, and a typical season is top 2%. This is the reliability problem of @sec-reliability in a single career: even for a player with an unusually large sample, single-season ratings vary by several points.
 
-![Messi's career, seasons with at least 50 take-ons. Left: attempted and completed take-ons per 90. Centre: completion rate with 95% Jeffreys interval; dashed line is the all-player average (57.3%). Right: success above context expectation (raw, not shrunk) with 95% interval from resampling whole matches. \* Ligue 1 with PSG.](figures/fig_career.png){#fig-career width="100%"}
+```{python}
+#| label: fig-career
+#| fig-cap: |
+#|   Messi's career, seasons with at least 50 take-ons. Left: attempted and completed take-ons per 90. Centre: completion rate with 95% Jeffreys interval; dashed line is the all-player average (57.3%). Right: success above context expectation (raw, not shrunk) with 95% interval from resampling whole matches. \* Ligue 1 with PSG.
+P.fig_career(R);
+```

@@ -48,7 +48,7 @@ Portal: <https://journals.charlotte.edu/index.php/jsdss/index>
 This repository is already built from `jsds-sports/jsdss-manuscript-template`. The steps are in
 `jsdss-process/instructions-authors.md`.
 
-The one remaining job is to replace the committed PNGs in `index.qmd` with code chunks that draw each figure from `results/`. JSDSS asks for this at that stage, and the plotting code is already in `code/src/`.
+This is already done: `index.qmd` draws every figure in code chunks (`code/src/paperfigs.py`) from `results/`, and GitHub Actions renders it. If invited, the remaining steps are administrative: invite the AE, wait for the journal fork, and answer the review issues.
 
 ## Files
 

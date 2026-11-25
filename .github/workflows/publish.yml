@@ -31,6 +31,13 @@ jobs:
             any::tidyverse
           install-quarto: false  # <-- Blocks the duplicate Quarto install
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python packages for the figure chunks
+        run: pip install jupyter numpy pandas matplotlib pyarrow
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
