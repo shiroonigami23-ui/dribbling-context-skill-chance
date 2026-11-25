@@ -138,8 +138,7 @@ window.Quarto = {
 <meta name="citation_reference" content="citation_title=A public data set of spatio-temporal match events in soccer competitions; citation_author=Luca Pappalardo; citation_author=Paolo Cintia; citation_author=Alessio Rossi; citation_author=Emanuele Massucco; citation_author=Paolo Ferragina; citation_author=Dino Pedreschi; citation_author=Fosca Giannotti; citation_publication_date=2019; citation_cover_date=2019; citation_year=2019; citation_doi=10.1038/s41597-019-0247-7; citation_volume=6; citation_firstpage=236; citation_journal_title=Scientific Data;">
 <meta name="citation_reference" content="citation_title=A goal scoring probability model for shots based on synchronized positional and event data in football (soccer); citation_author=Gabriel Anzer; citation_author=Pascal Bauer; citation_publication_date=2021; citation_cover_date=2021; citation_year=2021; citation_doi=10.3389/fspor.2021.624475; citation_volume=3; citation_firstpage=624475; citation_journal_title=Frontiers in Sports and Active Living;">
 <meta name="citation_reference" content="citation_title=Quality vs quantity: Improved shot prediction in soccer using strategic features from spatiotemporal data; citation_author=Patrick Lucey; citation_author=Alina Bialkowski; citation_author=Mathew Monfort; citation_author=Peter Carr; citation_author=Iain Matthews; citation_publication_date=2015; citation_cover_date=2015; citation_year=2015; citation_conference_title=MIT sloan sports analytics conference;">
-<meta name="citation_reference" content="citation_title=Lionel Messi dribble completion by season, La Liga 2009/10–2019/20; citation_author=UtdArena; citation_publication_date=2020; citation_cover_date=2020; citation_year=2020; citation_publisher=https://x.com/UtdArena/status/1245365768658857984;">
-<meta name="citation_reference" content="citation_title=The definitive guide to dribblers; citation_author=Opta Analyst; citation_publication_date=2025; citation_cover_date=2025; citation_year=2025; citation_publisher=https://theanalyst.com/articles/definitive-guide-to-dribblers-stats;">
+<meta name="citation_reference" content="citation_title=The definitive guide to dribblers; citation_author=Ryan Benson; citation_publication_date=2023; citation_cover_date=2023; citation_year=2023; citation_publisher=Opta Analyst, https://theanalyst.com/2023/11/definitive-guide-to-dribblers-stats/;">
 <meta name="citation_reference" content="citation_title=Fitting linear mixed-effects models using lme4; citation_author=Douglas Bates; citation_author=Martin Mächler; citation_author=Ben Bolker; citation_author=Steve Walker; citation_publication_date=2015; citation_cover_date=2015; citation_year=2015; citation_doi=10.18637/jss.v067.i01; citation_volume=67; citation_firstpage=1; citation_lastpage=48; citation_journal_title=Journal of Statistical Software;">
 <meta name="citation_reference" content="citation_title=A concordance correlation coefficient to evaluate reproducibility; citation_author=Lawrence I-Kuei Lin; citation_publication_date=1989; citation_cover_date=1989; citation_year=1989; citation_doi=10.2307/2532051; citation_volume=45; citation_firstpage=255; citation_lastpage=268; citation_journal_title=Biometrics;">
 <meta name="citation_reference" content="citation_title=Intraclass correlations: Uses in assessing rater reliability; citation_author=Patrick E. Shrout; citation_author=Joseph L. Fleiss; citation_publication_date=1979; citation_cover_date=1979; citation_year=1979; citation_doi=10.1037/0033-2909.86.2.420; citation_volume=86; citation_firstpage=420; citation_lastpage=428; citation_journal_title=Psychological Bulletin;">
@@ -260,10 +259,7 @@ window.Quarto = {
   <li><a href="#sec-glmm" id="toc-sec-glmm" class="nav-link" data-scroll-target="#sec-glmm">A.5 Study 6: attacker or defender? A crossed random-effects model</a></li>
   <li><a href="#sec-bayesdec" id="toc-sec-bayesdec" class="nav-link" data-scroll-target="#sec-bayesdec">A.6 Bayesian dribble-or-pass decisions for individual players</a></li>
   </ul></li>
-  <li><a href="#appendix-b-sensitivity-career-and-data-sources" id="toc-appendix-b-sensitivity-career-and-data-sources" class="nav-link" data-scroll-target="#appendix-b-sensitivity-career-and-data-sources">Appendix B: Sensitivity, career and data sources</a>
-  <ul class="collapse">
-  <li><a href="#sec-sources" id="toc-sec-sources" class="nav-link" data-scroll-target="#sec-sources">Same player, different sources</a></li>
-  </ul></li>
+  <li><a href="#appendix-b-sensitivity-and-career" id="toc-appendix-b-sensitivity-and-career" class="nav-link" data-scroll-target="#appendix-b-sensitivity-and-career">Appendix B: Sensitivity and career</a></li>
   </ul>
 </nav>
 </div>
@@ -278,7 +274,7 @@ window.Quarto = {
 
 <section id="sec-intro" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="sec-intro"><span class="header-section-number">1</span> Introduction</h2>
-<p>Dribbling is one of the most visible attacking skills in football, and it is routinely judged by one number: the take-on completion rate, successful take-ons divided by attempts <span class="citation" data-cites="opta2025">(<a href="#ref-opta2025" role="doc-biblioref">Opta Analyst 2025</a>)</span>. Recruitment reports, player dashboards and broadcasts all use it. The number has two problems that matter in practice. First, it confounds skill with difficulty: a take-on in the opponent’s box against a set defence is harder than one in midfield with space behind the defender, so a player who only dribbles when the odds are good posts a flattering rate. Second, it is noisy: most players attempt a few dozen take-ons a season, so their rate moves by chance from one season to the next. The first problem is well understood for passing <span class="citation" data-cites="szczepanski2016 power2017">(<a href="#ref-szczepanski2016" role="doc-biblioref">Szczepański and McHale 2016</a>; <a href="#ref-power2017" role="doc-biblioref">Power et al. 2017</a>)</span> and shooting <span class="citation" data-cites="mchale2014 lucey2015 anzer2021">(<a href="#ref-mchale2014" role="doc-biblioref">McHale and Szczepański 2014</a>; <a href="#ref-lucey2015" role="doc-biblioref">Lucey et al. 2015</a>; <a href="#ref-anzer2021" role="doc-biblioref">Anzer and Bauer 2021</a>)</span>. For dribbling, neither problem has been quantified on open data.</p>
+<p>Dribbling is one of the most visible attacking skills in football, and it is routinely judged by one number: the take-on completion rate, successful take-ons divided by attempts <span class="citation" data-cites="opta2025">(<a href="#ref-opta2025" role="doc-biblioref">Benson 2023</a>)</span>. Recruitment reports, player dashboards and broadcasts all use it. The number has two problems that matter in practice. First, it confounds skill with difficulty: a take-on in the opponent’s box against a set defence is harder than one in midfield with space behind the defender, so a player who only dribbles when the odds are good posts a flattering rate. Second, it is noisy: most players attempt a few dozen take-ons a season, so their rate moves by chance from one season to the next. The first problem is well understood for passing <span class="citation" data-cites="szczepanski2016 power2017">(<a href="#ref-szczepanski2016" role="doc-biblioref">Szczepański and McHale 2016</a>; <a href="#ref-power2017" role="doc-biblioref">Power et al. 2017</a>)</span> and shooting <span class="citation" data-cites="mchale2014 lucey2015 anzer2021">(<a href="#ref-mchale2014" role="doc-biblioref">McHale and Szczepański 2014</a>; <a href="#ref-lucey2015" role="doc-biblioref">Lucey et al. 2015</a>; <a href="#ref-anzer2021" role="doc-biblioref">Anzer and Bauer 2021</a>)</span>. For dribbling, neither problem has been quantified on open data.</p>
 <p>This paper does both and turns the results into rules a performance analyst, scout or coach can use. It asks five questions. RQ1–RQ4 are answered on men’s club football (Study 1); RQ5 tests the answers on four further datasets and a second model (Studies 2–6):</p>
 <ol type="1">
 <li><p><strong>Context.</strong> How much does the situation (where, when and in what phase of play) change the chance that a take-on succeeds, and what is a completed take-on worth?</p></li>
@@ -1051,7 +1047,7 @@ Figure&nbsp;6: Out-of-sample log-loss gain of the shrunk, context-adjusted ratin
 <li><p><strong>Adjust for the competition.</strong> Take-ons are about two points harder at international tournaments than the league model expects (Appendix A.2); compare players within a competition or include a competition term.</p></li>
 <li><p><strong>Scout defenders one-against-one, too.</strong> Individual defenders differ more than attackers in how often they are beaten (<a href="#fig-attdef" class="quarto-xref">Figure&nbsp;9</a>); defender effects from <a href="#eq-glmm" class="quarto-xref">Equation&nbsp;6</a> are a natural event-data measure of one-against-one defending.</p></li>
 <li><p><strong>Judge decisions, not just success.</strong> The decision score of Appendix A.6 separates a player’s skill from where he chooses to dribble; most of its variation comes from the choice, which is coachable.</p></li>
-<li><p><strong>Never mix providers.</strong> Definitions differ by more than player skill does (Appendix B): on the same World Cup matches the two providers agree only moderately on a player’s attempts (Appendix A.4).</p></li>
+<li><p><strong>Never mix providers.</strong> On the same World Cup matches the two providers agree only moderately on a player’s attempts (Appendix A.4).</p></li>
 </ul>
 <p><strong>For coaches.</strong> - <strong>A dribble-or-pass guide.</strong> gives, for each area, the success rate a take-on needs to beat a pass. It can be used directly in video review and player meetings: in the central box, take on a defender whenever the chance of beating him is better than about one in three; in the central channel of the middle and final thirds, encourage it for the team’s best dribblers (top decile), not for everyone; on the wings of the final third and the box, the pass or cross is the better option on average even for elite dribblers.</p>
 <ul>
@@ -1106,6 +1102,9 @@ Barnes, Chris, David T. Archer, Bob Hogg, Michael Bush, and Paul S. Bradley. 201
 <div id="ref-bates2015" class="csl-entry" role="listitem">
 Bates, Douglas, Martin Mächler, Ben Bolker, and Steve Walker. 2015. <span>“Fitting Linear Mixed-Effects Models Using <span class="nocase">lme4</span>.”</span> <em>Journal of Statistical Software</em> 67: 1–48. <a href="https://doi.org/10.18637/jss.v067.i01">https://doi.org/10.18637/jss.v067.i01</a>.
 </div>
+<div id="ref-opta2025" class="csl-entry" role="listitem">
+Benson, Ryan. 2023. <em>The Definitive Guide to Dribblers</em>. Opta Analyst, <a href="https://theanalyst.com/2023/11/definitive-guide-to-dribblers-stats/" class="uri">https://theanalyst.com/2023/11/definitive-guide-to-dribblers-stats/</a>.
+</div>
 <div id="ref-blandaltman1986" class="csl-entry" role="listitem">
 Bland, J. Martin, and Douglas G. Altman. 1986. <span>“Statistical Methods for Assessing Agreement Between Two Methods of Clinical Measurement.”</span> <em>The Lancet</em> 327: 307–10. <a href="https://doi.org/10.1016/S0140-6736(86)90837-8">https://doi.org/10.1016/S0140-6736(86)90837-8</a>.
 </div>
@@ -1157,9 +1156,6 @@ Morris, Carl N. 1983. <span>“Parametric Empirical <span>B</span>ayes Inference
 <div id="ref-nakagawa2013" class="csl-entry" role="listitem">
 Nakagawa, Shinichi, and Holger Schielzeth. 2013. <span>“A General and Simple Method for Obtaining <span><span class="math inline">\(R^2\)</span></span> from Generalized Linear Mixed-Effects Models.”</span> <em>Methods in Ecology and Evolution</em> 4: 133–42. <a href="https://doi.org/10.1111/j.2041-210x.2012.00261.x">https://doi.org/10.1111/j.2041-210x.2012.00261.x</a>.
 </div>
-<div id="ref-opta2025" class="csl-entry" role="listitem">
-Opta Analyst. 2025. <em>The Definitive Guide to Dribblers</em>. <a href="https://theanalyst.com/articles/definitive-guide-to-dribblers-stats" class="uri">Https://theanalyst.com/articles/definitive-guide-to-dribblers-stats</a>.
-</div>
 <div id="ref-pappalardo2019data" class="csl-entry" role="listitem">
 Pappalardo, Luca, Paolo Cintia, Alessio Rossi, et al. 2019. <span>“A Public Data Set of Spatio-Temporal Match Events in Soccer Competitions.”</span> <em>Scientific Data</em> 6: 236. <a href="https://doi.org/10.1038/s41597-019-0247-7">https://doi.org/10.1038/s41597-019-0247-7</a>.
 </div>
@@ -1189,9 +1185,6 @@ StatsBomb. 2024. <em><span>StatsBomb</span> Open Data</em>. <a href="https://git
 </div>
 <div id="ref-szczepanski2016" class="csl-entry" role="listitem">
 Szczepański, Łukasz, and Ian McHale. 2016. <span>“Beyond Completion Rate: Evaluating the Passing Ability of Footballers.”</span> <em>Journal of the Royal Statistical Society: Series A</em> 179: 513–33. <a href="https://doi.org/10.1111/rssa.12115">https://doi.org/10.1111/rssa.12115</a>.
-</div>
-<div id="ref-utdarena2020" class="csl-entry" role="listitem">
-UtdArena. 2020. <em>Lionel <span>M</span>essi Dribble Completion by Season, <span>L</span>a <span>L</span>iga 2009/10–2019/20</em>. <a href="https://x.com/UtdArena/status/1245365768658857984" class="uri">Https://x.com/UtdArena/status/1245365768658857984</a>.
 </div>
 <div id="ref-wallace2014" class="csl-entry" role="listitem">
 Wallace, Jessica L., and Kevin I. Norton. 2014. <span>“Evolution of <span>W</span>orld <span>C</span>up Soccer Final Games 1966–2010: Game Structure, Speed and Play Patterns.”</span> <em>Journal of Science and Medicine in Sport</em> 17: 223–28. <a href="https://doi.org/10.1016/j.jsams.2013.03.016">https://doi.org/10.1016/j.jsams.2013.03.016</a>.
@@ -1281,8 +1274,8 @@ Figure&nbsp;10: Take-on skill (shrunk success above expectation) against the dec
 </div>
 </section>
 </section>
-<section id="appendix-b-sensitivity-career-and-data-sources" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="appendix-b-sensitivity-career-and-data-sources">Appendix B: Sensitivity, career and data sources</h2>
+<section id="appendix-b-sensitivity-and-career" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="appendix-b-sensitivity-and-career">Appendix B: Sensitivity and career</h2>
 <div id="tbl-sens" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1380,20 +1373,6 @@ Figure&nbsp;11: Messi’s career, seasons with at least 50 take-ons. Left: attem
 </figcaption>
 </figure>
 </div>
-<section id="sec-sources" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="sec-sources">Same player, different sources</h3>
-<p>Published dribbling statistics come from several providers with different definitions. A widely shared season-by-season completion series for Messi <span class="citation" data-cites="utdarena2020">(<a href="#ref-utdarena2020" role="doc-biblioref">UtdArena 2020</a>)</span>, built on Opta data, disagrees with our StatsBomb counts for the same seasons by 6–12 points in 2009/10–2016/17, and shows a sharp rise in 2017/18 (72%) that ours does not (64%) (<a href="#fig-sources" class="quarto-xref">Figure&nbsp;12</a>). The likely causes are different definitions of an attempt (for example, whether duels ending in a foul count), different match coverage, and different coding. Neither series is “wrong”; they measure different things, and a gap of this size is larger than most differences between players.</p>
-<div id="fig-sources" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-sources-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures/fig_sources.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;12: Messi’s La&nbsp;Liga take-on completion: StatsBomb events (this study, with 95% Jeffreys interval) against a previously cited Opta-based web graphic [@utdarena2020]."><img src="figures/fig_sources.png" class="img-fluid figure-img" style="width:75.0%"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sources-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;12: Messi’s La&nbsp;Liga take-on completion: StatsBomb events (this study, with 95% Jeffreys interval) against a previously cited Opta-based web graphic <span class="citation" data-cites="utdarena2020">(<a href="#ref-utdarena2020" role="doc-biblioref">UtdArena 2020</a>)</span>.
-</figcaption>
-</figure>
-</div>
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><div class="code-copy-outer-scaffold"><pre class="sourceCode quarto-appendix-bibtex code-with-copy"><code class="sourceCode bibtex">@online{oni2026,
