@@ -152,7 +152,7 @@ See the Limitations section of the paper for details.
 |---|---|---|
 | International Journal of Performance Analysis in Sport | 13 Nov 2026 | Desk-rejected 14 Nov (single-player, descriptive) |
 | Journal of Quantitative Analysis in Sports (DGJQAS.2026.0321) | 17 Nov 2026 | Desk-rejected 23 Nov (wants new methodology; suggested JSDSS) |
-| **Journal of Statistics and Data Science in Sports** (diamond OA, no fees) | Nov 2026 | Being submitted |
+| **Journal of Statistics and Data Science in Sports** (diamond OA, no fees) | 25 Nov 2026 | Registration email sent; PDF upload once approved |
 
 Version history: [CHANGELOG.md](CHANGELOG.md).
 
