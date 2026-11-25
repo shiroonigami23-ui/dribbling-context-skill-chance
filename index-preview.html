@@ -334,7 +334,7 @@
 </div>
 <main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">      
 
-       <div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="7376f401" class="cell" data-execution_count="1">
+       <div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="a77f6ff1" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Every figure is drawn here from the released results (code/src/paperfigs.py), as JSDSS requires.</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sys.path.insert(<span class="dv">0</span>, <span class="st">"code/src"</span>)</span>
@@ -343,7 +343,7 @@
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> paperfigs <span class="im">as</span> P</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>R <span class="op">=</span> <span class="st">"results"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div></div>
-<div id="d53165cb" class="cell markdown">
+<div id="27ba9afd" class="cell markdown">
 <section id="sec-intro" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="sec-intro"><span class="header-section-number">1</span> Introduction</h2>
 <p>Dribbling is one of the most visible attacking skills in football, and it is routinely judged by one number: the take-on completion rate, successful take-ons divided by attempts <span class="citation" data-cites="opta2025">(<a href="#ref-opta2025" role="doc-biblioref">Benson 2023</a>)</span>. Recruitment reports, player dashboards and broadcasts all use it. The number has two problems that matter in practice. First, it confounds skill with difficulty: a take-on in the opponent’s box against a set defence is harder than one in midfield with space behind the defender, so a player who only dribbles when the odds are good posts a flattering rate. Second, it is noisy: most players attempt a few dozen take-ons a season, so their rate moves by chance from one season to the next. The first problem is well understood for passing <span class="citation" data-cites="szczepanski2016 power2017">(<a href="#ref-szczepanski2016" role="doc-biblioref">Szczepański and McHale 2016</a>; <a href="#ref-power2017" role="doc-biblioref">Power et al. 2017</a>)</span> and shooting <span class="citation" data-cites="mchale2014 lucey2015 anzer2021">(<a href="#ref-mchale2014" role="doc-biblioref">McHale and Szczepański 2014</a>; <a href="#ref-lucey2015" role="doc-biblioref">Lucey et al. 2015</a>; <a href="#ref-anzer2021" role="doc-biblioref">Anzer and Bauer 2021</a>)</span>. For dribbling, neither problem has been quantified on open data.</p>
@@ -494,7 +494,7 @@ Figure&nbsp;1: Context-adjusted take-on success by pitch zone (all 78,910 take-o
 </div>
 </div>
 </div></div>
-<div id="e2b04481" class="cell markdown">
+<div id="07e1add9" class="cell markdown">
 <p><strong>Phase of play and score state.</strong> Counter-attacks raise adjusted success to 68.5%, against 59.1% in regular play and 54.9% in other phases (mostly restarts and their second phase), a gain of about 9 points from attacking a defence before it is set. Score state matters little: 57.0% when trailing, 56.9% level and 58.3% leading.</p>
 <p><strong>What completion is worth.</strong> Across all take-ons, a completed one is followed by 0.028 xG later in the same possession, against 0.005 after a failure. shows where that gap comes from. In the final third, a completed central take-on is followed by 0.082 xG and a completed wide one by 0.024: the central take-on is both more likely to succeed (59% against 48% observed) and worth about three times as much. In the central zone of the penalty area a completed take-on is followed by 0.20 xG, against 0.025 after a failure. In the team’s own third, completion is followed by almost nothing in shot value (0.008–0.011 xG), so there its value lies in keeping the ball, not in creating chances.</p>
 <div id="tbl-value" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -632,7 +632,7 @@ Figure&nbsp;2: Reliability of a context-adjusted take-on rating as a function of
 </div>
 </div>
 </div></div>
-<div id="9a56309f" class="cell markdown">
+<div id="b4ec44cc" class="cell markdown">
 <p>Few players get there in a season. The median benchmark player attempted 27 take-ons in 2015/16, for a reliability of about 0.27. Only 11.5% of players reached 0.5 and 0.6% reached 0.7. At the median rate of 1.28 attempts per 90, a player needs about 134 full matches, more than three seasons, to reach 0.7; a specialist dribbler attempting four per 90 needs about 43. Raw completion rates are noisier still, because they also carry the context effects of <a href="#sec-context" class="quarto-xref">Section&nbsp;4.1</a>.</p>
 <p>Volume and adjusted success are essentially unrelated across players (Spearman <span class="math inline">\(\rho=-0.09\)</span>), so the players who attempt most are not the most efficient, and volume cannot stand in for skill.</p>
 <p><strong>Which rating predicts the rest of the season?</strong> <a href="#fig-validity" class="quarto-xref">Figure&nbsp;3</a> scores five first-half predictions on 19,549 second-half take-ons by 803 players. A player’s raw completion rate is the worst predictor, worse even than giving every player the league average (log loss 0.704 against 0.688): it chases noise and ignores where the player dribbles. Adding the unshrunk context-adjusted rating to the context model also hurts (0.697 against 0.677 for the context model alone). Only the shrunk rating improves on the context model (0.6755 against 0.6769; 95% interval of the gain 0.0001–0.0029), and it beats the raw rate by a wide margin (gain 0.023–0.034). At player level, predicting each player’s second-half success above expectation from his unshrunk first-half value gives a weighted mean squared error 54% larger than predicting zero for everyone, while the shrunk value reduces it by 6%. The gain from skill is small, as <a href="#fig-reliability" class="quarto-xref">Figure&nbsp;2</a> implies, but it is real only once the rating is adjusted for context and shrunk.</p>
@@ -652,7 +652,7 @@ Figure&nbsp;3: Out-of-sample test. Every second-half 2015/16 take-on by the 803 
 </div>
 </div>
 </div></div>
-<div id="9d5db603" class="cell markdown">
+<div id="25f287b7" class="cell markdown">
 <section id="sec-decision" class="level3" data-number="4.3">
 <h3 data-number="4.3" class="anchored" data-anchor-id="sec-decision"><span class="header-section-number">4.3</span> RQ3: When is a take-on worth more than a pass?</h3>
 <p><a href="#fig-breakeven" class="quarto-xref">Figure&nbsp;4</a> and <a href="#tbl-breakeven" class="quarto-xref">Table&nbsp;3</a> give the break-even success rate of <a href="#eq-breakeven" class="quarto-xref">Equation&nbsp;4</a> for each area. Only in the centre of the penalty area does the average take-on clearly beat a pass: there a completed take-on is followed by 0.21 net xG, so it pays off at a success rate of 28% (90% interval 22–34%), and the average take-on, at 53%, adds about 4.7 xG per 100 attempts. Everywhere else the break-even rate is at or above the average success rate. The gap is small in the central channel of the middle and final thirds (2–3 points) and on the wings of a team’s own third, so better-than-average dribblers gain there. It is large on the wings of the final third and the box, where a take-on needs 83–84% success to match a pass (in practice a cross or cut-back) and the average is 42–50%.</p>
@@ -673,7 +673,7 @@ Figure&nbsp;4: Success rate a take-on needs to match an open-play pass from the 
 </div>
 </div>
 </div></div>
-<div id="958ec8bd" class="cell markdown">
+<div id="ec927c84" class="cell markdown">
 <div id="tbl-breakeven" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-breakeven-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -946,7 +946,7 @@ Figure&nbsp;5: Left: calibration of the context model on held-out matches (five 
 </div>
 </div>
 </div></div>
-<div id="49d4db09" class="cell markdown">
+<div id="92afee47" class="cell markdown">
 <p>The point estimates are stable across seven alternative specifications, and over a career a single season varies by several points even for this player (Appendix B).</p>
 <section id="sec-replication" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="sec-replication"><span class="header-section-number">5</span> Replication and extension: Studies 2–6</h2>
@@ -1140,7 +1140,7 @@ Figure&nbsp;6: Out-of-sample log-loss gain of the shrunk, context-adjusted ratin
 </div>
 </div>
 </div></div>
-<div id="f57b6a46" class="cell markdown">
+<div id="14e9d770" class="cell markdown">
 <section id="what-the-extensions-add" class="level3" data-number="5.3">
 <h3 data-number="5.3" class="anchored" data-anchor-id="what-the-extensions-add"><span class="header-section-number">5.3</span> What the extensions add</h3>
 <ul>
@@ -1342,7 +1342,7 @@ Figure&nbsp;7: Adjusted take-on success by distance to the nearest opponent and 
 </div>
 </div>
 </div></div>
-<div id="345b115e" class="cell markdown">
+<div id="61788d2d" class="cell markdown">
 <p><strong>Ratings barely move.</strong> Study 1 warned that some of what it called skill might be unmodelled context. On the same take-ons, player ratings computed with and without the defender features correlate at 0.97 (147 players with at least 15 attempts; 0.96 and 0.97 at 20 and 30 attempts). The estimate of the skill spread itself is too imprecise in this sample to say whether it shrinks (4.6 points without defender features and 3.8 with them at 15 attempts; 4.5 and 4.7 at 30), but the ordering of players, which is what scouting uses, is almost unchanged.</p>
 <p><strong>When no teammate is open, the take-on comes closer to paying.</strong> The main weakness of the break-even analysis in <a href="#sec-decision" class="quarto-xref">Section&nbsp;4.3</a> is that passes from the same area are not the option a dribbler actually had. The freeze frames let us compare like with like: take-ons and passes made when at least one forward teammate was open, and those made when none was (<a href="#fig-360be" class="quarto-xref">Figure&nbsp;8</a>). Outside the box, with a forward teammate open, a take-on needs 92–96% success to match a pass and averages about 61%: the pass is clearly better. With no forward teammate open, the break-even rate falls to 73% (90% interval 58–100%) in a team’s own half and middle third and to 64% (49–83%) in the final third, against an average of about 50%. Players already respond to this: take-ons make up 15% of actions in the final third when no forward teammate is open, against 8% when one is. In the box the break-even rate is about 48% either way, close to the average success of 46–52%.</p>
 </div>
@@ -1361,7 +1361,7 @@ Figure&nbsp;8: Break-even success rate of a take-on against a pass made in the s
 </div>
 </div>
 </div></div>
-<div id="8464e8a7" class="cell markdown">
+<div id="d8abd55f" class="cell markdown">
 <section id="sec-wyscout" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sec-wyscout">A.4 Study 5: a second data provider</h3>
 <p>All of Studies 1–4 use StatsBomb’s definitions. Study 5 repeats the analysis on the public Wyscout release <span class="citation" data-cites="pappalardo2019data">(<a href="#ref-pappalardo2019data" role="doc-biblioref">Pappalardo et al. 2019</a>)</span>: every match of the five major European leagues in 2017/18, plus the 2018 World Cup and Euro 2016 (1,941 matches, 3.25 million events). Wyscout is coded by a different company with different definitions, two seasons later, so agreement here is not an artefact of one provider’s conventions.</p>
@@ -1392,7 +1392,7 @@ Figure&nbsp;9: Standard deviation, on the probability scale, of the attacker, in
 </div>
 </div>
 </div></div>
-<div id="c0f231e3" class="cell markdown">
+<div id="0fe838f3" class="cell markdown">
 <p><strong>Attacker ratings survive.</strong> For attackers with at least 30 take-ons, the attacker effects with and without defenders in the model correlate at 0.99 (StatsBomb) and 0.996 (Wyscout): over a season, attackers face a broad enough mix of defenders that the defender effects average out. The mixed-model attacker effects also agree with the two-stage empirical Bayes ratings of Study 1 (correlation 0.96 over the 604 rated players), and the player ranked first by the two-stage rating is also first in the mixed model. The simpler two-stage method used for the released ratings is therefore a good approximation. The new information is on the other side of the ball: one-against-one defending is a larger and equally measurable individual difference, which event-data ratings of defenders could exploit.</p>
 <section id="sec-bayesdec" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sec-bayesdec">A.6 Bayesian dribble-or-pass decisions for individual players</h3>
@@ -1415,7 +1415,7 @@ Figure&nbsp;10: Take-on skill (shrunk success above expectation) against the dec
 </div>
 </div>
 </div></div>
-<div id="706d167b" class="cell markdown">
+<div id="8b32d629" class="cell markdown">
 <section id="appendix-b-sensitivity-and-career" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="appendix-b-sensitivity-and-career">Appendix B: Sensitivity and career</h2>
 <div id="tbl-sens" class="quarto-float quarto-figure quarto-figure-center anchored">
