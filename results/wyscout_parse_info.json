@@ -1,0 +1,26 @@
+{
+ "shot_model_auc": 0.7748168953194796,
+ "shots": 42499,
+ "coef": {
+  "const": -0.9317532723237826,
+  "dist": -0.0969607088653264,
+  "ang": 1.6729728246995836,
+  "head": -0.999832924470167,
+  "fk": 0.8852473821368114
+ },
+ "events": 3251147,
+ "matches": 1941,
+ "takeons": 52727,
+ "success": 0.6012479374893318,
+ "neutral": 0.1333282758359095,
+ "defender_paired": 0.9604946232480512,
+ "by_comp": {
+  "1. Bundesliga": 8501,
+  "FIFA World Cup": 1458,
+  "La Liga": 10785,
+  "Ligue 1": 11224,
+  "Premier League": 9495,
+  "Serie A": 10186,
+  "UEFA Euro": 1078
+ }
+}

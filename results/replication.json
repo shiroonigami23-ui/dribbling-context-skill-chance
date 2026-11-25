@@ -1,0 +1,506 @@
+{
+ "women": {
+  "label": "women",
+  "matches": 1310,
+  "takeons": 43827,
+  "passes": 454585,
+  "success": 0.5542473817509754,
+  "auc_cv": 0.5934090404611895,
+  "success_by_third": {
+   "box": 0.47967000589275194,
+   "defensive": 0.5925297113752123,
+   "final": 0.5514861995753716,
+   "middle": 0.5779372401617404
+  },
+  "success_by_pattern": {
+   "From Counter": 0.7417783191230207,
+   "Other": 0.5144758137025714,
+   "Regular Play": 0.589442250264907
+  },
+  "xg_after": {
+   "completed": 0.027892865716117085,
+   "failed": 0.005412890971150696
+  },
+  "rated_player_seasons": 384,
+  "tau_pp": 5.805164599574267,
+  "attempts_needed": {
+   "R50": 74,
+   "R70": 172,
+   "R80": 294
+  },
+  "median_attempts_player_season": 12.0,
+  "share_R70": 0.0,
+  "share_R50": 0.01630695443645084,
+  "breakeven": [
+   {
+    "tl": "box / central",
+    "takeons": 754,
+    "success": 0.5954907161803713,
+    "breakeven": 0.2880671004291129,
+    "margin": 0.30742361575125843,
+    "net_success": 20.629348623830733,
+    "net_fail": 2.0074368996721312,
+    "net_pass": 7.371797014497401
+   },
+   {
+    "tl": "box / half-space",
+    "takeons": 2703,
+    "success": 0.5149833518312985,
+    "breakeven": 0.6702406502064665,
+    "margin": -0.155257298375168,
+    "net_success": 7.678120726020116,
+    "net_fail": 0.7997400092295955,
+    "net_pass": 5.409910373218895
+   },
+   {
+    "tl": "box / wide",
+    "takeons": 5028,
+    "success": 0.44331742243436756,
+    "breakeven": 0.7910112270581058,
+    "margin": -0.3476938046237382,
+    "net_success": 3.2768909482951996,
+    "net_fail": 0.46816936528045733,
+    "net_pass": 2.6898996711255343
+   },
+   {
+    "tl": "defensive / central",
+    "takeons": 904,
+    "success": 0.6880530973451328,
+    "breakeven": 0.9449933358749503,
+    "margin": -0.2569402385298175,
+    "net_success": 0.2576107886334405,
+    "net_fail": -1.841417759397163,
+    "net_pass": 0.14215023030303028
+   },
+   {
+    "tl": "defensive / half-space",
+    "takeons": 1703,
+    "success": 0.6605989430416911,
+    "breakeven": 0.9962537342348705,
+    "margin": -0.3356547911931794,
+    "net_success": 0.12327131968888885,
+    "net_fail": -1.2101144697058823,
+    "net_pass": 0.11827610215436907
+   },
+   {
+    "tl": "defensive / wide",
+    "takeons": 3872,
+    "success": 0.5402892561983471,
+    "breakeven": 0.8165940719424722,
+    "margin": -0.27630481574412513,
+    "net_success": 0.12923949605162524,
+    "net_fail": -0.8898460575730337,
+    "net_pass": -0.05766683568092481
+   },
+   {
+    "tl": "final / central",
+    "takeons": 1985,
+    "success": 0.603022670025189,
+    "breakeven": 0.6753032004058852,
+    "margin": -0.07228053038069626,
+    "net_success": 4.493231523767753,
+    "net_fail": 0.635803335672589,
+    "net_pass": 3.240736936429128
+   },
+   {
+    "tl": "final / half-space",
+    "takeons": 3249,
+    "success": 0.6014158202523854,
+    "breakeven": 0.7387181435582623,
+    "margin": -0.13730232330587688,
+    "net_success": 3.5127205620829063,
+    "net_fail": 0.1101197864092664,
+    "net_pass": 2.623682714684801
+   },
+   {
+    "tl": "final / wide",
+    "takeons": 6070,
+    "success": 0.5079077429983525,
+    "breakeven": 0.9264378593889645,
+    "margin": -0.418530116390612,
+    "net_success": 1.8492389265196238,
+    "net_fail": -0.059671204556411096,
+    "net_pass": 1.7088154110435783
+   },
+   {
+    "tl": "middle / central",
+    "takeons": 2879,
+    "success": 0.653699201111497,
+    "breakeven": 0.9773145580176898,
+    "margin": -0.3236153569061928,
+    "net_success": 1.1608087624229544,
+    "net_fail": -0.4077577585356068,
+    "net_pass": 1.1252251376163551
+   },
+   {
+    "tl": "middle / half-space",
+    "takeons": 4305,
+    "success": 0.6364692218350755,
+    "breakeven": 1.0,
+    "margin": -0.3635307781649245,
+    "net_success": 0.6714176001386861,
+    "net_fail": -0.5767102817188499,
+    "net_pass": 0.9729701701335614
+   },
+   {
+    "tl": "middle / wide",
+    "takeons": 10375,
+    "success": 0.5326265060240963,
+    "breakeven": 1.0,
+    "margin": -0.46737349397590366,
+    "net_success": 0.5114247671498372,
+    "net_fail": -0.32743649726747787,
+    "net_pass": 0.8210460173487558
+   }
+  ],
+  "rating_p50_p90": [
+   -0.004786924770515192,
+   0.04355475652816734
+  ],
+  "cells_go_p50": 1,
+  "cells_go_p90": 1,
+  "cells_go_max": 2,
+  "full_league_seasons": [
+   "FA Women's Super League 2018/2019",
+   "FA Women's Super League 2020/2021",
+   "FA Women's Super League 2023/2024",
+   "Frauen Bundesliga 2023/2024",
+   "Liga F 2023/2024",
+   "NWSL 2023",
+   "Serie A Women 2023/2024"
+  ],
+  "halves": {
+   "players": 627,
+   "takeons_scored": 11197,
+   "log_loss": {
+    "league_avg": 0.6906241632298102,
+    "context": 0.67825988281743,
+    "raw": 0.7018010139445465,
+    "context_unshrunk": 0.6925848637139514,
+    "context_shrunk": 0.6747631087411242
+   },
+   "gain_vs_raw_ci": [
+    0.021800171838186198,
+    0.033262619810178834
+   ],
+   "gain_vs_context_ci": [
+    0.0021087154455798505,
+    0.005046601145197545
+   ]
+  },
+  "season_to_season": {
+   "FA Women's Super League 2018/2019 -> FA Women's Super League 2019/2020": {
+    "players": 83,
+    "takeons_scored": 1583,
+    "log_loss": {
+     "league_avg": 0.6689701866934433,
+     "context": 0.6516757623949264,
+     "raw": 0.6715332859073667,
+     "context_unshrunk": 0.6595397331843674,
+     "context_shrunk": 0.6493056852470688
+    },
+    "gain_vs_raw_ci": [
+     0.011733437571124725,
+     0.03442856287810895
+    ],
+    "gain_vs_context_ci": [
+     -0.0015297399173970576,
+     0.006432116479638834
+    ]
+   },
+   "FA Women's Super League 2019/2020 -> FA Women's Super League 2020/2021": {
+    "players": 69,
+    "takeons_scored": 1893,
+    "log_loss": {
+     "league_avg": 0.6772191163159638,
+     "context": 0.6712259381915816,
+     "raw": 0.6836714454635059,
+     "context_unshrunk": 0.688431790300892,
+     "context_shrunk": 0.6703814846725902
+    },
+    "gain_vs_raw_ci": [
+     -0.00031420964394304453,
+     0.02779277333270676
+    ],
+    "gain_vs_context_ci": [
+     -0.004931285886293574,
+     0.006555025399658701
+    ]
+   }
+  },
+  "by_competition": [
+   {
+    "competition": "FA Women's Super League",
+    "matches": 457,
+    "takeons": 15854,
+    "success": 0.5884319414658761
+   },
+   {
+    "competition": "Frauen Bundesliga",
+    "matches": 132,
+    "takeons": 4753,
+    "success": 0.5030507048180097
+   },
+   {
+    "competition": "Liga F",
+    "matches": 240,
+    "takeons": 8147,
+    "success": 0.5271879219344544
+   },
+   {
+    "competition": "NWSL",
+    "matches": 173,
+    "takeons": 5000,
+    "success": 0.5516
+   },
+   {
+    "competition": "Serie A Women",
+    "matches": 130,
+    "takeons": 3736,
+    "success": 0.5562098501070664
+   },
+   {
+    "competition": "UEFA Women's Euro",
+    "matches": 62,
+    "takeons": 2047,
+    "success": 0.5017098192476795
+   },
+   {
+    "competition": "Women's World Cup",
+    "matches": 116,
+    "takeons": 4290,
+    "success": 0.5624708624708624
+   }
+  ]
+ },
+ "men_new": {
+  "label": "men_new",
+  "matches": 463,
+  "takeons": 13377,
+  "passes": 166917,
+  "success": 0.543171114599686,
+  "auc_cv": 0.5862567480958178,
+  "success_by_third": {
+   "box": 0.46436363636363637,
+   "defensive": 0.6051703877790834,
+   "final": 0.526973026973027,
+   "middle": 0.5789473684210527
+  },
+  "success_by_pattern": {
+   "From Counter": 0.689873417721519,
+   "Other": 0.502729754322111,
+   "Regular Play": 0.5772382866862533
+  },
+  "xg_after": {
+   "completed": 0.02845124233175062,
+   "failed": 0.005139770178170512
+  },
+  "rated_player_seasons": 182,
+  "tau_pp": 4.157516946803582,
+  "attempts_needed": {
+   "R50": 144,
+   "R70": 335,
+   "R80": 575
+  },
+  "median_attempts_player_season": 3.0,
+  "share_R70": 0.0,
+  "share_R50": 0.0,
+  "breakeven": [
+   {
+    "tl": "box / central",
+    "takeons": 266,
+    "success": 0.5526315789473685,
+    "breakeven": 0.4190491709255244,
+    "margin": 0.13358240802184407,
+    "net_success": 17.975866347619046,
+    "net_fail": 1.7886170949579827,
+    "net_pass": 8.571870473850415
+   },
+   {
+    "tl": "box / half-space",
+    "takeons": 939,
+    "success": 0.4984025559105431,
+    "breakeven": 0.6734756471165052,
+    "margin": -0.1750730912059621,
+    "net_success": 6.273641679273505,
+    "net_fail": 0.7177828467091294,
+    "net_pass": 4.459518469258373
+   },
+   {
+    "tl": "box / wide",
+    "takeons": 1545,
+    "success": 0.4284789644012945,
+    "breakeven": 0.7622868229273108,
+    "margin": -0.33380785852601624,
+    "net_success": 2.604496299864048,
+    "net_fail": 0.10044572321630803,
+    "net_pass": 2.0092504817384143
+   },
+   {
+    "tl": "defensive / central",
+    "takeons": 274,
+    "success": 0.6715328467153284,
+    "breakeven": 0.7064099069389542,
+    "margin": -0.0348770602236258,
+    "net_success": 0.9503843424456522,
+    "net_fail": -2.0889997111111116,
+    "net_pass": 0.058051295313663306
+   },
+   {
+    "tl": "defensive / half-space",
+    "takeons": 468,
+    "success": 0.6388888888888888,
+    "breakeven": 0.6213270440734517,
+    "margin": 0.0175618448154371,
+    "net_success": 0.9170862731438127,
+    "net_fail": -1.4197155687573964,
+    "net_pass": 0.03220261225647955
+   },
+   {
+    "tl": "defensive / wide",
+    "takeons": 960,
+    "success": 0.5697916666666667,
+    "breakeven": 1.0,
+    "margin": -0.4302083333333333,
+    "net_success": -0.7769740650274223,
+    "net_fail": -0.9298393315254238,
+    "net_pass": 0.002543188597394543
+   },
+   {
+    "tl": "final / central",
+    "takeons": 672,
+    "success": 0.6011904761904762,
+    "breakeven": 0.44839339418468566,
+    "margin": 0.1527970820057905,
+    "net_success": 5.362997323613861,
+    "net_fail": 0.6366642335820895,
+    "net_pass": 2.755920769868829
+   },
+   {
+    "tl": "final / half-space",
+    "takeons": 1125,
+    "success": 0.5466666666666666,
+    "breakeven": 0.6980446193641645,
+    "margin": -0.15137795269749788,
+    "net_success": 2.998235174065041,
+    "net_fail": -0.3077557191960784,
+    "net_pass": 1.999973435511773
+   },
+   {
+    "tl": "final / wide",
+    "takeons": 2207,
+    "success": 0.4943362029904848,
+    "breakeven": 0.9004231035047071,
+    "margin": -0.4060869005142223,
+    "net_success": 1.4994780477268561,
+    "net_fail": -0.04998921718637996,
+    "net_pass": 1.3451869062657462
+   },
+   {
+    "tl": "middle / central",
+    "takeons": 766,
+    "success": 0.6527415143603134,
+    "breakeven": 0.835367016786221,
+    "margin": -0.1826255024259077,
+    "net_success": 1.0658326210800002,
+    "net_fail": 0.2142691904511278,
+    "net_pass": 0.9256371930998091
+   },
+   {
+    "tl": "middle / half-space",
+    "takeons": 1220,
+    "success": 0.6303278688524591,
+    "breakeven": 0.9741167295652666,
+    "margin": -0.34378886071280756,
+    "net_success": 0.8855841658257476,
+    "net_fail": -0.44780557419068734,
+    "net_pass": 0.8510716785900035
+   },
+   {
+    "tl": "middle / wide",
+    "takeons": 2935,
+    "success": 0.5383304940374787,
+    "breakeven": 0.6709059785377961,
+    "margin": -0.13257548450031742,
+    "net_success": 1.05425210678481,
+    "net_fail": -0.2639791183911439,
+    "net_pass": 0.6204300916746074
+   }
+  ],
+  "rating_p50_p90": [
+   0.005990376185861656,
+   0.02852395112104573
+  ],
+  "cells_go_p50": 3,
+  "cells_go_p90": 3,
+  "cells_go_max": 4,
+  "transfer": {
+   "auc_transfer": 0.5820832017529812,
+   "auc_refit_cv": 0.5862567480958178,
+   "mean_pred": 0.56536621288561,
+   "mean_obs": 0.543171114599686,
+   "cal_intercept": -0.051145360083928,
+   "cal_slope": 0.8410942558695539,
+   "max_decile_gap": 0.056019845702932725
+  },
+  "by_competition": [
+   {
+    "competition": "1. Bundesliga",
+    "matches": 34,
+    "takeons": 913,
+    "success": 0.5268346111719606
+   },
+   {
+    "competition": "African Cup of Nations",
+    "matches": 52,
+    "takeons": 1360,
+    "success": 0.5220588235294118
+   },
+   {
+    "competition": "Copa America",
+    "matches": 32,
+    "takeons": 945,
+    "success": 0.4740740740740741
+   },
+   {
+    "competition": "FIFA World Cup",
+    "matches": 128,
+    "takeons": 3902,
+    "success": 0.5758585340850846
+   },
+   {
+    "competition": "Indian Super league",
+    "matches": 115,
+    "takeons": 3492,
+    "success": 0.5441008018327605
+   },
+   {
+    "competition": "UEFA Euro",
+    "matches": 102,
+    "takeons": 2765,
+    "success": 0.5352622061482821
+   }
+  ],
+  "halves_isl": {
+   "players": 68,
+   "takeons_scored": 1013,
+   "log_loss": {
+    "league_avg": 0.6911318439626616,
+    "context": 0.6863255793669291,
+    "raw": 0.7159349361588734,
+    "context_unshrunk": 0.721119794883562,
+    "context_shrunk": 0.686321217433229
+   },
+   "gain_vs_raw_ci": [
+    0.0047931974517854865,
+    0.05661189918825679
+   ],
+   "gain_vs_context_ci": [
+    -0.003026764251051836,
+    0.0033095475853933075
+   ]
+  },
+  "isl_tau_pp": 3.5280314003336546,
+  "isl_rated": 32
+ }
+}

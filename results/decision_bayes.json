@@ -1,0 +1,149 @@
+{
+ "players": 604,
+ "areas": 12,
+ "share_calls": {
+  "pass": 0.6926048565121413,
+  "uncertain": 0.2233719646799117,
+  "take on": 0.08402317880794702
+ },
+ "by_area": {
+  "box / central": {
+   "pass": 0.0,
+   "take on": 1.0,
+   "uncertain": 0.0
+  },
+  "box / half-space": {
+   "pass": 1.0,
+   "take on": 0.0,
+   "uncertain": 0.0
+  },
+  "box / wide": {
+   "pass": 1.0,
+   "take on": 0.0,
+   "uncertain": 0.0
+  },
+  "defensive / central": {
+   "pass": 1.0,
+   "take on": 0.0,
+   "uncertain": 0.0
+  },
+  "defensive / half-space": {
+   "pass": 0.935,
+   "take on": 0.0,
+   "uncertain": 0.065
+  },
+  "defensive / wide": {
+   "pass": 0.056,
+   "take on": 0.002,
+   "uncertain": 0.942
+  },
+  "final / central": {
+   "pass": 0.255,
+   "take on": 0.003,
+   "uncertain": 0.742
+  },
+  "final / half-space": {
+   "pass": 0.952,
+   "take on": 0.0,
+   "uncertain": 0.048
+  },
+  "final / wide": {
+   "pass": 1.0,
+   "take on": 0.0,
+   "uncertain": 0.0
+  },
+  "middle / central": {
+   "pass": 0.199,
+   "take on": 0.003,
+   "uncertain": 0.798
+  },
+  "middle / half-space": {
+   "pass": 0.921,
+   "take on": 0.0,
+   "uncertain": 0.079
+  },
+  "middle / wide": {
+   "pass": 0.993,
+   "take on": 0.0,
+   "uncertain": 0.007
+  }
+ },
+ "attempt_weighted_share_pass_better": 0.8174248791762976,
+ "attempt_weighted_share_take_on_better": 0.01880647194788821,
+ "median_player_share_pass_better": 0.8309168878905453,
+ "corr_skill_vs_gain": 0.5760212750546266,
+ "top5_gain": [
+  {
+   "player": "Lionel Andr\u00e9s Messi Cuccittini",
+   "attempts": 241.0,
+   "exp_gain_per100": 0.4740163470562328,
+   "share_pass_better": 0.2033195020746888
+  },
+  {
+   "player": "Gonzalo Gerardo Higua\u00edn",
+   "attempts": 65.0,
+   "exp_gain_per100": 0.23741392202275696,
+   "share_pass_better": 0.6307692307692307
+  },
+  {
+   "player": "Odion Jude Ighalo",
+   "attempts": 92.0,
+   "exp_gain_per100": 0.20956719078265246,
+   "share_pass_better": 0.6847826086956522
+  },
+  {
+   "player": "Michy Batshuayi Tunga",
+   "attempts": 58.0,
+   "exp_gain_per100": 0.19727286643914202,
+   "share_pass_better": 0.6551724137931034
+  },
+  {
+   "player": "Morgan Amalfitano",
+   "attempts": 32.0,
+   "exp_gain_per100": 0.17259244250859918,
+   "share_pass_better": 0.59375
+  }
+ ],
+ "bottom5_gain": [
+  {
+   "player": "Luis Alberto Su\u00e1rez D\u00edaz",
+   "attempts": 134.0,
+   "exp_gain_per100": -1.0038452464726857,
+   "share_pass_better": 0.9552238805970149
+  },
+  {
+   "player": "Cameron Jerome",
+   "attempts": 39.0,
+   "exp_gain_per100": -0.8598647964317602,
+   "share_pass_better": 1.0
+  },
+  {
+   "player": "Isaac Ajayi Success",
+   "attempts": 140.0,
+   "exp_gain_per100": -0.8070350015527713,
+   "share_pass_better": 0.9857142857142858
+  },
+  {
+   "player": "Massimo Maccarone",
+   "attempts": 51.0,
+   "exp_gain_per100": -0.806736326595492,
+   "share_pass_better": 1.0
+  },
+  {
+   "player": "Nacer Chadli",
+   "attempts": 34.0,
+   "exp_gain_per100": -0.7945028225822975,
+   "share_pass_better": 0.9705882352941176
+  }
+ ],
+ "messi": [
+  {
+   "attempts": 241.0,
+   "exp_gain_per100": 0.4740163470562328,
+   "share_pass_better": 0.2033195020746888,
+   "share_take_on_better": 0.36099585062240663
+  }
+ ],
+ "var_share_area_mix": 0.6747261505890195,
+ "corr_gain_vs_mix_only": 0.8260476112461066
+}

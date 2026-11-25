@@ -1,0 +1,104 @@
+{
+ "n_takeons": 78910,
+ "base_success": 0.572842478773286,
+ "pattern": {
+  "From Counter": {
+   "n": 1964,
+   "adjusted": 0.684705101463263
+  },
+  "Regular Play": {
+   "n": 38524,
+   "adjusted": 0.5911337869225151
+  },
+  "Other": {
+   "n": 38422,
+   "adjusted": 0.5492169529169015
+  }
+ },
+ "state": {
+  "losing": {
+   "n": 20803,
+   "adjusted": 0.5695383350454147
+  },
+  "level": {
+   "n": 36485,
+   "adjusted": 0.5690253046055282
+  },
+  "winning": {
+   "n": 21622,
+   "adjusted": 0.5825110899718479
+  }
+ },
+ "lane_by_third": {
+  "defensive third / central": {
+   "n": 1377,
+   "observed": 0.7116920842411039,
+   "xg_after_success": 0.008177081336734693,
+   "xg_after_fail": 0.0035833718017632245
+  },
+  "defensive third / half-space": {
+   "n": 2567,
+   "observed": 0.712115309700039,
+   "xg_after_success": 0.010903132489332603,
+   "xg_after_fail": 0.002170187599052774
+  },
+  "defensive third / wide": {
+   "n": 4779,
+   "observed": 0.5971960661226198,
+   "xg_after_success": 0.00958582247740014,
+   "xg_after_fail": 0.0011534671073246754
+  },
+  "final third / central": {
+   "n": 6211,
+   "observed": 0.5939462244405088,
+   "xg_after_success": 0.08193509778086201,
+   "xg_after_fail": 0.014324665353846156
+  },
+  "final third / half-space": {
+   "n": 12524,
+   "observed": 0.554694985627595,
+   "xg_after_success": 0.04963827833448971,
+   "xg_after_fail": 0.007232662618934911
+  },
+  "final third / wide": {
+   "n": 20101,
+   "observed": 0.47908064275409185,
+   "xg_after_success": 0.02402842441282451,
+   "xg_after_fail": 0.0034198281099512944
+  },
+  "middle third / central": {
+   "n": 5860,
+   "observed": 0.6895904436860069,
+   "xg_after_success": 0.022400580798614206,
+   "xg_after_fail": 0.005427284879439252
+  },
+  "middle third / half-space": {
+   "n": 8390,
+   "observed": 0.66626936829559,
+   "xg_after_success": 0.018891318046368517,
+   "xg_after_fail": 0.0031791091621428576
+  },
+  "middle third / wide": {
+   "n": 17101,
+   "observed": 0.5639436290275422,
+   "xg_after_success": 0.015618594610338035,
+   "xg_after_fail": 0.002365753801770149
+  }
+ },
+ "reliability": {
+  "tau_pp": 5.7766079878700225,
+  "attempts_needed": {
+   "R50": 74,
+   "R70": 172,
+   "R80": 294
+  },
+  "players": 1293,
+  "median_attempts_season": 27.0,
+  "median_takeons90": 1.283473300586278,
+  "share_R50": 0.11523588553750967,
+  "share_R70": 0.006187161639597835,
+  "messi_attempts": 241,
+  "matches_needed_median_player_R70": 134.01135802469136,
+  "matches_needed_at_4_per90_R70": 43.0
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "value": {
+  "xg_after_success": 0.028328667720246444,
+  "xg_after_fail": 0.004566835967591302
+ },
+ "n_events": 6884187,
+ "n_matches": 2135,
+ "n_takeons": 78910,
+ "model_auc": 0.6038117902612316,
+ "model_coef": {
+  "late": 0.022617300407883893
+ },
+ "base_success": 0.572842478773286,
+ "bench_players": 1355,
+ "bench_players_oe": 604,
+ "tau2_oe": 0.003336919984552375,
+ "messi_2015_16": {
+  "minutes": 2807.4333333333334,
+  "takeons90": 7.725918098381678,
+  "won90": 5.738337508756516,
+  "succ": 0.7427385892116183,
+  "prog90": 8.783823896085392,
+  "xt90": 0.16463241103973975,
+  "oe": 0.17327358457995462,
+  "oe_shrunk": 0.1318791574536547,
+  "oe_sd": 0.027686695116800355
+ },
+ "messi_pct": {
+  "takeons90": 99.77859778597787,
+  "won90": 99.92619926199262,
+  "succ": 77.93357933579335,
+  "prog90": 99.33579335793358,
+  "xt90": 99.40959409594096,
+  "carry_xt90": 99.70479704797049
+ },
+ "messi_rank": {
+  "takeons90": [
+   3,
+   1355
+  ],
+  "won90": [
+   1,
+   1355
+  ],
+  "prog90": [
+   9,
+   1355
+  ],
+  "xt90": [
+   8,
+   1355
+  ],
+  "carry_xt90": [
+   4,
+   1355
+  ],
+  "oe_shrunk": [
+   1,
+   604
+  ]
+ },
+ "top10": {
+  "won90": [
+   {
+    "player": "Lionel Andr\u00e9s Messi Cuccittini",
+    "competition": "La Liga",
+    "minutes": 2807.4333333333334,
+    "won90": 5.738337508756516
+   },
+   {
+    "player": "Sofiane Boufal",
+    "competition": "Ligue 1",
+    "minutes": 2393.8166666666666,
+    "won90": 5.113173523452785
+   },
+   {
+    "player": "Neymar da Silva Santos Junior",
+    "competition": "La Liga",
+    "minutes": 3138.65,
+    "won90": 4.846032529909356
+   },
+   {
+    "player": "Francisco Rom\u00e1n Alarc\u00f3n Su\u00e1rez",
+    "competition": "La Liga",
+    "minutes": 1878.8999999999999,
+    "won90": 4.167331949544947
+   },
+   {
+    "player": "Wilfried Zaha",
+    "competition": "Premier League",
+    "minutes": 2592.2166666666667,
+    "won90": 4.131599081866871
+   },
+   {
+    "player": "Yannick Ferreira Carrasco",
+    "competition": "La Liga",
+    "minutes": 1546.0833333333333,
+    "won90": 3.900177868808279
+   },
+   {
+    "player": "Armindo Tu\u00e9 Na Bangna",
+    "competition": "La Liga",
+    "minutes": 1526.0833333333333,
+    "won90": 3.7153934363566865
+   },
+   {
+    "player": "Charly Musonda Junior",
+    "competition": "La Liga",
+    "minutes": 1271.1,
+    "won90": 3.681850365824876
+   },
+   {
+    "player": "Alexis Alejandro S\u00e1nchez S\u00e1nchez",
+    "competition": "Premier League",
+    "minutes": 2519.0666666666666,
+    "won90": 3.6799343672259566
+   },
+   {
+    "player": "Ousmane Demb\u00e9l\u00e9",
+    "competition": "Ligue 1",
+    "minutes": 2001.1333333333332,
+    "won90": 3.5979611553453044
+   }
+  ],
+  "xt90": [
+   {
+    "player": "Neymar da Silva Santos Junior",
+    "competition": "La Liga",
+    "minutes": 3138.65,
+    "xt90": 0.30291627958835804
+   },
+   {
+    "player": "Manuel Agudo Dur\u00e1n",
+    "competition": "La Liga",
+    "minutes": 2555.7,
+    "xt90": 0.25509843331376925
+   },
+   {
+    "player": "Sofiane Boufal",
+    "competition": "Ligue 1",
+    "minutes": 2393.8166666666666,
+    "xt90": 0.23629983557582382
+   },
+   {
+    "player": "Francisco Rom\u00e1n Alarc\u00f3n Su\u00e1rez",
+    "competition": "La Liga",
+    "minutes": 1878.8999999999999,
+    "xt90": 0.2027082744611209
+   },
+   {
+    "player": "Jorge Franco Alviz",
+    "competition": "La Liga",
+    "minutes": 1043.0,
+    "xt90": 0.18261376964525405
+   },
+   {
+    "player": "Jordon Ibe",
+    "competition": "Premier League",
+    "minutes": 1253.6666666666667,
+    "xt90": 0.1786224573198617
+   },
+   {
+    "player": "Riyad Mahrez",
+    "competition": "Premier League",
+    "minutes": 3107.366666666667,
+    "xt90": 0.17516665083618496
+   },
+   {
+    "player": "Lionel Andr\u00e9s Messi Cuccittini",
+    "competition": "La Liga",
+    "minutes": 2807.4333333333334,
+    "xt90": 0.16463241103973975
+   },
+   {
+    "player": "Giuseppe Rossi",
+    "competition": "La Liga",
+    "minutes": 1179.7,
+    "xt90": 0.1635777419598203
+   },
+   {
+    "player": "Gervais Lombe Yao Kouassi",
+    "competition": "Serie A",
+    "minutes": 1113.9166666666667,
+    "xt90": 0.16182071749532428
+   }
+  ],
+  "oe_shrunk": [
+   {
+    "player": "Lionel Andr\u00e9s Messi Cuccittini",
+    "competition": "La Liga",
+    "minutes": 2807.4333333333334,
+    "oe_shrunk": 0.1318791574536547
+   },
+   {
+    "player": "Mousa Sidi Yaya Demb\u00e9l\u00e9",
+    "competition": "Premier League",
+    "minutes": 2348.9166666666665,
+    "oe_shrunk": 0.10219571748881023
+   },
+   {
+    "player": "Pawe\u0142 Wszo\u0142ek",
+    "competition": "Serie A",
+    "minutes": 1874.8666666666668,
+    "oe_shrunk": 0.0840458381074374
+   },
+   {
+    "player": "Boukary Dram\u00e9",
+    "competition": "Serie A",
+    "minutes": 2137.983333333333,
+    "oe_shrunk": 0.08400992862014398
+   },
+   {
+    "player": "Diego Perotti",
+    "competition": "Serie A",
+    "minutes": 2369.5333333333333,
+    "oe_shrunk": 0.08168931591245315
+   },
+   {
+    "player": "Youssouf Sabaly",
+    "competition": "Ligue 1",
+    "minutes": 2604.4666666666667,
+    "oe_shrunk": 0.08078315266192365
+   },
+   {
+    "player": "Yassine Benzia",
+    "competition": "Ligue 1",
+    "minutes": 1370.75,
+    "oe_shrunk": 0.07282267992561661
+   },
+   {
+    "player": "Rapha\u00ebl Adelino Jos\u00e9 Guerreiro",
+    "competition": "Ligue 1",
+    "minutes": 2607.4666666666667,
+    "oe_shrunk": 0.07277286247173512
+   },
+   {
+    "player": "Lassana Diarra",
+    "competition": "Ligue 1",
+    "minutes": 2155.05,
+    "oe_shrunk": 0.07162112060402478
+   },
+   {
+    "player": "Juan Guillermo Cuadrado Bello",
+    "competition": "Serie A",
+    "minutes": 1807.3666666666666,
+    "oe_shrunk": 0.07089398059528618
+   }
+  ],
+  "prog90": [
+   {
+    "player": "Neymar da Silva Santos Junior",
+    "competition": "La Liga",
+    "minutes": 3138.65,
+    "prog90": 11.584598473866153
+   },
+   {
+    "player": "Jefferson Antonio Montero Vite",
+    "competition": "Premier League",
+    "minutes": 1415.4166666666667,
+    "prog90": 10.809537827494848
+   },
+   {
+    "player": "Jordon Ibe",
+    "competition": "Premier League",
+    "minutes": 1253.6666666666667,
+    "prog90": 10.481254985376228
+   },
+   {
+    "player": "Keita Bald\u00e9 Diao",
+    "competition": "Serie A",
+    "minutes": 1884.9166666666667,
+    "prog90": 10.313453291480613
+   },
+   {
+    "player": "Dries Mertens",
+    "competition": "Serie A",
+    "minutes": 1192.05,
+    "prog90": 10.04152510381276
+   },
+   {
+    "player": "Gerard Deulofeu L\u00e1zaro",
+    "competition": "Premier League",
+    "minutes": 1446.95,
+    "prog90": 9.827568333390925
+   },
+   {
+    "player": "Eden Hazard",
+    "competition": "Premier League",
+    "minutes": 2311.8166666666666,
+    "prog90": 9.693675248181444
+   },
+   {
+    "player": "Sofiane Boufal",
+    "competition": "Ligue 1",
+    "minutes": 2393.8166666666666,
+    "prog90": 8.835263073613268
+   },
+   {
+    "player": "Lionel Andr\u00e9s Messi Cuccittini",
+    "competition": "La Liga",
+    "minutes": 2807.4333333333334,
+    "prog90": 8.783823896085392
+   },
+   {
+    "player": "Diego Perotti",
+    "competition": "Serie A",
+    "minutes": 2369.5333333333333,
+    "prog90": 8.773879526207692
+   }
+  ],
+  "carry_xt90": [
+   {
+    "player": "Neymar da Silva Santos Junior",
+    "competition": "La Liga",
+    "minutes": 3138.65,
+    "carry_xt90": 0.2528326450627622
+   },
+   {
+    "player": "Keita Bald\u00e9 Diao",
+    "competition": "Serie A",
+    "minutes": 1884.9166666666667,
+    "carry_xt90": 0.19078275763957983
+   },
+   {
+    "player": "Dries Mertens",
+    "competition": "Serie A",
+    "minutes": 1192.05,
+    "carry_xt90": 0.1844897731300559
+   },
+   {
+    "player": "Lionel Andr\u00e9s Messi Cuccittini",
+    "competition": "La Liga",
+    "minutes": 2807.4333333333334,
+    "carry_xt90": 0.18422815076038807
+   },
+   {
+    "player": "Jorge Franco Alviz",
+    "competition": "La Liga",
+    "minutes": 1043.0,
+    "carry_xt90": 0.1837530877879202
+   },
+   {
+    "player": "Gerard Deulofeu L\u00e1zaro",
+    "competition": "Premier League",
+    "minutes": 1446.95,
+    "carry_xt90": 0.17233268914906874
+   },
+   {
+    "player": "Jordon Ibe",
+    "competition": "Premier League",
+    "minutes": 1253.6666666666667,
+    "carry_xt90": 0.17094327322863603
+   },
+   {
+    "player": "Gervais Lombe Yao Kouassi",
+    "competition": "Serie A",
+    "minutes": 1113.9166666666667,
+    "carry_xt90": 0.1675100205960389
+   },
+   {
+    "player": "Ousmane Demb\u00e9l\u00e9",
+    "competition": "Ligue 1",
+    "minutes": 2001.1333333333332,
+    "carry_xt90": 0.15810652981947293
+   },
+   {
+    "player": "Anthony Martial",
+    "competition": "Premier League",
+    "minutes": 2746.8333333333335,
+    "carry_xt90": 0.1542783345356615
+   }
+  ]
+ },
+ "first_touch": {
+  "messi_mis100": 1.488833746898263,
+  "messi_mis100_up": 1.3513513513513513,
+  "pool_mis100_median": 3.7735849056603774
+ },
+ "aerials": {
+  "messi_aerials90": 0.5770395260202082,
+  "messi_aerial_win": 0.3888888888888889,
+  "pool_aerials90_median": 3.0087755954868363,
+  "pool_aerial_win_median": 0.3953488372093023
+ }
+}

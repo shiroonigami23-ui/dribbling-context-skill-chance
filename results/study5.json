@@ -1,0 +1,242 @@
+{
+ "replication": {
+  "label": "wyscout",
+  "matches": 1941,
+  "takeons": 52727,
+  "passes": 1343370,
+  "success": 0.6012479374893318,
+  "auc_cv": 0.6080522097466665,
+  "success_by_third": {
+   "box": 0.4391735761859454,
+   "defensive": 0.688210499425214,
+   "final": 0.5721817162086371,
+   "middle": 0.6534929734665923
+  },
+  "success_by_pattern": {
+   "From Counter": 0.692246835443038,
+   "Other": 0.5721387002909797,
+   "Regular Play": 0.5986678791751665
+  },
+  "xg_after": {
+   "completed": 0.02793835781373767,
+   "failed": 0.0031779986144971797
+  },
+  "rated_player_seasons": 558,
+  "tau_pp": 6.399523470815126,
+  "attempts_needed": {
+   "R50": 59,
+   "R70": 137,
+   "R80": 235
+  },
+  "median_attempts_player_season": 13.5,
+  "share_R70": 0.0036363636363636364,
+  "share_R50": 0.07681818181818181,
+  "breakeven": [
+   {
+    "tl": "box / central",
+    "takeons": 582,
+    "success": 0.5034364261168385,
+    "breakeven": 0.30710651224262864,
+    "margin": 0.19632991387420984,
+    "net_success": 24.108060707399716,
+    "net_fail": -0.17484162853846485,
+    "net_pass": 7.2825958149798895
+   },
+   {
+    "tl": "box / half-space",
+    "takeons": 1981,
+    "success": 0.4512872286723877,
+    "breakeven": 0.2689184448837165,
+    "margin": 0.18236878378867116,
+    "net_success": 14.617842523540006,
+    "net_fail": 0.331730159076846,
+    "net_pass": 4.173529279562313
+   },
+   {
+    "tl": "box / wide",
+    "takeons": 4794,
+    "success": 0.42636629119733,
+    "breakeven": 0.429744355487799,
+    "margin": -0.003378064290468996,
+    "net_success": 4.0611912035990105,
+    "net_fail": 0.30590882398312846,
+    "net_pass": 1.9197202298858438
+   },
+   {
+    "tl": "defensive / central",
+    "takeons": 1175,
+    "success": 0.7634042553191489,
+    "breakeven": 0.741276124078409,
+    "margin": 0.022128131240739868,
+    "net_success": 0.4579527716701456,
+    "net_fail": -1.7188041968175312,
+    "net_pass": -0.1052262281563188
+   },
+   {
+    "tl": "defensive / half-space",
+    "takeons": 1953,
+    "success": 0.7685611879160267,
+    "breakeven": 0.8760189733098666,
+    "margin": -0.10745778539383988,
+    "net_success": 0.19851229494206932,
+    "net_fail": -2.169419917680673,
+    "net_pass": -0.09506637191153765
+   },
+   {
+    "tl": "defensive / wide",
+    "takeons": 4701,
+    "success": 0.6360348861944267,
+    "breakeven": 0.6640952708228486,
+    "margin": -0.028060384628421864,
+    "net_success": 0.15756585995108288,
+    "net_fail": -0.7331644712503484,
+    "net_pass": -0.1416346707210084
+   },
+   {
+    "tl": "final / central",
+    "takeons": 2739,
+    "success": 0.6100766703176341,
+    "breakeven": 0.4641812746803795,
+    "margin": 0.14589539563725462,
+    "net_success": 4.523633575059806,
+    "net_fail": -0.2825976996554129,
+    "net_pass": 1.9483648598506031
+   },
+   {
+    "tl": "final / half-space",
+    "takeons": 4647,
+    "success": 0.6053367764148914,
+    "breakeven": 0.518545959426156,
+    "margin": 0.08679081698873536,
+    "net_success": 3.512437819379535,
+    "net_fail": -0.4635058511252117,
+    "net_pass": 1.5982036741210244
+   },
+   {
+    "tl": "final / wide",
+    "takeons": 10444,
+    "success": 0.547491382612026,
+    "breakeven": 0.5339070557451235,
+    "margin": 0.013584326866902474,
+    "net_success": 2.1791489952039016,
+    "net_fail": -0.06598507882821414,
+    "net_pass": 1.1327078443913268
+   },
+   {
+    "tl": "middle / central",
+    "takeons": 2940,
+    "success": 0.7309523809523809,
+    "breakeven": 0.7484196917950879,
+    "margin": -0.01746731084270703,
+    "net_success": 1.2609709693931315,
+    "net_fail": -1.354351099657889,
+    "net_pass": 0.6030074372061675
+   },
+   {
+    "tl": "middle / half-space",
+    "takeons": 5243,
+    "success": 0.7263017356475301,
+    "breakeven": 0.6828247244980727,
+    "margin": 0.043477011149457345,
+    "net_success": 1.1405901076998934,
+    "net_fail": -0.714583535415829,
+    "net_pass": 0.5521748963407501
+   },
+   {
+    "tl": "middle / wide",
+    "takeons": 11528,
+    "success": 0.6006245662734212,
+    "breakeven": 0.6127799125116292,
+    "margin": -0.01215534623820802,
+    "net_success": 0.996828809317387,
+    "net_fail": -0.48342214485424345,
+    "net_pass": 0.423645905338304
+   }
+  ],
+  "rating_p50_p90": [
+   -0.00034577040786854104,
+   0.05024378088762879
+  ],
+  "cells_go_p50": 7,
+  "cells_go_p90": 11,
+  "cells_go_max": 12,
+  "halves": {
+   "players": 872,
+   "takeons_scored": 17753,
+   "log_loss": {
+    "league_avg": 0.6771043420506072,
+    "context": 0.6599382127746305,
+    "raw": 0.6856268746476002,
+    "context_unshrunk": 0.6733301878124128,
+    "context_shrunk": 0.6573172234147882
+   },
+   "gain_vs_raw_ci": [
+    0.02337439738886915,
+    0.033616010203205204
+   ],
+   "gain_vs_context_ci": [
+    0.001453660351130423,
+    0.003977145163668907
+   ]
+  },
+  "defender_paired": 0.9604946232480512
+ },
+ "wc2018_two_providers": {
+  "matches_paired": 61,
+  "player_matches": 623,
+  "players_linked": 290,
+  "takeons_sb": 1299,
+  "takeons_w": 909,
+  "success_sb": 0.6212471131639723,
+  "success_w": 0.6182618261826183,
+  "attempts_pearson": 0.5567499743829128,
+  "attempts_ccc": 0.5086250099462967,
+  "attempts_icc21": 0.5090264913060121,
+  "bland_altman_mean": -0.6260032102728732,
+  "bland_altman_loa": [
+   -4.154509759325547,
+   2.902503338779801
+  ],
+  "tournament_attempts_ccc": 0.7471260033653707,
+  "tournament_success_corr_10plus": 0.793517028494059,
+  "players_10plus_both": 14
+ },
+ "sb1516_to_w1718": {
+  "players_matched": 130,
+  "corr_unshrunk": 0.22567325476293618,
+  "corr_unshrunk_ci": [
+   0.05408782323106267,
+   0.39457307255926705
+  ],
+  "corr_shrunk": 0.26465489021211985,
+  "mean_reliability_sb": 0.47191004309689505,
+  "mean_reliability_w": 0.46977089543367984,
+  "disattenuated": 0.4793000002460939,
+  "disattenuated_ci": [
+   0.11487534805660427,
+   0.8380207657900053
+  ],
+  "predict": {
+   "takeons": 7346,
+   "league_avg_sb": 0.6769085765036708,
+   "raw_sb_rate": 0.69049116954517,
+   "context_w": 0.6661734561408182,
+   "context_w_plus_sb_shrunk": 0.6662184966079855,
+   "gain_ci": [
+    -0.00274317117507378,
+    0.0024491986724261613
+   ]
+  }
+ },
+ "no_neutral": {
+  "takeons": 45697,
+  "success": 0.6937435717880823,
+  "auc_cv": 0.5936286209358231,
+  "tau_pp": 5.660679575869564,
+  "attempts_needed": {
+   "R50": 67,
+   "R70": 155,
+   "R80": 266
+  }
+ }
+}

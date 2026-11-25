@@ -1,0 +1,10 @@
+results/
+figures/
+paper/
+data/wyscout_raw/
+data/wyscout/
+data/more/events/
+data/more/minutes_*.parquet
+data/events/
+data/minutes.parquet
+__pycache__/

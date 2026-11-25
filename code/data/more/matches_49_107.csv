@@ -1,0 +1,138 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+3881583,NWSL,2023,2023-08-27,Houston Dash,KC Current,1,1,49,107,women,False
+3881524,NWSL,2023,2023-05-14,KC Current,San Diego Wave,0,2,49,107,women,False
+3881501,NWSL,2023,2023-04-23,KC Current,Orlando Pride,2,0,49,107,women,False
+3881512,NWSL,2023,2023-04-30,KC Current,NJ/NY Gotham FC,2,0,49,107,women,False
+3881540,NWSL,2023,2023-06-04,KC Current,North Carolina Courage,1,0,49,107,women,False
+3881551,NWSL,2023,2023-06-18,North Carolina Courage,Orlando Pride,3,0,49,107,women,False
+3881536,NWSL,2023,2023-05-29,Washington Spirit,NJ/NY Gotham FC,1,1,49,107,women,False
+3881608,NWSL,2023,2023-10-09,Houston Dash,Angel City,1,2,49,107,women,False
+3881591,NWSL,2023,2023-09-16,Racing Louisville FC,Houston Dash,0,1,49,107,women,False
+3881599,NWSL,2023,2023-09-30,Washington Spirit,KC Current,2,1,49,107,women,False
+3915998,NWSL,2023,2023-11-12,Seattle Reign,NJ/NY Gotham FC,1,2,49,107,women,False
+3881606,NWSL,2023,2023-10-08,North Carolina Courage,San Diego Wave,0,0,49,107,women,False
+3881596,NWSL,2023,2023-09-18,Chicago Red Stars,Angel City,2,2,49,107,women,False
+3915111,NWSL,2023,2023-11-06,Portland Thorns,NJ/NY Gotham FC,0,1,49,107,women,False
+3915110,NWSL,2023,2023-11-06,San Diego Wave,Seattle Reign,0,1,49,107,women,False
+3914645,NWSL,2023,2023-10-23,North Carolina Courage,NJ/NY Gotham FC,0,2,49,107,women,False
+3914644,NWSL,2023,2023-10-21,Seattle Reign,Angel City,1,0,49,107,women,False
+3881613,NWSL,2023,2023-10-16,Washington Spirit,North Carolina Courage,0,1,49,107,women,False
+3881609,NWSL,2023,2023-10-16,Angel City,Portland Thorns,5,1,49,107,women,False
+3881600,NWSL,2023,2023-10-01,Portland Thorns,San Diego Wave,0,2,49,107,women,False
+3881598,NWSL,2023,2023-10-01,Chicago Red Stars,Racing Louisville FC,1,0,49,107,women,False
+3881589,NWSL,2023,2023-09-04,San Diego Wave,Houston Dash,1,0,49,107,women,False
+3881584,NWSL,2023,2023-08-28,Angel City,Seattle Reign,2,1,49,107,women,False
+3881572,NWSL,2023,2023-07-10,Angel City,North Carolina Courage,2,1,49,107,women,False
+3881566,NWSL,2023,2023-07-02,Washington Spirit,Orlando Pride,0,3,49,107,women,False
+3881565,NWSL,2023,2023-07-02,North Carolina Courage,Houston Dash,1,0,49,107,women,False
+3881563,NWSL,2023,2023-07-02,Portland Thorns,KC Current,0,1,49,107,women,False
+3881564,NWSL,2023,2023-07-02,Chicago Red Stars,San Diego Wave,1,0,49,107,women,False
+3881560,NWSL,2023,2023-06-26,Angel City,Houston Dash,0,0,49,107,women,False
+3881549,NWSL,2023,2023-06-17,San Diego Wave,Angel City,1,2,49,107,women,False
+3881546,NWSL,2023,2023-06-11,Washington Spirit,Angel City,2,1,49,107,women,False
+3881529,NWSL,2023,2023-05-21,Houston Dash,San Diego Wave,0,3,49,107,women,False
+3881535,NWSL,2023,2023-05-28,Racing Louisville FC,North Carolina Courage,1,2,49,107,women,False
+3881528,NWSL,2023,2023-05-21,KC Current,Racing Louisville FC,0,2,49,107,women,False
+3881519,NWSL,2023,2023-05-13,Houston Dash,Portland Thorns,2,1,49,107,women,False
+3881523,NWSL,2023,2023-05-15,NJ/NY Gotham FC,Orlando Pride,0,0,49,107,women,False
+3881515,NWSL,2023,2023-05-07,Orlando Pride,Racing Louisville FC,1,0,49,107,women,False
+3881508,NWSL,2023,2023-04-30,Racing Louisville FC,Seattle Reign,2,2,49,107,women,False
+3881507,NWSL,2023,2023-04-29,Houston Dash,North Carolina Courage,0,1,49,107,women,False
+3881537,NWSL,2023,2023-06-04,Washington Spirit,Racing Louisville FC,1,1,49,107,women,False
+3881579,NWSL,2023,2023-08-26,Orlando Pride,San Diego Wave,1,2,49,107,women,False
+3881578,NWSL,2023,2023-08-21,Portland Thorns,North Carolina Courage,2,1,49,107,women,False
+3881577,NWSL,2023,2023-08-21,Orlando Pride,Chicago Red Stars,5,0,49,107,women,False
+3881574,NWSL,2023,2023-08-20,San Diego Wave,NJ/NY Gotham FC,2,1,49,107,women,False
+3881576,NWSL,2023,2023-08-20,Racing Louisville FC,Angel City,1,1,49,107,women,False
+3881550,NWSL,2023,2023-06-18,Racing Louisville FC,NJ/NY Gotham FC,2,0,49,107,women,False
+3881548,NWSL,2023,2023-06-12,Houston Dash,NJ/NY Gotham FC,1,1,49,107,women,False
+3881547,NWSL,2023,2023-06-12,Orlando Pride,Portland Thorns,3,1,49,107,women,False
+3881545,NWSL,2023,2023-06-11,Seattle Reign,KC Current,2,1,49,107,women,False
+3881544,NWSL,2023,2023-06-10,Racing Louisville FC,San Diego Wave,0,0,49,107,women,False
+3881542,NWSL,2023,2023-06-06,Angel City,Chicago Red Stars,1,2,49,107,women,False
+3881539,NWSL,2023,2023-06-05,NJ/NY Gotham FC,San Diego Wave,0,1,49,107,women,False
+3881541,NWSL,2023,2023-06-04,Houston Dash,Orlando Pride,2,0,49,107,women,False
+3881538,NWSL,2023,2023-06-04,Seattle Reign,Portland Thorns,0,2,49,107,women,False
+3881534,NWSL,2023,2023-05-28,Chicago Red Stars,Orlando Pride,1,0,49,107,women,False
+3881531,NWSL,2023,2023-05-27,KC Current,Houston Dash,0,2,49,107,women,False
+3881532,NWSL,2023,2023-05-27,San Diego Wave,Portland Thorns,1,1,49,107,women,False
+3881533,NWSL,2023,2023-05-27,Seattle Reign,Angel City,4,1,49,107,women,False
+3881525,NWSL,2023,2023-05-22,Portland Thorns,Chicago Red Stars,4,0,49,107,women,False
+3881526,NWSL,2023,2023-05-21,North Carolina Courage,Angel City,0,0,49,107,women,False
+3881527,NWSL,2023,2023-05-21,Orlando Pride,Washington Spirit,2,1,49,107,women,False
+3881522,NWSL,2023,2023-05-14,Angel City,Washington Spirit,0,1,49,107,women,False
+3881521,NWSL,2023,2023-05-14,North Carolina Courage,Seattle Reign,1,0,49,107,women,False
+3881520,NWSL,2023,2023-05-13,Racing Louisville FC,Chicago Red Stars,3,0,49,107,women,False
+3881517,NWSL,2023,2023-05-08,Angel City,KC Current,3,2,49,107,women,False
+3881516,NWSL,2023,2023-05-07,North Carolina Courage,Portland Thorns,3,3,49,107,women,False
+3881514,NWSL,2023,2023-05-07,Seattle Reign,Houston Dash,2,0,49,107,women,False
+3881513,NWSL,2023,2023-05-06,Washington Spirit,San Diego Wave,3,1,49,107,women,False
+3881505,NWSL,2023,2023-04-23,Washington Spirit,Houston Dash,0,0,49,107,women,False
+3881500,NWSL,2023,2023-04-16,Seattle Reign,San Diego Wave,1,0,49,107,women,False
+3881494,NWSL,2023,2023-04-02,Orlando Pride,Angel City,1,2,49,107,women,False
+3881614,NWSL,2023,2023-10-16,San Diego Wave,Racing Louisville FC,2,0,49,107,women,False
+3881612,NWSL,2023,2023-10-15,NJ/NY Gotham FC,KC Current,2,2,49,107,women,False
+3881611,NWSL,2023,2023-10-16,Chicago Red Stars,Seattle Reign,0,3,49,107,women,False
+3881610,NWSL,2023,2023-10-16,Orlando Pride,Houston Dash,1,0,49,107,women,False
+3881607,NWSL,2023,2023-10-08,KC Current,Chicago Red Stars,6,3,49,107,women,False
+3881605,NWSL,2023,2023-10-07,Seattle Reign,Washington Spirit,0,0,49,107,women,False
+3881604,NWSL,2023,2023-10-07,Racing Louisville FC,Orlando Pride,3,2,49,107,women,False
+3881603,NWSL,2023,2023-10-08,Portland Thorns,NJ/NY Gotham FC,1,0,49,107,women,False
+3881602,NWSL,2023,2023-10-02,Seattle Reign,North Carolina Courage,1,1,49,107,women,False
+3881601,NWSL,2023,2023-10-02,NJ/NY Gotham FC,Houston Dash,0,2,49,107,women,False
+3881597,NWSL,2023,2023-10-03,Angel City,Orlando Pride,0,1,49,107,women,False
+3881595,NWSL,2023,2023-09-18,Orlando Pride,North Carolina Courage,2,1,49,107,women,False
+3881594,NWSL,2023,2023-09-17,NJ/NY Gotham FC,Washington Spirit,2,0,49,107,women,False
+3881593,NWSL,2023,2023-09-17,Portland Thorns,Seattle Reign,2,0,49,107,women,False
+3881592,NWSL,2023,2023-09-17,San Diego Wave,KC Current,1,2,49,107,women,False
+3881590,NWSL,2023,2023-09-04,Seattle Reign,Orlando Pride,1,0,49,107,women,False
+3881588,NWSL,2023,2023-09-03,North Carolina Courage,NJ/NY Gotham FC,3,3,49,107,women,False
+3881587,NWSL,2023,2023-09-04,Washington Spirit,Chicago Red Stars,0,2,49,107,women,False
+3881586,NWSL,2023,2023-09-03,Racing Louisville FC,Portland Thorns,2,1,49,107,women,False
+3881585,NWSL,2023,2023-09-02,KC Current,Angel City,0,1,49,107,women,False
+3881582,NWSL,2023,2023-08-27,North Carolina Courage,Chicago Red Stars,1,1,49,107,women,False
+3881581,NWSL,2023,2023-08-28,NJ/NY Gotham FC,Racing Louisville FC,0,0,49,107,women,False
+3881580,NWSL,2023,2023-08-28,Washington Spirit,Portland Thorns,1,1,49,107,women,False
+3881575,NWSL,2023,2023-08-20,Houston Dash,Washington Spirit,1,1,49,107,women,False
+3881573,NWSL,2023,2023-08-19,KC Current,Seattle Reign,1,0,49,107,women,False
+3881571,NWSL,2023,2023-07-09,San Diego Wave,Washington Spirit,2,2,49,107,women,False
+3881570,NWSL,2023,2023-07-10,NJ/NY Gotham FC,Portland Thorns,2,1,49,107,women,False
+3881569,NWSL,2023,2023-07-08,Orlando Pride,Seattle Reign,1,0,49,107,women,False
+3881568,NWSL,2023,2023-07-08,Racing Louisville FC,KC Current,2,1,49,107,women,False
+3881567,NWSL,2023,2023-07-08,Houston Dash,Chicago Red Stars,0,1,49,107,women,False
+3881562,NWSL,2023,2023-07-03,NJ/NY Gotham FC,Angel City,0,0,49,107,women,False
+3881561,NWSL,2023,2023-07-01,Seattle Reign,Racing Louisville FC,2,2,49,107,women,False
+3881559,NWSL,2023,2023-06-26,NJ/NY Gotham FC,Chicago Red Stars,2,1,49,107,women,False
+3881558,NWSL,2023,2023-06-24,Orlando Pride,KC Current,1,2,49,107,women,False
+3881557,NWSL,2023,2023-06-25,North Carolina Courage,Racing Louisville FC,1,0,49,107,women,False
+3881556,NWSL,2023,2023-06-25,San Diego Wave,Seattle Reign,1,2,49,107,women,False
+3881555,NWSL,2023,2023-06-24,Portland Thorns,Washington Spirit,4,2,49,107,women,False
+3881554,NWSL,2023,2023-06-19,Chicago Red Stars,Portland Thorns,2,3,49,107,women,False
+3881553,NWSL,2023,2023-06-18,KC Current,Washington Spirit,2,3,49,107,women,False
+3881552,NWSL,2023,2023-06-18,Houston Dash,Seattle Reign,0,0,49,107,women,False
+3881543,NWSL,2023,2023-06-11,Chicago Red Stars,North Carolina Courage,0,5,49,107,women,False
+3881530,NWSL,2023,2023-05-22,Seattle Reign,NJ/NY Gotham FC,1,4,49,107,women,False
+3881518,NWSL,2023,2023-05-08,Chicago Red Stars,NJ/NY Gotham FC,1,2,49,107,women,False
+3881511,NWSL,2023,2023-04-30,Chicago Red Stars,Washington Spirit,1,1,49,107,women,False
+3881510,NWSL,2023,2023-04-30,San Diego Wave,Orlando Pride,1,3,49,107,women,False
+3881509,NWSL,2023,2023-04-30,Portland Thorns,Angel City,3,3,49,107,women,False
+3881506,NWSL,2023,2023-04-24,Angel City,San Diego Wave,0,2,49,107,women,False
+3881504,NWSL,2023,2023-04-23,Portland Thorns,Racing Louisville FC,2,0,49,107,women,False
+3881503,NWSL,2023,2023-04-23,NJ/NY Gotham FC,North Carolina Courage,1,0,49,107,women,False
+3881502,NWSL,2023,2023-04-22,Seattle Reign,Chicago Red Stars,5,2,49,107,women,False
+3881499,NWSL,2023,2023-04-16,Angel City,Racing Louisville FC,2,2,49,107,women,False
+3881498,NWSL,2023,2023-04-16,Chicago Red Stars,KC Current,4,2,49,107,women,False
+3881497,NWSL,2023,2023-04-16,Orlando Pride,NJ/NY Gotham FC,0,2,49,107,women,False
+3881496,NWSL,2023,2023-04-16,North Carolina Courage,Washington Spirit,1,2,49,107,women,False
+3881495,NWSL,2023,2023-04-15,Portland Thorns,Houston Dash,1,1,49,107,women,False
+3881493,NWSL,2023,2023-04-02,San Diego Wave,North Carolina Courage,3,1,49,107,women,False
+3881492,NWSL,2023,2023-04-02,NJ/NY Gotham FC,Seattle Reign,0,2,49,107,women,False
+3881491,NWSL,2023,2023-04-01,Racing Louisville FC,Washington Spirit,2,2,49,107,women,False
+3881490,NWSL,2023,2023-04-01,Chicago Red Stars,Houston Dash,1,2,49,107,women,False
+3881489,NWSL,2023,2023-04-01,KC Current,Portland Thorns,1,4,49,107,women,False
+3881488,NWSL,2023,2023-03-27,Angel City,NJ/NY Gotham FC,1,2,49,107,women,False
+3881487,NWSL,2023,2023-03-27,Houston Dash,Racing Louisville FC,0,0,49,107,women,False
+3881486,NWSL,2023,2023-03-26,Portland Thorns,Orlando Pride,4,0,49,107,women,False
+3881485,NWSL,2023,2023-03-26,Washington Spirit,Seattle Reign,1,0,49,107,women,False
+3881484,NWSL,2023,2023-03-26,San Diego Wave,Chicago Red Stars,3,2,49,107,women,False
+3881483,NWSL,2023,2023-03-25,North Carolina Courage,KC Current,1,0,49,107,women,False

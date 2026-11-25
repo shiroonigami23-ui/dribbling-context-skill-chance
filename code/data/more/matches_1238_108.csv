@@ -1,0 +1,116 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+3827336,Indian Super league,2021/2022,2022-03-16,Mohun Bagan Super Giant,SC Delhi,1,0,1238,108,men,False
+3813314,Indian Super league,2021/2022,2021-11-19,Mohun Bagan Super Giant,Kerala Blasters,4,2,1238,108,men,False
+3817877,Indian Super league,2021/2022,2022-02-18,NorthEast United,Bengaluru,2,1,1238,108,men,False
+3827767,Indian Super league,2021/2022,2022-03-20,SC Delhi,Kerala Blasters,1,1,1238,108,men,False
+3827335,Indian Super league,2021/2022,2022-03-15,Kerala Blasters,Jamshedpur,1,1,1238,108,men,False
+3827338,Indian Super league,2021/2022,2022-03-12,SC Delhi,Mohun Bagan Super Giant,3,1,1238,108,men,False
+3827337,Indian Super league,2021/2022,2022-03-11,Jamshedpur,Kerala Blasters,0,1,1238,108,men,False
+3817856,Indian Super league,2021/2022,2022-03-07,Mohun Bagan Super Giant,Jamshedpur,0,1,1238,108,men,False
+3817891,Indian Super league,2021/2022,2022-03-05,East Bengal,Bengaluru,0,1,1238,108,men,False
+3817870,Indian Super league,2021/2022,2022-03-06,Goa,Kerala Blasters,4,4,1238,108,men,False
+3817899,Indian Super league,2021/2022,2022-03-04,Jamshedpur,Odisha,5,1,1238,108,men,False
+3817866,Indian Super league,2021/2022,2022-03-02,Kerala Blasters,Mumbai City,3,1,1238,108,men,False
+3817889,Indian Super league,2021/2022,2022-03-03,Chennaiyin,Mohun Bagan Super Giant,0,1,1238,108,men,False
+3817887,Indian Super league,2021/2022,2022-03-05,SC Delhi,Mumbai City,2,1,1238,108,men,False
+3817872,Indian Super league,2021/2022,2022-02-21,Bengaluru,Odisha,2,1,1238,108,men,False
+3817900,Indian Super league,2021/2022,2022-02-20,Chennaiyin,Jamshedpur,1,4,1238,108,men,False
+3817855,Indian Super league,2021/2022,2022-02-19,Kerala Blasters,Mohun Bagan Super Giant,2,2,1238,108,men,False
+3817863,Indian Super league,2021/2022,2022-02-19,SC Delhi,Goa,3,2,1238,108,men,False
+3817901,Indian Super league,2021/2022,2022-02-17,Jamshedpur,Mumbai City,3,2,1238,108,men,False
+3817880,Indian Super league,2021/2022,2022-02-16,Odisha,Chennaiyin,2,2,1238,108,men,False
+3817902,Indian Super league,2021/2022,2022-02-14,Kerala Blasters,East Bengal,1,0,1238,108,men,False
+3817862,Indian Super league,2021/2022,2022-02-13,Mumbai City,Odisha,4,1,1238,108,men,False
+3817873,Indian Super league,2021/2022,2022-02-12,Mohun Bagan Super Giant,NorthEast United,3,1,1238,108,men,False
+3817869,Indian Super league,2021/2022,2022-02-11,Bengaluru,SC Delhi,1,2,1238,108,men,False
+3817881,Indian Super league,2021/2022,2022-02-10,Jamshedpur,Kerala Blasters,3,0,1238,108,men,False
+3817895,Indian Super league,2021/2022,2022-02-09,Chennaiyin,Goa,0,5,1238,108,men,False
+3817884,Indian Super league,2021/2022,2022-02-08,SC Delhi,Mohun Bagan Super Giant,1,2,1238,108,men,False
+3817896,Indian Super league,2021/2022,2022-02-07,East Bengal,Odisha,1,2,1238,108,men,False
+3817852,Indian Super league,2021/2022,2022-02-06,Chennaiyin,Mumbai City,0,1,1238,108,men,False
+3817883,Indian Super league,2021/2022,2022-02-05,Bengaluru,Jamshedpur,3,1,1238,108,men,False
+3817886,Indian Super league,2021/2022,2022-02-04,Kerala Blasters,NorthEast United,2,1,1238,108,men,False
+3817864,Indian Super league,2021/2022,2022-02-03,Mumbai City,Mohun Bagan Super Giant,1,1,1238,108,men,False
+3817882,Indian Super league,2021/2022,2022-02-02,East Bengal,Chennaiyin,2,2,1238,108,men,False
+3817894,Indian Super league,2021/2022,2022-02-01,Goa,Odisha,1,1,1238,108,men,False
+3817871,Indian Super league,2021/2022,2022-01-31,NorthEast United,SC Delhi,0,5,1238,108,men,False
+3817861,Indian Super league,2021/2022,2022-01-30,Kerala Blasters,Bengaluru,0,1,1238,108,men,False
+3817888,Indian Super league,2021/2022,2022-01-29,Mohun Bagan Super Giant,East Bengal,3,1,1238,108,men,False
+3817875,Indian Super league,2021/2022,2022-01-28,Jamshedpur,Goa,1,0,1238,108,men,False
+3817868,Indian Super league,2021/2022,2022-01-26,Bengaluru,Chennaiyin,3,0,1238,108,men,False
+3817867,Indian Super league,2021/2022,2022-01-25,Mumbai City,NorthEast United,1,1,1238,108,men,False
+3813313,Indian Super league,2021/2022,2022-01-23,Mohun Bagan Super Giant,Odisha,0,0,1238,108,men,False
+3817890,Indian Super league,2021/2022,2022-01-14,Goa,NorthEast United,1,1,1238,108,men,False
+3813302,Indian Super league,2021/2022,2022-01-06,Jamshedpur,NorthEast United,3,2,1238,108,men,False
+3817857,Indian Super league,2021/2022,2022-03-01,SC Delhi,Jamshedpur,0,3,1238,108,men,False
+3817898,Indian Super league,2021/2022,2022-02-26,Goa,Mumbai City,0,2,1238,108,men,False
+3817893,Indian Super league,2021/2022,2022-02-28,East Bengal,NorthEast United,1,1,1238,108,men,False
+3817854,Indian Super league,2021/2022,2022-02-27,Mohun Bagan Super Giant,Bengaluru,2,0,1238,108,men,False
+3817892,Indian Super league,2021/2022,2022-02-24,Odisha,Mohun Bagan Super Giant,1,1,1238,108,men,False
+3817859,Indian Super league,2021/2022,2022-02-25,NorthEast United,Jamshedpur,2,3,1238,108,men,False
+3817858,Indian Super league,2021/2022,2022-02-26,Kerala Blasters,Chennaiyin,3,0,1238,108,men,False
+3817897,Indian Super league,2021/2022,2022-02-23,SC Delhi,Kerala Blasters,2,1,1238,108,men,False
+3817885,Indian Super league,2021/2022,2022-02-22,Mumbai City,East Bengal,1,0,1238,108,men,False
+3817878,Indian Super league,2021/2022,2022-01-24,East Bengal,SC Delhi,0,4,1238,108,men,False
+3817876,Indian Super league,2021/2022,2022-01-22,Chennaiyin,NorthEast United,2,1,1238,108,men,False
+3813305,Indian Super league,2021/2022,2022-01-09,Kerala Blasters,SC Delhi,1,0,1238,108,men,False
+3813266,Indian Super league,2021/2022,2022-01-08,Goa,Chennaiyin,1,0,1238,108,men,False
+3813271,Indian Super league,2021/2022,2022-01-02,Kerala Blasters,Goa,2,2,1238,108,men,False
+3813311,Indian Super league,2021/2022,2022-01-02,Jamshedpur,Chennaiyin,0,1,1238,108,men,False
+3813303,Indian Super league,2021/2022,2021-12-29,Mohun Bagan Super Giant,Goa,2,1,1238,108,men,False
+3813304,Indian Super league,2021/2022,2021-12-23,SC Delhi,East Bengal,1,1,1238,108,men,False
+3813306,Indian Super league,2021/2022,2021-12-21,NorthEast United,Mohun Bagan Super Giant,2,3,1238,108,men,False
+3813283,Indian Super league,2021/2022,2021-12-30,Chennaiyin,Bengaluru,2,4,1238,108,men,False
+3813275,Indian Super league,2021/2022,2021-12-26,Kerala Blasters,Jamshedpur,1,1,1238,108,men,False
+3813278,Indian Super league,2021/2022,2021-12-22,Chennaiyin,Kerala Blasters,0,3,1238,108,men,False
+3813295,Indian Super league,2021/2022,2021-12-28,SC Delhi,Odisha,6,1,1238,108,men,False
+3813296,Indian Super league,2021/2022,2021-11-25,NorthEast United,Kerala Blasters,0,0,1238,108,men,False
+3813282,Indian Super league,2021/2022,2021-12-19,Mumbai City,Kerala Blasters,0,3,1238,108,men,False
+3813269,Indian Super league,2021/2022,2021-12-14,Odisha,Jamshedpur,0,4,1238,108,men,False
+3817879,Indian Super league,2021/2022,2022-01-13,Chennaiyin,SC Delhi,1,1,1238,108,men,False
+3817874,Indian Super league,2021/2022,2022-01-23,Bengaluru,Goa,1,1,1238,108,men,False
+3817865,Indian Super league,2021/2022,2022-01-18,NorthEast United,Odisha,0,2,1238,108,men,False
+3817860,Indian Super league,2021/2022,2022-01-27,Odisha,SC Delhi,2,3,1238,108,men,False
+3817853,Indian Super league,2021/2022,2022-01-19,Goa,East Bengal,1,2,1238,108,men,False
+3817851,Indian Super league,2021/2022,2022-01-12,Odisha,Kerala Blasters,0,2,1238,108,men,False
+3817850,Indian Super league,2021/2022,2022-01-11,Jamshedpur,East Bengal,1,0,1238,108,men,False
+3817849,Indian Super league,2021/2022,2022-01-10,Mumbai City,Bengaluru,0,3,1238,108,men,False
+3817848,Indian Super league,2021/2022,2022-02-15,Goa,Mohun Bagan Super Giant,0,2,1238,108,men,False
+3813318,Indian Super league,2021/2022,2021-12-27,NorthEast United,Mumbai City,3,3,1238,108,men,False
+3813287,Indian Super league,2021/2022,2021-12-16,Bengaluru,Mohun Bagan Super Giant,3,3,1238,108,men,False
+3813270,Indian Super league,2021/2022,2021-11-22,Mumbai City,Goa,3,0,1238,108,men,False
+3813307,Indian Super league,2021/2022,2021-12-20,Jamshedpur,Bengaluru,0,0,1238,108,men,False
+3813279,Indian Super league,2021/2022,2021-12-18,Chennaiyin,Odisha,2,1,1238,108,men,False
+3813281,Indian Super league,2021/2022,2021-12-11,Mohun Bagan Super Giant,Chennaiyin,1,1,1238,108,men,False
+3813274,Indian Super league,2021/2022,2021-12-04,Bengaluru,Mumbai City,1,3,1238,108,men,False
+3813285,Indian Super league,2021/2022,2021-12-11,Goa,Bengaluru,2,1,1238,108,men,False
+3813317,Indian Super league,2021/2022,2021-11-30,Odisha,East Bengal,6,4,1238,108,men,False
+3813316,Indian Super league,2021/2022,2021-12-04,NorthEast United,Goa,2,1,1238,108,men,False
+3813315,Indian Super league,2021/2022,2021-11-26,Goa,Jamshedpur,1,3,1238,108,men,False
+3813312,Indian Super league,2021/2022,2021-12-01,Mohun Bagan Super Giant,Mumbai City,1,5,1238,108,men,False
+3813310,Indian Super league,2021/2022,2021-12-12,East Bengal,Kerala Blasters,1,1,1238,108,men,False
+3813309,Indian Super league,2021/2022,2021-11-23,SC Delhi,Chennaiyin,0,1,1238,108,men,False
+3813308,Indian Super league,2021/2022,2021-12-24,Odisha,Goa,1,1,1238,108,men,False
+3813301,Indian Super league,2021/2022,2021-12-10,Odisha,NorthEast United,1,0,1238,108,men,False
+3813300,Indian Super league,2021/2022,2021-12-05,Kerala Blasters,Odisha,2,1,1238,108,men,False
+3813299,Indian Super league,2021/2022,2021-12-08,SC Delhi,Bengaluru,1,0,1238,108,men,False
+3813298,Indian Super league,2021/2022,2021-11-21,East Bengal,Jamshedpur,1,1,1238,108,men,False
+3813297,Indian Super league,2021/2022,2021-11-20,Bengaluru,NorthEast United,4,2,1238,108,men,False
+3813294,Indian Super league,2021/2022,2021-11-29,NorthEast United,Chennaiyin,1,2,1238,108,men,False
+3813293,Indian Super league,2021/2022,2022-01-04,Bengaluru,East Bengal,1,1,1238,108,men,False
+3813292,Indian Super league,2021/2022,2021-11-28,Bengaluru,Kerala Blasters,1,1,1238,108,men,False
+3813291,Indian Super league,2021/2022,2021-11-27,East Bengal,Mohun Bagan Super Giant,0,3,1238,108,men,False
+3813290,Indian Super league,2021/2022,2021-12-13,SC Delhi,NorthEast United,5,1,1238,108,men,False
+3813289,Indian Super league,2021/2022,2021-11-24,Odisha,Bengaluru,3,1,1238,108,men,False
+3813288,Indian Super league,2021/2022,2021-12-02,Jamshedpur,SC Delhi,1,1,1238,108,men,False
+3813286,Indian Super league,2021/2022,2021-12-15,Mumbai City,Chennaiyin,1,0,1238,108,men,False
+3813284,Indian Super league,2021/2022,2021-12-09,Mumbai City,Jamshedpur,4,2,1238,108,men,False
+3813280,Indian Super league,2021/2022,2021-12-03,Chennaiyin,East Bengal,0,0,1238,108,men,False
+3813277,Indian Super league,2021/2022,2021-11-27,Mumbai City,SC Delhi,1,3,1238,108,men,False
+3813276,Indian Super league,2021/2022,2021-12-17,NorthEast United,East Bengal,2,0,1238,108,men,False
+3813273,Indian Super league,2021/2022,2022-01-03,Odisha,Mumbai City,4,2,1238,108,men,False
+3813272,Indian Super league,2021/2022,2021-12-18,Goa,SC Delhi,1,1,1238,108,men,False
+3813268,Indian Super league,2021/2022,2021-12-06,Jamshedpur,Mohun Bagan Super Giant,2,1,1238,108,men,False
+3813267,Indian Super league,2021/2022,2021-12-07,East Bengal,Goa,3,4,1238,108,men,False
+3813265,Indian Super league,2021/2022,2022-01-07,East Bengal,Mumbai City,0,0,1238,108,men,False
+3813264,Indian Super league,2021/2022,2022-01-05,Mohun Bagan Super Giant,SC Delhi,2,2,1238,108,men,False

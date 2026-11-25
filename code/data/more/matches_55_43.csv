@@ -1,0 +1,52 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+3788758,UEFA Euro,2020,2021-06-17,Ukraine,North Macedonia,2,1,55,43,men,True
+3788773,UEFA Euro,2020,2021-06-23,Portugal,France,2,2,55,43,men,True
+3788765,UEFA Euro,2020,2021-06-20,Switzerland,Turkey,3,1,55,43,men,True
+3788761,UEFA Euro,2020,2021-06-18,Sweden,Slovakia,1,0,55,43,men,True
+3788760,UEFA Euro,2020,2021-06-18,Croatia,Czech Republic,1,1,55,43,men,True
+3795108,UEFA Euro,2020,2021-07-02,Switzerland,Spain,1,1,55,43,men,True
+3794687,UEFA Euro,2020,2021-06-27,Belgium,Portugal,1,0,55,43,men,True
+3794690,UEFA Euro,2020,2021-06-27,Netherlands,Czech Republic,0,2,55,43,men,True
+3794685,UEFA Euro,2020,2021-06-26,Italy,Austria,2,1,55,43,men,True
+3794692,UEFA Euro,2020,2021-06-29,Sweden,Ukraine,1,2,55,43,men,True
+3794689,UEFA Euro,2020,2021-06-26,Wales,Denmark,0,4,55,43,men,True
+3795107,UEFA Euro,2020,2021-07-02,Belgium,Italy,1,2,55,43,men,True
+3795187,UEFA Euro,2020,2021-07-03,Ukraine,England,0,4,55,43,men,True
+3795220,UEFA Euro,2020,2021-07-06,Italy,Spain,1,1,55,43,men,True
+3794686,UEFA Euro,2020,2021-06-28,Croatia,Spain,3,5,55,43,men,True
+3788763,UEFA Euro,2020,2021-06-19,Hungary,France,1,1,55,43,men,True
+3795506,UEFA Euro,2020,2021-07-11,Italy,England,1,1,55,43,men,True
+3788769,UEFA Euro,2020,2021-06-21,Russia,Denmark,1,4,55,43,men,True
+3788766,UEFA Euro,2020,2021-06-20,Italy,Wales,1,0,55,43,men,True
+3788764,UEFA Euro,2020,2021-06-19,Portugal,Germany,2,4,55,43,men,True
+3788755,UEFA Euro,2020,2021-06-16,Turkey,Wales,0,2,55,43,men,True
+3788754,UEFA Euro,2020,2021-06-16,Italy,Switzerland,3,0,55,43,men,True
+3788762,UEFA Euro,2020,2021-06-19,Spain,Poland,1,1,55,43,men,True
+3788747,UEFA Euro,2020,2021-06-13,Austria,North Macedonia,3,1,55,43,men,True
+3788741,UEFA Euro,2020,2021-06-11,Turkey,Italy,0,3,55,43,men,True
+3795109,UEFA Euro,2020,2021-07-03,Czech Republic,Denmark,1,2,55,43,men,True
+3788770,UEFA Euro,2020,2021-06-21,North Macedonia,Netherlands,0,3,55,43,men,True
+3794688,UEFA Euro,2020,2021-06-29,England,Germany,2,0,55,43,men,True
+3788774,UEFA Euro,2020,2021-06-23,Germany,Hungary,2,2,55,43,men,True
+3788771,UEFA Euro,2020,2021-06-22,Croatia,Scotland,3,1,55,43,men,True
+3788772,UEFA Euro,2020,2021-06-22,Czech Republic,England,0,1,55,43,men,True
+3788768,UEFA Euro,2020,2021-06-21,Finland,Belgium,0,2,55,43,men,True
+3788767,UEFA Euro,2020,2021-06-21,Ukraine,Austria,0,1,55,43,men,True
+3788753,UEFA Euro,2020,2021-06-16,Finland,Russia,0,1,55,43,men,True
+3788759,UEFA Euro,2020,2021-06-18,England,Scotland,0,0,55,43,men,True
+3788757,UEFA Euro,2020,2021-06-17,Denmark,Belgium,1,2,55,43,men,True
+3788745,UEFA Euro,2020,2021-06-13,England,Croatia,1,0,55,43,men,True
+3795221,UEFA Euro,2020,2021-07-07,England,Denmark,2,1,55,43,men,True
+3788746,UEFA Euro,2020,2021-06-13,Netherlands,Ukraine,3,2,55,43,men,True
+3794691,UEFA Euro,2020,2021-06-28,France,Switzerland,3,3,55,43,men,True
+3788756,UEFA Euro,2020,2021-06-17,Netherlands,Austria,2,0,55,43,men,True
+3788749,UEFA Euro,2020,2021-06-14,Poland,Slovakia,1,2,55,43,men,True
+3788750,UEFA Euro,2020,2021-06-14,Spain,Sweden,0,0,55,43,men,True
+3788748,UEFA Euro,2020,2021-06-14,Scotland,Czech Republic,0,2,55,43,men,True
+3788751,UEFA Euro,2020,2021-06-15,France,Germany,1,0,55,43,men,True
+3788752,UEFA Euro,2020,2021-06-15,Hungary,Portugal,0,3,55,43,men,True
+3788742,UEFA Euro,2020,2021-06-12,Denmark,Finland,0,1,55,43,men,True
+3788775,UEFA Euro,2020,2021-06-23,Slovakia,Spain,0,5,55,43,men,True
+3788776,UEFA Euro,2020,2021-06-23,Sweden,Poland,3,2,55,43,men,True
+3788743,UEFA Euro,2020,2021-06-12,Belgium,Russia,3,0,55,43,men,True
+3788744,UEFA Euro,2020,2021-06-12,Wales,Switzerland,1,1,55,43,men,True

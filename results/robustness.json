@@ -1,0 +1,61 @@
+{
+ "model_fit": {
+  "auc_in": 0.6038117902612316,
+  "auc_oof": 0.6012886789668529,
+  "brier_in": 0.23672482555209182,
+  "brier_oof": 0.23714431060654195,
+  "brier_base": 0.24469397328616332,
+  "max_cal_gap": 0.011711734962566389
+ },
+ "out_of_fold_ranking": {
+  "rank": 1,
+  "pool": 604,
+  "messi": 0.1314865647812095,
+  "second": 0.10240348058488362,
+  "spearman_in_vs_oof": 0.9998707682102868
+ },
+ "match_bootstrap": {
+  "reps": 2000,
+  "p_rank1": 0.1735,
+  "p_top3": 0.417,
+  "p_top10": 0.7605,
+  "rank_q05": 1.0,
+  "rank_q95": 28.0,
+  "messi_ci": [
+   0.0948444466790304,
+   0.20479984947681276
+  ]
+ },
+ "career_clustered": {
+  "seasons": 18,
+  "above": 17,
+  "lo_above_zero": 12,
+  "median_oe": 0.06853262495310902
+ },
+ "reliability": {
+  "split_half_r": 0.2537716612766338,
+  "spearman_brown": 0.4048132034157395,
+  "splits": 200,
+  "min_attempts_per_half": 15,
+  "corr_volume_adjusted": -0.0932161479287379
+ },
+ "eb_posterior_rank": {
+  "p_rank1": 0.14865,
+  "p_top3": 0.37225,
+  "p_top10": 0.7237,
+  "rank_q05": 1.0,
+  "rank_q95": 32.0,
+  "p_above_second": 0.74305,
+  "p_above_zero": 1.0
+ },
+ "extra_completions_per90": {
+  "messi": 1.0188875693705177,
+  "rank": 1,
+  "second": 0.5672286503744355,
+  "second_player": "Sofiane Boufal",
+  "third": 0.4646660238767038,
+  "third_player": "Neymar da Silva Santos Junior",
+  "p_rank1": 0.87045,
+  "p_top3": 0.98025
+ }
+}

@@ -1,0 +1,241 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+3911491,Liga F,2023/2024,2024-02-18,Real Madrid CF W,Costa Adeje Tenerife,2,1,182,281,women,False
+3910995,Liga F,2023/2024,2023-12-09,Real Madrid CF W,Sevilla FC,1,3,182,281,women,False
+3911510,Liga F,2023/2024,2024-03-16,Real Madrid CF W,SD Eibar,1,0,182,281,women,False
+3911515,Liga F,2023/2024,2024-03-24,Real Madrid CF W,Barcelona WFC,0,3,182,281,women,False
+3911296,Liga F,2023/2024,2024-01-07,Real Madrid CF W,Madrid CFF,2,1,182,281,women,False
+3911637,Liga F,2023/2024,2024-06-09,Real Madrid CF W,Athletic Club Bilbao,1,0,182,281,women,False
+3911010,Liga F,2023/2024,2023-12-16,Atletico Madrid W,Real Sociedad de Fútbol,1,1,182,281,women,False
+3910954,Liga F,2023/2024,2023-10-15,Atletico Madrid W,Barcelona WFC,0,1,182,281,women,False
+3910942,Liga F,2023/2024,2023-10-07,Atletico Madrid W,Sevilla FC,2,1,182,281,women,False
+3910968,Liga F,2023/2024,2023-11-05,Costa Adeje Tenerife,Atletico Madrid W,2,1,182,281,women,False
+3910934,Liga F,2023/2024,2023-09-30,Levante UD Femenino,Atletico Madrid W,1,1,182,281,women,False
+3910996,Liga F,2023/2024,2023-12-10,Real Betis Balompié,Atletico Madrid W,0,2,182,281,women,False
+3910984,Liga F,2023/2024,2023-11-19,Madrid CFF,Atletico Madrid W,1,4,182,281,women,False
+3911308,Liga F,2023/2024,2024-01-27,Athletic Club Bilbao,Real Madrid CF W,0,1,182,281,women,False
+3911294,Liga F,2023/2024,2024-01-07,Valencia CF,Atletico Madrid W,1,6,182,281,women,False
+3911309,Liga F,2023/2024,2024-01-27,Valencia CF,Costa Adeje Tenerife,1,1,182,281,women,False
+3911633,Liga F,2023/2024,2024-06-09,Villarreal,CD Sporting de Huelva,2,0,182,281,women,False
+3910970,Liga F,2023/2024,2023-11-04,Valencia CF,CD Sporting de Huelva,2,0,182,281,women,False
+3911641,Liga F,2023/2024,2024-06-14,CD Sporting de Huelva,Real Madrid CF W,1,4,182,281,women,False
+3911644,Liga F,2023/2024,2024-06-15,SD Eibar,Granada W,0,2,182,281,women,False
+3911642,Liga F,2023/2024,2024-06-15,Real Sociedad de Fútbol,FC Levante Badalona,2,2,182,281,women,False
+3911647,Liga F,2023/2024,2024-06-15,Atletico Madrid W,Villarreal,1,0,182,281,women,False
+3911645,Liga F,2023/2024,2024-06-15,Real Betis Balompié,Costa Adeje Tenerife,1,0,182,281,women,False
+3911630,Liga F,2023/2024,2024-05-25,CD Sporting de Huelva,Granada W,2,1,182,281,women,False
+3911560,Liga F,2023/2024,2024-05-12,Madrid CFF,Valencia CF,6,1,182,281,women,False
+3911627,Liga F,2023/2024,2024-05-25,Levante UD Femenino,Villarreal,2,1,182,281,women,False
+3911626,Liga F,2023/2024,2024-05-24,Athletic Club Bilbao,Costa Adeje Tenerife,4,1,182,281,women,False
+3911566,Liga F,2023/2024,2024-05-10,Villarreal,SD Eibar,1,1,182,281,women,False
+3911551,Liga F,2023/2024,2024-05-04,Athletic Club Bilbao,Villarreal,1,0,182,281,women,False
+3911552,Liga F,2023/2024,2024-05-04,Atletico Madrid W,Costa Adeje Tenerife,1,0,182,281,women,False
+3911549,Liga F,2023/2024,2024-04-27,Villarreal,Granada W,1,2,182,281,women,False
+3911550,Liga F,2023/2024,2024-04-27,Sevilla FC,Levante UD Femenino,1,3,182,281,women,False
+3911559,Liga F,2023/2024,2024-05-11,FC Levante Badalona,Levante UD Femenino,1,1,182,281,women,False
+3911564,Liga F,2023/2024,2024-05-11,Granada W,Real Betis Balompié,2,3,182,281,women,False
+3911562,Liga F,2023/2024,2024-05-10,Barcelona WFC,Athletic Club Bilbao,7,0,182,281,women,False
+3911535,Liga F,2023/2024,2024-04-21,Atletico Madrid W,Real Betis Balompié,5,1,182,281,women,False
+3911538,Liga F,2023/2024,2024-04-20,Madrid CFF,Athletic Club Bilbao,2,1,182,281,women,False
+3911536,Liga F,2023/2024,2024-04-20,Granada W,Costa Adeje Tenerife,2,1,182,281,women,False
+3911537,Liga F,2023/2024,2024-04-20,Levante UD Femenino,Real Madrid CF W,2,4,182,281,women,False
+3911530,Liga F,2023/2024,2024-04-13,SD Eibar,Sevilla FC,3,0,182,281,women,False
+3911532,Liga F,2023/2024,2024-04-14,Valencia CF,Levante UD Femenino,1,1,182,281,women,False
+3911529,Liga F,2023/2024,2024-04-13,Real Sociedad de Fútbol,CD Sporting de Huelva,1,1,182,281,women,False
+3911528,Liga F,2023/2024,2024-04-13,Barcelona WFC,Villarreal,5,1,182,281,women,False
+3911556,Liga F,2023/2024,2024-05-04,Granada W,Barcelona WFC,1,4,182,281,women,False
+3911545,Liga F,2023/2024,2024-04-27,Costa Adeje Tenerife,Valencia CF,1,0,182,281,women,False
+3911508,Liga F,2023/2024,2024-03-16,CD Sporting de Huelva,Levante UD Femenino,1,1,182,281,women,False
+3911521,Liga F,2023/2024,2024-03-31,Granada W,Madrid CFF,3,0,182,281,women,False
+3911523,Liga F,2023/2024,2024-03-31,CD Sporting de Huelva,Costa Adeje Tenerife,1,2,182,281,women,False
+3911513,Liga F,2023/2024,2024-03-23,Real Sociedad de Fútbol,Athletic Club Bilbao,0,1,182,281,women,False
+3911506,Liga F,2023/2024,2024-03-17,Granada W,Atletico Madrid W,0,1,182,281,women,False
+3911503,Liga F,2023/2024,2024-03-17,Athletic Club Bilbao,Valencia CF,2,0,182,281,women,False
+3911504,Liga F,2023/2024,2024-03-17,Barcelona WFC,Costa Adeje Tenerife,7,0,182,281,women,False
+3911518,Liga F,2023/2024,2024-03-23,Costa Adeje Tenerife,Sevilla FC,5,0,182,281,women,False
+3911495,Liga F,2023/2024,2024-03-09,Madrid CFF,SD Eibar,1,2,182,281,women,False
+3911496,Liga F,2023/2024,2024-03-10,Atletico Madrid W,CD Sporting de Huelva,1,0,182,281,women,False
+3911498,Liga F,2023/2024,2024-03-10,Real Sociedad de Fútbol,Barcelona WFC,1,7,182,281,women,False
+3911525,Liga F,2023/2024,2024-03-30,Villarreal,Real Madrid CF W,0,2,182,281,women,False
+3911526,Liga F,2023/2024,2024-03-30,Sevilla FC,Real Sociedad de Fútbol,4,2,182,281,women,False
+3911517,Liga F,2023/2024,2024-03-23,Levante UD Femenino,Real Betis Balompié,7,0,182,281,women,False
+3911520,Liga F,2023/2024,2024-03-30,Atletico Madrid W,Valencia CF,1,0,182,281,women,False
+3911499,Liga F,2023/2024,2024-03-09,FC Levante Badalona,Granada W,1,2,182,281,women,False
+3911501,Liga F,2023/2024,2024-03-09,Sevilla FC,Real Madrid CF W,0,1,182,281,women,False
+3911472,Liga F,2023/2024,2024-02-04,Barcelona WFC,CD Sporting de Huelva,4,0,182,281,women,False
+3911475,Liga F,2023/2024,2024-02-03,Villarreal,Real Betis Balompié,2,1,182,281,women,False
+3911477,Liga F,2023/2024,2024-02-03,Granada W,Athletic Club Bilbao,2,0,182,281,women,False
+3911314,Liga F,2023/2024,2024-01-27,CD Sporting de Huelva,Villarreal,0,1,182,281,women,False
+3911312,Liga F,2023/2024,2024-01-28,Levante UD Femenino,Granada W,2,2,182,281,women,False
+3911311,Liga F,2023/2024,2024-01-28,Real Sociedad de Fútbol,Madrid CFF,1,1,182,281,women,False
+3911300,Liga F,2023/2024,2024-01-20,FC Levante Badalona,Real Sociedad de Fútbol,0,2,182,281,women,False
+3911305,Liga F,2023/2024,2024-01-21,Granada W,CD Sporting de Huelva,0,1,182,281,women,False
+3911474,Liga F,2023/2024,2024-02-03,Real Madrid CF W,Valencia CF,7,1,182,281,women,False
+3910937,Liga F,2023/2024,2023-10-01,Costa Adeje Tenerife,Real Madrid CF W,1,2,182,281,women,False
+3910952,Liga F,2023/2024,2023-10-15,Costa Adeje Tenerife,Real Betis Balompié,1,0,182,281,women,False
+3911302,Liga F,2023/2024,2024-01-21,Costa Adeje Tenerife,Athletic Club Bilbao,1,1,182,281,women,False
+3911297,Liga F,2023/2024,2024-01-07,CD Sporting de Huelva,Sevilla FC,1,3,182,281,women,False
+3911313,Liga F,2023/2024,2024-01-27,FC Levante Badalona,Atletico Madrid W,1,1,182,281,women,False
+3911301,Liga F,2023/2024,2024-01-20,Madrid CFF,Real Betis Balompié,3,1,182,281,women,False
+3911306,Liga F,2023/2024,2024-02-14,Barcelona WFC,Levante UD Femenino,1,1,182,281,women,False
+3911307,Liga F,2023/2024,2024-02-14,Atletico Madrid W,Real Madrid CF W,1,1,182,281,women,False
+3911303,Liga F,2023/2024,2024-01-20,Sevilla FC,Villarreal,3,1,182,281,women,False
+3911293,Liga F,2023/2024,2024-01-06,Barcelona WFC,FC Levante Badalona,9,1,182,281,women,False
+3911003,Liga F,2023/2024,2023-12-17,FC Levante Badalona,Real Madrid CF W,0,2,182,281,women,False
+3911004,Liga F,2023/2024,2023-12-17,Granada W,Valencia CF,0,1,182,281,women,False
+3911002,Liga F,2023/2024,2023-12-10,Athletic Club Bilbao,Levante UD Femenino,1,0,182,281,women,False
+3910998,Liga F,2023/2024,2023-12-09,Costa Adeje Tenerife,Granada W,2,0,182,281,women,False
+3911009,Liga F,2023/2024,2023-12-16,SD Eibar,Real Betis Balompié,3,2,182,281,women,False
+3911006,Liga F,2023/2024,2023-12-16,Madrid CFF,Villarreal,2,0,182,281,women,False
+3911000,Liga F,2023/2024,2023-12-09,CD Sporting de Huelva,Real Sociedad de Fútbol,1,2,182,281,women,False
+3910987,Liga F,2023/2024,2023-11-26,Atletico Madrid W,Granada W,2,0,182,281,women,False
+3910991,Liga F,2023/2024,2023-11-25,Sevilla FC,Real Betis Balompié,6,0,182,281,women,False
+3910980,Liga F,2023/2024,2023-11-19,Real Betis Balompié,FC Levante Badalona,1,0,182,281,women,False
+3910971,Liga F,2023/2024,2023-11-11,Atletico Madrid W,SD Eibar,3,0,182,281,women,False
+3910956,Liga F,2023/2024,2023-10-22,FC Levante Badalona,Sevilla FC,1,2,182,281,women,False
+3910958,Liga F,2023/2024,2023-10-21,Real Betis Balompié,Valencia CF,2,2,182,281,women,False
+3910974,Liga F,2023/2024,2023-11-10,Real Madrid CF W,Real Sociedad de Fútbol,7,1,182,281,women,False
+3910967,Liga F,2023/2024,2023-11-04,Real Betis Balompié,Athletic Club Bilbao,1,0,182,281,women,False
+3910965,Liga F,2023/2024,2023-11-04,Real Sociedad de Fútbol,Villarreal,1,0,182,281,women,False
+3910977,Liga F,2023/2024,2023-11-11,CD Sporting de Huelva,Real Betis Balompié,1,3,182,281,women,False
+3910981,Liga F,2023/2024,2023-11-18,Real Sociedad de Fútbol,Sevilla FC,1,2,182,281,women,False
+3910985,Liga F,2023/2024,2023-11-18,Costa Adeje Tenerife,Levante UD Femenino,0,1,182,281,women,False
+3910983,Liga F,2023/2024,2023-11-18,Valencia CF,Athletic Club Bilbao,1,2,182,281,women,False
+3910966,Liga F,2023/2024,2023-11-04,SD Eibar,Real Madrid CF W,0,1,182,281,women,False
+3910982,Liga F,2023/2024,2023-11-18,SD Eibar,CD Sporting de Huelva,1,0,182,281,women,False
+3910953,Liga F,2023/2024,2023-10-14,Real Sociedad de Fútbol,SD Eibar,3,1,182,281,women,False
+3910955,Liga F,2023/2024,2023-10-21,Barcelona WFC,Granada W,6,1,182,281,women,False
+3911648,Liga F,2023/2024,2024-06-16,Athletic Club Bilbao,Sevilla FC,2,1,182,281,women,False
+3911646,Liga F,2023/2024,2024-06-15,Levante UD Femenino,Madrid CFF,3,0,182,281,women,False
+3911643,Liga F,2023/2024,2024-06-16,Valencia CF,Barcelona WFC,0,3,182,281,women,False
+3911640,Liga F,2023/2024,2024-06-09,FC Levante Badalona,Valencia CF,3,0,182,281,women,False
+3911639,Liga F,2023/2024,2024-06-09,Granada W,Levante UD Femenino,0,3,182,281,women,False
+3911638,Liga F,2023/2024,2024-06-09,Madrid CFF,Real Sociedad de Fútbol,2,3,182,281,women,False
+3911636,Liga F,2023/2024,2024-06-09,Barcelona WFC,Real Betis Balompié,5,1,182,281,women,False
+3911635,Liga F,2023/2024,2024-06-09,Costa Adeje Tenerife,SD Eibar,1,1,182,281,women,False
+3911634,Liga F,2023/2024,2024-06-09,Sevilla FC,Atletico Madrid W,1,1,182,281,women,False
+3911632,Liga F,2023/2024,2024-05-26,Valencia CF,Sevilla FC,3,1,182,281,women,False
+3911631,Liga F,2023/2024,2024-05-26,Real Sociedad de Fútbol,Real Madrid CF W,1,2,182,281,women,False
+3911629,Liga F,2023/2024,2024-05-14,SD Eibar,Barcelona WFC,0,4,182,281,women,False
+3911628,Liga F,2023/2024,2024-05-26,Real Betis Balompié,Madrid CFF,0,0,182,281,women,False
+3911625,Liga F,2023/2024,2024-05-24,Atletico Madrid W,FC Levante Badalona,3,1,182,281,women,False
+3911565,Liga F,2023/2024,2024-05-12,Costa Adeje Tenerife,Real Sociedad de Fútbol,0,1,182,281,women,False
+3911563,Liga F,2023/2024,2024-05-11,Real Madrid CF W,Atletico Madrid W,2,3,182,281,women,False
+3911561,Liga F,2023/2024,2024-05-12,Sevilla FC,CD Sporting de Huelva,2,0,182,281,women,False
+3911558,Liga F,2023/2024,2024-05-04,Valencia CF,SD Eibar,0,2,182,281,women,False
+3911557,Liga F,2023/2024,2024-05-05,CD Sporting de Huelva,FC Levante Badalona,1,2,182,281,women,False
+3911555,Liga F,2023/2024,2024-05-05,Real Betis Balompié,Sevilla FC,1,1,182,281,women,False
+3911554,Liga F,2023/2024,2024-05-05,Madrid CFF,Real Madrid CF W,0,1,182,281,women,False
+3911553,Liga F,2023/2024,2024-05-05,Levante UD Femenino,Real Sociedad de Fútbol,4,3,182,281,women,False
+3911548,Liga F,2023/2024,2024-04-28,Real Madrid CF W,FC Levante Badalona,2,1,182,281,women,False
+3911547,Liga F,2023/2024,2024-04-28,Real Sociedad de Fútbol,Atletico Madrid W,0,2,182,281,women,False
+3911546,Liga F,2023/2024,2024-04-28,SD Eibar,Athletic Club Bilbao,0,2,182,281,women,False
+3911544,Liga F,2023/2024,2024-04-27,Real Betis Balompié,CD Sporting de Huelva,3,1,182,281,women,False
+3911543,Liga F,2023/2024,2024-05-01,Barcelona WFC,Madrid CFF,8,0,182,281,women,False
+3911542,Liga F,2023/2024,2024-04-21,Villarreal,Sevilla FC,1,2,182,281,women,False
+3911541,Liga F,2023/2024,2024-04-20,CD Sporting de Huelva,SD Eibar,0,1,182,281,women,False
+3911540,Liga F,2023/2024,2024-04-21,Valencia CF,Real Sociedad de Fútbol,3,0,182,281,women,False
+3911539,Liga F,2023/2024,2024-04-24,FC Levante Badalona,Barcelona WFC,2,4,182,281,women,False
+3911534,Liga F,2023/2024,2024-04-13,FC Levante Badalona,Real Betis Balompié,1,2,182,281,women,False
+3911533,Liga F,2023/2024,2024-04-14,Costa Adeje Tenerife,Madrid CFF,2,2,182,281,women,False
+3911531,Liga F,2023/2024,2024-04-14,Real Madrid CF W,Granada W,5,0,182,281,women,False
+3911527,Liga F,2023/2024,2024-04-14,Athletic Club Bilbao,Atletico Madrid W,1,0,182,281,women,False
+3911524,Liga F,2023/2024,2024-03-31,Levante UD Femenino,Barcelona WFC,0,5,182,281,women,False
+3911522,Liga F,2023/2024,2024-03-30,Real Betis Balompié,SD Eibar,0,0,182,281,women,False
+3911519,Liga F,2023/2024,2024-03-31,Athletic Club Bilbao,FC Levante Badalona,4,1,182,281,women,False
+3911516,Liga F,2023/2024,2024-03-23,Valencia CF,Granada W,4,1,182,281,women,False
+3911514,Liga F,2023/2024,2024-03-24,SD Eibar,Atletico Madrid W,1,1,182,281,women,False
+3911512,Liga F,2023/2024,2024-03-24,Madrid CFF,CD Sporting de Huelva,2,1,182,281,women,False
+3911511,Liga F,2023/2024,2024-03-24,FC Levante Badalona,Villarreal,1,1,182,281,women,False
+3911509,Liga F,2023/2024,2024-03-16,Villarreal,Madrid CFF,1,4,182,281,women,False
+3911507,Liga F,2023/2024,2024-03-16,Sevilla FC,FC Levante Badalona,3,0,182,281,women,False
+3911505,Liga F,2023/2024,2024-03-17,Real Betis Balompié,Real Sociedad de Fútbol,0,0,182,281,women,False
+3911502,Liga F,2023/2024,2024-03-09,Costa Adeje Tenerife,Villarreal,1,1,182,281,women,False
+3911500,Liga F,2023/2024,2024-03-10,Valencia CF,Real Betis Balompié,2,2,182,281,women,False
+3911497,Liga F,2023/2024,2024-03-10,Levante UD Femenino,Athletic Club Bilbao,1,2,182,281,women,False
+3911494,Liga F,2023/2024,2024-02-17,CD Sporting de Huelva,Valencia CF,1,3,182,281,women,False
+3911493,Liga F,2023/2024,2024-02-17,Villarreal,Real Sociedad de Fútbol,1,1,182,281,women,False
+3911492,Liga F,2023/2024,2024-02-18,SD Eibar,Levante UD Femenino,0,0,182,281,women,False
+3911490,Liga F,2023/2024,2024-02-17,Granada W,Sevilla FC,2,2,182,281,women,False
+3911489,Liga F,2023/2024,2024-02-18,Barcelona WFC,Atletico Madrid W,2,0,182,281,women,False
+3911488,Liga F,2023/2024,2024-02-17,Athletic Club Bilbao,Real Betis Balompié,1,0,182,281,women,False
+3911487,Liga F,2023/2024,2024-02-18,Madrid CFF,FC Levante Badalona,2,1,182,281,women,False
+3911486,Liga F,2023/2024,2024-02-11,Atletico Madrid W,Madrid CFF,1,1,182,281,women,False
+3911485,Liga F,2023/2024,2024-02-11,Levante UD Femenino,Costa Adeje Tenerife,1,0,182,281,women,False
+3911484,Liga F,2023/2024,2024-02-11,Real Betis Balompié,Real Madrid CF W,1,4,182,281,women,False
+3911483,Liga F,2023/2024,2024-02-11,CD Sporting de Huelva,Athletic Club Bilbao,1,2,182,281,women,False
+3911482,Liga F,2023/2024,2024-02-10,Sevilla FC,Barcelona WFC,0,3,182,281,women,False
+3911481,Liga F,2023/2024,2024-02-11,Real Sociedad de Fútbol,Granada W,1,1,182,281,women,False
+3911480,Liga F,2023/2024,2024-02-10,FC Levante Badalona,SD Eibar,1,1,182,281,women,False
+3911479,Liga F,2023/2024,2024-02-10,Valencia CF,Villarreal,0,1,182,281,women,False
+3911478,Liga F,2023/2024,2024-02-04,Costa Adeje Tenerife,FC Levante Badalona,1,1,182,281,women,False
+3911476,Liga F,2023/2024,2024-02-04,SD Eibar,Real Sociedad de Fútbol,0,2,182,281,women,False
+3911473,Liga F,2023/2024,2024-02-03,Madrid CFF,Sevilla FC,3,3,182,281,women,False
+3911471,Liga F,2023/2024,2024-02-03,Atletico Madrid W,Levante UD Femenino,0,1,182,281,women,False
+3911315,Liga F,2023/2024,2024-01-28,Real Betis Balompié,Barcelona WFC,0,6,182,281,women,False
+3911310,Liga F,2023/2024,2024-01-28,Sevilla FC,SD Eibar,3,0,182,281,women,False
+3911304,Liga F,2023/2024,2024-01-21,SD Eibar,Valencia CF,1,0,182,281,women,False
+3911299,Liga F,2023/2024,2024-01-07,Real Betis Balompié,Granada W,2,3,182,281,women,False
+3911298,Liga F,2023/2024,2024-01-07,Athletic Club Bilbao,SD Eibar,2,0,182,281,women,False
+3911295,Liga F,2023/2024,2024-01-06,Villarreal,Levante UD Femenino,0,5,182,281,women,False
+3911292,Liga F,2023/2024,2024-01-07,Real Sociedad de Fútbol,Costa Adeje Tenerife,3,3,182,281,women,False
+3911008,Liga F,2023/2024,2023-12-17,Costa Adeje Tenerife,Barcelona WFC,0,2,182,281,women,False
+3911007,Liga F,2023/2024,2023-12-17,Sevilla FC,Athletic Club Bilbao,1,1,182,281,women,False
+3911005,Liga F,2023/2024,2023-12-16,Levante UD Femenino,CD Sporting de Huelva,2,0,182,281,women,False
+3911001,Liga F,2023/2024,2023-12-09,Barcelona WFC,SD Eibar,5,0,182,281,women,False
+3910999,Liga F,2023/2024,2023-12-10,Valencia CF,Madrid CFF,3,4,182,281,women,False
+3910997,Liga F,2023/2024,2023-12-10,Villarreal,FC Levante Badalona,2,2,182,281,women,False
+3910994,Liga F,2023/2024,2023-11-26,Athletic Club Bilbao,Barcelona WFC,0,4,182,281,women,False
+3910993,Liga F,2023/2024,2023-11-25,Villarreal,Costa Adeje Tenerife,1,1,182,281,women,False
+3910992,Liga F,2023/2024,2023-11-25,Levante UD Femenino,SD Eibar,3,0,182,281,women,False
+3910990,Liga F,2023/2024,2023-11-25,Real Sociedad de Fútbol,Valencia CF,2,0,182,281,women,False
+3910989,Liga F,2023/2024,2023-11-26,Real Madrid CF W,CD Sporting de Huelva,5,2,182,281,women,False
+3910988,Liga F,2023/2024,2023-11-26,FC Levante Badalona,Madrid CFF,3,4,182,281,women,False
+3910986,Liga F,2023/2024,2023-11-19,Barcelona WFC,Real Madrid CF W,5,0,182,281,women,False
+3910979,Liga F,2023/2024,2023-11-19,Granada W,Villarreal,1,2,182,281,women,False
+3910978,Liga F,2023/2024,2023-11-12,Athletic Club Bilbao,Madrid CFF,1,2,182,281,women,False
+3910976,Liga F,2023/2024,2023-11-12,Sevilla FC,Granada W,1,0,182,281,women,False
+3910975,Liga F,2023/2024,2023-11-11,Villarreal,Barcelona WFC,0,6,182,281,women,False
+3910973,Liga F,2023/2024,2023-11-12,Levante UD Femenino,Valencia CF,3,1,182,281,women,False
+3910972,Liga F,2023/2024,2023-11-12,FC Levante Badalona,Costa Adeje Tenerife,3,1,182,281,women,False
+3910969,Liga F,2023/2024,2023-11-05,Madrid CFF,Levante UD Femenino,0,1,182,281,women,False
+3910964,Liga F,2023/2024,2023-11-05,Barcelona WFC,Sevilla FC,8,0,182,281,women,False
+3910963,Liga F,2023/2024,2023-11-05,Granada W,FC Levante Badalona,0,1,182,281,women,False
+3910962,Liga F,2023/2024,2023-10-22,Athletic Club Bilbao,Real Sociedad de Fútbol,2,1,182,281,women,False
+3910961,Liga F,2023/2024,2023-10-22,Real Madrid CF W,Levante UD Femenino,1,2,182,281,women,False
+3910960,Liga F,2023/2024,2023-10-21,CD Sporting de Huelva,Atletico Madrid W,0,2,182,281,women,False
+3910959,Liga F,2023/2024,2023-10-21,SD Eibar,Villarreal,0,0,182,281,women,False
+3910957,Liga F,2023/2024,2023-10-22,Madrid CFF,Costa Adeje Tenerife,3,2,182,281,women,False
+3910951,Liga F,2023/2024,2023-10-15,CD Sporting de Huelva,Madrid CFF,1,3,182,281,women,False
+3910950,Liga F,2023/2024,2023-10-15,Levante UD Femenino,FC Levante Badalona,1,1,182,281,women,False
+3910949,Liga F,2023/2024,2023-10-14,Villarreal,Athletic Club Bilbao,3,0,182,281,women,False
+3910948,Liga F,2023/2024,2023-10-14,Sevilla FC,Valencia CF,1,2,182,281,women,False
+3910947,Liga F,2023/2024,2023-10-14,Granada W,Real Madrid CF W,2,5,182,281,women,False
+3910946,Liga F,2023/2024,2023-10-09,Valencia CF,FC Levante Badalona,1,1,182,281,women,False
+3910945,Liga F,2023/2024,2023-10-07,Real Madrid CF W,Villarreal,1,0,182,281,women,False
+3910944,Liga F,2023/2024,2023-10-08,Real Betis Balompié,Levante UD Femenino,0,4,182,281,women,False
+3910943,Liga F,2023/2024,2023-10-08,Barcelona WFC,Real Sociedad de Fútbol,3,0,182,281,women,False
+3910941,Liga F,2023/2024,2023-10-09,Athletic Club Bilbao,CD Sporting de Huelva,3,0,182,281,women,False
+3910940,Liga F,2023/2024,2023-10-08,SD Eibar,Costa Adeje Tenerife,0,1,182,281,women,False
+3910939,Liga F,2023/2024,2023-10-08,Madrid CFF,Granada W,1,0,182,281,women,False
+3910938,Liga F,2023/2024,2023-10-01,FC Levante Badalona,Athletic Club Bilbao,2,1,182,281,women,False
+3910936,Liga F,2023/2024,2023-10-01,CD Sporting de Huelva,Barcelona WFC,1,2,182,281,women,False
+3910935,Liga F,2023/2024,2023-10-01,Real Sociedad de Fútbol,Real Betis Balompié,2,1,182,281,women,False
+3910933,Liga F,2023/2024,2023-09-30,Sevilla FC,Madrid CFF,1,5,182,281,women,False
+3910932,Liga F,2023/2024,2023-09-30,Granada W,SD Eibar,1,2,182,281,women,False
+3910931,Liga F,2023/2024,2023-09-30,Villarreal,Valencia CF,1,2,182,281,women,False
+3910751,Liga F,2023/2024,2023-09-17,Levante UD Femenino,Sevilla FC,2,0,182,281,women,False
+3910750,Liga F,2023/2024,2023-09-17,Granada W,Real Sociedad de Fútbol,2,1,182,281,women,False
+3910749,Liga F,2023/2024,2023-09-17,Costa Adeje Tenerife,CD Sporting de Huelva,2,0,182,281,women,False
+3910748,Liga F,2023/2024,2023-09-16,Madrid CFF,Barcelona WFC,0,2,182,281,women,False
+3910747,Liga F,2023/2024,2023-09-16,SD Eibar,FC Levante Badalona,1,2,182,281,women,False
+3910746,Liga F,2023/2024,2023-09-16,Atletico Madrid W,Athletic Club Bilbao,3,0,182,281,women,False
+3910745,Liga F,2023/2024,2023-09-16,Real Betis Balompié,Villarreal,1,0,182,281,women,False
+3910744,Liga F,2023/2024,2023-09-15,Valencia CF,Real Madrid CF W,0,2,182,281,women,False
+3910743,Liga F,2023/2024,2023-10-03,Villarreal,Atletico Madrid W,1,3,182,281,women,False
+3910742,Liga F,2023/2024,2023-10-05,FC Levante Badalona,CD Sporting de Huelva,1,1,182,281,women,False
+3910741,Liga F,2023/2024,2023-10-04,Real Sociedad de Fútbol,Levante UD Femenino,1,1,182,281,women,False
+3910740,Liga F,2023/2024,2023-10-05,Barcelona WFC,Valencia CF,6,0,182,281,women,False
+3910739,Liga F,2023/2024,2023-10-04,Athletic Club Bilbao,Granada W,1,0,182,281,women,False
+3910738,Liga F,2023/2024,2023-10-04,SD Eibar,Madrid CFF,1,6,182,281,women,False
+3910737,Liga F,2023/2024,2023-10-04,Real Madrid CF W,Real Betis Balompié,5,1,182,281,women,False
+3910736,Liga F,2023/2024,2023-10-04,Sevilla FC,Costa Adeje Tenerife,5,1,182,281,women,False

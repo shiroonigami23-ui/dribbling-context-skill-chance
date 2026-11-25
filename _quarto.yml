@@ -13,7 +13,6 @@ format:
       hypothesis: true
     template-partials:
       - _extensions/quarto-journals/jasa/partials/title-metadata.html
-  jasa-pdf: default
-
-
-
+  jasa-pdf:
+    keep-tex: true
+    pdf-engine: pdflatex

@@ -1,0 +1,53 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+69284,Women's World Cup,2019,2019-07-03,Netherlands Women's,Sweden Women's,1,0,72,30,women,False
+68312,Women's World Cup,2019,2019-06-18,Italy Women's,Brazil Women's,0,1,72,30,women,False
+69163,Women's World Cup,2019,2019-06-24,Sweden Women's,Canada Women's,1,0,72,30,women,False
+22964,Women's World Cup,2019,2019-06-15,Netherlands Women's,Cameroon W,3,1,72,30,women,False
+69301,Women's World Cup,2019,2019-07-06,England Women's,Sweden Women's,1,2,72,30,women,False
+22963,Women's World Cup,2019,2019-06-14,Jamaica Women's,Italy Women's,0,5,72,30,women,False
+69137,Women's World Cup,2019,2019-06-23,France Women's,Brazil Women's,2,1,72,30,women,False
+68355,Women's World Cup,2019,2019-06-22,Germany Women's,Nigeria Women's,3,0,72,30,women,False
+68357,Women's World Cup,2019,2019-06-22,Norway Women's,Australia Women's,1,1,72,30,women,False
+22973,Women's World Cup,2019,2019-06-16,Sweden Women's,Thailand W,5,1,72,30,women,False
+68346,Women's World Cup,2019,2019-06-20,Cameroon W,New Zealand Women's,2,1,72,30,women,False
+22983,Women's World Cup,2019,2019-06-17,China PR Women's,Spain Women's,0,0,72,30,women,False
+69208,Women's World Cup,2019,2019-06-29,Germany Women's,Sweden Women's,1,2,72,30,women,False
+22949,Women's World Cup,2019,2019-06-12,Germany Women's,Spain Women's,1,0,72,30,women,False
+69321,Women's World Cup,2019,2019-07-07,United States Women's,Netherlands Women's,2,0,72,30,women,False
+22943,Women's World Cup,2019,2019-06-11,United States Women's,Thailand W,13,0,72,30,women,False
+68362,Women's World Cup,2019,2019-06-23,England Women's,Cameroon W,3,0,72,30,women,False
+68343,Women's World Cup,2019,2019-06-20,Thailand W,Chile Women's,0,2,72,30,women,False
+68311,Women's World Cup,2019,2019-06-18,Jamaica Women's,Australia Women's,1,4,72,30,women,False
+22980,Women's World Cup,2019,2019-06-17,Nigeria Women's,France Women's,0,1,72,30,women,False
+69202,Women's World Cup,2019,2019-06-28,France Women's,United States Women's,1,2,72,30,women,False
+69258,Women's World Cup,2019,2019-07-02,England Women's,United States Women's,1,2,72,30,women,False
+22948,Women's World Cup,2019,2019-06-12,France Women's,Norway Women's,2,1,72,30,women,False
+22966,Women's World Cup,2019,2019-06-15,Canada Women's,New Zealand Women's,2,0,72,30,women,False
+22961,Women's World Cup,2019,2019-06-14,Japan Women's,Scotland W,2,1,72,30,women,False
+22955,Women's World Cup,2019,2019-06-13,Australia Women's,Brazil Women's,3,2,72,30,women,False
+69188,Women's World Cup,2019,2019-06-25,Netherlands Women's,Japan Women's,2,1,72,30,women,False
+69191,Women's World Cup,2019,2019-06-25,Italy Women's,China PR Women's,2,0,72,30,women,False
+68344,Women's World Cup,2019,2019-06-20,Netherlands Women's,Canada Women's,2,1,72,30,women,False
+22962,Women's World Cup,2019,2019-06-14,England Women's,Argentina Women's,1,0,72,30,women,False
+68338,Women's World Cup,2019,2019-06-19,Scotland W,Argentina Women's,3,3,72,30,women,False
+22936,Women's World Cup,2019,2019-06-09,England Women's,Scotland W,2,1,72,30,women,False
+22926,Women's World Cup,2019,2019-06-08,Germany Women's,China PR Women's,1,0,72,30,women,False
+22944,Women's World Cup,2019,2019-06-11,Chile Women's,Sweden Women's,0,2,72,30,women,False
+22933,Women's World Cup,2019,2019-06-09,Australia Women's,Italy Women's,1,2,72,30,women,False
+22940,Women's World Cup,2019,2019-06-10,Argentina Women's,Japan Women's,0,0,72,30,women,False
+22945,Women's World Cup,2019,2019-06-12,Nigeria Women's,Korea Republic Women's,2,0,72,30,women,False
+22956,Women's World Cup,2019,2019-06-13,South Africa Women's,China PR Women's,0,1,72,30,women,False
+68345,Women's World Cup,2019,2019-06-20,Sweden Women's,United States Women's,0,2,72,30,women,False
+68337,Women's World Cup,2019,2019-06-19,Japan Women's,England Women's,0,2,72,30,women,False
+22981,Women's World Cup,2019,2019-06-17,Korea Republic Women's,Norway Women's,1,2,72,30,women,False
+22974,Women's World Cup,2019,2019-06-16,United States Women's,Chile Women's,3,0,72,30,women,False
+22924,Women's World Cup,2019,2019-06-08,Norway Women's,Nigeria Women's,3,0,72,30,women,False
+22921,Women's World Cup,2019,2019-06-07,France Women's,Korea Republic Women's,4,0,72,30,women,False
+22930,Women's World Cup,2019,2019-06-08,Spain Women's,South Africa Women's,3,1,72,30,women,False
+22934,Women's World Cup,2019,2019-06-09,Brazil Women's,Jamaica Women's,3,0,72,30,women,False
+22939,Women's World Cup,2019,2019-06-10,Canada Women's,Cameroon W,1,0,72,30,women,False
+22942,Women's World Cup,2019,2019-06-11,New Zealand Women's,Netherlands Women's,0,1,72,30,women,False
+22984,Women's World Cup,2019,2019-06-17,South Africa Women's,Germany Women's,0,4,72,30,women,False
+69199,Women's World Cup,2019,2019-06-27,Norway Women's,England Women's,0,3,72,30,women,False
+69205,Women's World Cup,2019,2019-06-29,Italy Women's,Netherlands Women's,0,2,72,30,women,False
+69161,Women's World Cup,2019,2019-06-24,Spain Women's,United States Women's,1,2,72,30,women,False

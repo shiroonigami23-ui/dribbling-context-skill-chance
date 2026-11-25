@@ -1,0 +1,108 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+19770,FA Women's Super League,2018/2019,2018-12-02,Manchester City WFC,Arsenal WFC,2,0,37,4,women,False
+19820,FA Women's Super League,2018/2019,2019-05-11,Reading WFC,Chelsea FCW,2,3,37,4,women,False
+19772,FA Women's Super League,2018/2019,2018-12-02,Chelsea FCW,Reading WFC,1,0,37,4,women,False
+19769,FA Women's Super League,2018/2019,2018-12-02,Brighton & Hove Albion WFC,West Ham United LFC,0,1,37,4,women,False
+19746,FA Women's Super League,2018/2019,2018-10-28,Everton LFC,West Ham United LFC,1,2,37,4,women,False
+19778,FA Women's Super League,2018/2019,2018-12-09,Manchester City WFC,Birmingham City WFC,1,0,37,4,women,False
+19771,FA Women's Super League,2018/2019,2018-12-02,Birmingham City WFC,Yeovil Town LFC,2,1,37,4,women,False
+19736,FA Women's Super League,2018/2019,2018-10-14,Chelsea FCW,Arsenal WFC,0,5,37,4,women,False
+19745,FA Women's Super League,2018/2019,2018-10-28,Brighton & Hove Albion WFC,Yeovil Town LFC,2,1,37,4,women,False
+19730,FA Women's Super League,2018/2019,2018-09-30,Chelsea FCW,Brighton & Hove Albion WFC,2,0,37,4,women,False
+19794,FA Women's Super League,2018/2019,2019-02-20,Chelsea FCW,Bristol City WFC,6,0,37,4,women,False
+19766,FA Women's Super League,2018/2019,2018-11-25,Arsenal WFC,Brighton & Hove Albion WFC,4,1,37,4,women,False
+19734,FA Women's Super League,2018/2019,2018-10-14,Everton LFC,Brighton & Hove Albion WFC,3,3,37,4,women,False
+19717,FA Women's Super League,2018/2019,2018-09-09,Arsenal WFC,Liverpool WFC,5,0,37,4,women,False
+19718,FA Women's Super League,2018/2019,2018-09-09,Birmingham City WFC,Everton LFC,1,0,37,4,women,False
+19810,FA Women's Super League,2018/2019,2019-04-21,Liverpool WFC,Bristol City WFC,5,2,37,4,women,False
+19743,FA Women's Super League,2018/2019,2018-10-21,Birmingham City WFC,Chelsea FCW,0,0,37,4,women,False
+19740,FA Women's Super League,2018/2019,2018-10-21,West Ham United LFC,Liverpool WFC,0,1,37,4,women,False
+19716,FA Women's Super League,2018/2019,2018-09-09,Reading WFC,Yeovil Town LFC,4,0,37,4,women,False
+19800,FA Women's Super League,2018/2019,2019-03-14,Arsenal WFC,Bristol City WFC,4,0,37,4,women,False
+19739,FA Women's Super League,2018/2019,2018-10-21,Brighton & Hove Albion WFC,Manchester City WFC,0,6,37,4,women,False
+19748,FA Women's Super League,2018/2019,2018-10-28,Chelsea FCW,Liverpool WFC,1,0,37,4,women,False
+19822,FA Women's Super League,2018/2019,2019-05-11,Yeovil Town LFC,Birmingham City WFC,0,2,37,4,women,False
+19785,FA Women's Super League,2018/2019,2019-01-13,Arsenal WFC,Chelsea FCW,1,2,37,4,women,False
+19749,FA Women's Super League,2018/2019,2018-11-04,Arsenal WFC,Birmingham City WFC,3,1,37,4,women,False
+19751,FA Women's Super League,2018/2019,2018-11-04,West Ham United LFC,Chelsea FCW,0,2,37,4,women,False
+19764,FA Women's Super League,2018/2019,2018-11-25,Yeovil Town LFC,Manchester City WFC,0,4,37,4,women,False
+19773,FA Women's Super League,2018/2019,2018-12-02,Everton LFC,Liverpool WFC,2,1,37,4,women,False
+19783,FA Women's Super League,2018/2019,2019-01-06,Chelsea FCW,Everton LFC,3,0,37,4,women,False
+19747,FA Women's Super League,2018/2019,2018-10-26,Manchester City WFC,Reading WFC,1,1,37,4,women,False
+19757,FA Women's Super League,2018/2019,2019-02-10,Bristol City WFC,Brighton & Hove Albion WFC,0,0,37,4,women,False
+19742,FA Women's Super League,2018/2019,2018-10-21,Yeovil Town LFC,Bristol City WFC,1,2,37,4,women,False
+19777,FA Women's Super League,2018/2019,2018-12-09,Yeovil Town LFC,West Ham United LFC,0,5,37,4,women,False
+19758,FA Women's Super League,2018/2019,2019-04-17,Yeovil Town LFC,Reading WFC,0,5,37,4,women,False
+19802,FA Women's Super League,2018/2019,2019-03-13,Yeovil Town LFC,Brighton & Hove Albion WFC,1,1,37,4,women,False
+19803,FA Women's Super League,2018/2019,2019-03-13,West Ham United LFC,Everton LFC,0,1,37,4,women,False
+19811,FA Women's Super League,2018/2019,2019-04-21,Arsenal WFC,Everton LFC,2,1,37,4,women,False
+19805,FA Women's Super League,2018/2019,2019-03-31,Chelsea FCW,West Ham United LFC,1,1,37,4,women,False
+19752,FA Women's Super League,2018/2019,2018-11-04,Liverpool WFC,Manchester City WFC,0,3,37,4,women,False
+19775,FA Women's Super League,2018/2019,2018-12-09,Reading WFC,Liverpool WFC,2,2,37,4,women,False
+19760,FA Women's Super League,2018/2019,2018-11-18,Chelsea FCW,Yeovil Town LFC,5,0,37,4,women,False
+19787,FA Women's Super League,2018/2019,2019-01-13,Birmingham City WFC,Bristol City WFC,0,1,37,4,women,False
+19733,FA Women's Super League,2018/2019,2018-09-30,Birmingham City WFC,Manchester City WFC,2,3,37,4,women,False
+19765,FA Women's Super League,2018/2019,2018-11-25,Liverpool WFC,Birmingham City WFC,0,2,37,4,women,False
+19792,FA Women's Super League,2018/2019,2019-01-27,Bristol City WFC,Yeovil Town LFC,2,1,37,4,women,False
+19732,FA Women's Super League,2018/2019,2018-09-30,Liverpool WFC,Reading WFC,0,1,37,4,women,False
+19744,FA Women's Super League,2018/2019,2018-10-28,Bristol City WFC,Arsenal WFC,0,4,37,4,women,False
+19799,FA Women's Super League,2018/2019,2019-03-13,Liverpool WFC,Chelsea FCW,0,4,37,4,women,False
+19753,FA Women's Super League,2018/2019,2018-11-04,Reading WFC,Bristol City WFC,3,0,37,4,women,False
+19735,FA Women's Super League,2018/2019,2018-10-14,Manchester City WFC,West Ham United LFC,7,1,37,4,women,False
+19720,FA Women's Super League,2018/2019,2018-09-19,Bristol City WFC,Chelsea FCW,0,0,37,4,women,False
+19719,FA Women's Super League,2018/2019,2018-09-19,West Ham United LFC,Reading WFC,0,0,37,4,women,False
+19715,FA Women's Super League,2018/2019,2018-09-09,Brighton & Hove Albion WFC,Bristol City WFC,0,1,37,4,women,False
+19723,FA Women's Super League,2018/2019,2018-09-20,Everton LFC,Manchester City WFC,0,4,37,4,women,False
+19722,FA Women's Super League,2018/2019,2018-09-19,Yeovil Town LFC,Arsenal WFC,0,7,37,4,women,False
+19727,FA Women's Super League,2018/2019,2018-09-23,Reading WFC,Birmingham City WFC,0,1,37,4,women,False
+19731,FA Women's Super League,2018/2019,2018-09-30,West Ham United LFC,Yeovil Town LFC,2,1,37,4,women,False
+19714,FA Women's Super League,2018/2019,2018-09-09,Chelsea FCW,Manchester City WFC,0,0,37,4,women,False
+19728,FA Women's Super League,2018/2019,2018-09-23,Manchester City WFC,Bristol City WFC,2,2,37,4,women,False
+19726,FA Women's Super League,2018/2019,2018-09-23,Everton LFC,Chelsea FCW,0,0,37,4,women,False
+19725,FA Women's Super League,2018/2019,2018-09-23,Brighton & Hove Albion WFC,Liverpool WFC,0,1,37,4,women,False
+19738,FA Women's Super League,2018/2019,2018-10-14,Bristol City WFC,Birmingham City WFC,0,1,37,4,women,False
+19759,FA Women's Super League,2018/2019,2018-11-18,Everton LFC,Arsenal WFC,0,4,37,4,women,False
+19750,FA Women's Super League,2018/2019,2018-11-04,Yeovil Town LFC,Everton LFC,1,0,37,4,women,False
+19761,FA Women's Super League,2018/2019,2018-11-17,Bristol City WFC,Liverpool WFC,2,1,37,4,women,False
+19762,FA Women's Super League,2018/2019,2018-11-18,Brighton & Hove Albion WFC,Reading WFC,1,4,37,4,women,False
+19763,FA Women's Super League,2018/2019,2018-11-18,Birmingham City WFC,West Ham United LFC,3,0,37,4,women,False
+19768,FA Women's Super League,2018/2019,2018-11-25,West Ham United LFC,Bristol City WFC,2,0,37,4,women,False
+19767,FA Women's Super League,2018/2019,2018-11-25,Reading WFC,Everton LFC,2,1,37,4,women,False
+19776,FA Women's Super League,2018/2019,2018-12-09,Brighton & Hove Albion WFC,Chelsea FCW,0,4,37,4,women,False
+19737,FA Women's Super League,2018/2019,2018-10-14,Liverpool WFC,Yeovil Town LFC,2,1,37,4,women,False
+19790,FA Women's Super League,2018/2019,2019-01-27,Manchester City WFC,Brighton & Hove Albion WFC,3,0,37,4,women,False
+19793,FA Women's Super League,2018/2019,2019-01-28,Liverpool WFC,West Ham United LFC,1,0,37,4,women,False
+19789,FA Women's Super League,2018/2019,2019-01-27,Chelsea FCW,Birmingham City WFC,2,3,37,4,women,False
+19791,FA Women's Super League,2018/2019,2019-01-27,Reading WFC,Arsenal WFC,0,3,37,4,women,False
+19795,FA Women's Super League,2018/2019,2019-02-20,Reading WFC,West Ham United LFC,1,2,37,4,women,False
+19797,FA Women's Super League,2018/2019,2019-02-20,Arsenal WFC,Yeovil Town LFC,3,0,37,4,women,False
+19780,FA Women's Super League,2018/2019,2019-01-06,Liverpool WFC,Brighton & Hove Albion WFC,0,2,37,4,women,False
+19781,FA Women's Super League,2018/2019,2019-01-06,West Ham United LFC,Arsenal WFC,2,4,37,4,women,False
+19779,FA Women's Super League,2018/2019,2019-01-06,Bristol City WFC,Manchester City WFC,1,1,37,4,women,False
+19798,FA Women's Super League,2018/2019,2019-02-20,Manchester City WFC,Everton LFC,3,1,37,4,women,False
+19782,FA Women's Super League,2018/2019,2019-01-06,Birmingham City WFC,Reading WFC,2,1,37,4,women,False
+19784,FA Women's Super League,2018/2019,2019-01-13,Brighton & Hove Albion WFC,Everton LFC,0,0,37,4,women,False
+19786,FA Women's Super League,2018/2019,2019-01-13,West Ham United LFC,Manchester City WFC,1,3,37,4,women,False
+19774,FA Women's Super League,2018/2019,2018-12-09,Everton LFC,Bristol City WFC,0,2,37,4,women,False
+19755,FA Women's Super League,2018/2019,2019-02-10,Manchester City WFC,Chelsea FCW,2,2,37,4,women,False
+19806,FA Women's Super League,2018/2019,2019-03-31,Bristol City WFC,Reading WFC,0,1,37,4,women,False
+19807,FA Women's Super League,2018/2019,2019-03-31,Manchester City WFC,Liverpool WFC,2,1,37,4,women,False
+19788,FA Women's Super League,2018/2019,2019-01-13,Yeovil Town LFC,Liverpool WFC,1,2,37,4,women,False
+19808,FA Women's Super League,2018/2019,2019-03-31,Everton LFC,Yeovil Town LFC,0,1,37,4,women,False
+19804,FA Women's Super League,2018/2019,2019-03-31,Birmingham City WFC,Arsenal WFC,0,1,37,4,women,False
+19813,FA Women's Super League,2018/2019,2019-04-21,West Ham United LFC,Birmingham City WFC,1,2,37,4,women,False
+19816,FA Women's Super League,2018/2019,2019-04-28,Birmingham City WFC,Liverpool WFC,2,0,37,4,women,False
+19809,FA Women's Super League,2018/2019,2019-04-20,Reading WFC,Brighton & Hove Albion WFC,1,0,37,4,women,False
+19815,FA Women's Super League,2018/2019,2019-04-28,Brighton & Hove Albion WFC,Arsenal WFC,0,4,37,4,women,False
+19817,FA Women's Super League,2018/2019,2019-04-28,Everton LFC,Reading WFC,3,2,37,4,women,False
+19818,FA Women's Super League,2018/2019,2019-04-28,Manchester City WFC,Yeovil Town LFC,2,1,37,4,women,False
+19819,FA Women's Super League,2018/2019,2019-05-11,West Ham United LFC,Brighton & Hove Albion WFC,0,4,37,4,women,False
+19821,FA Women's Super League,2018/2019,2019-05-11,Arsenal WFC,Manchester City WFC,1,0,37,4,women,False
+19801,FA Women's Super League,2018/2019,2019-03-13,Reading WFC,Manchester City WFC,3,4,37,4,women,False
+19741,FA Women's Super League,2018/2019,2018-10-21,Arsenal WFC,Reading WFC,6,0,37,4,women,False
+19756,FA Women's Super League,2018/2019,2019-04-17,Everton LFC,Birmingham City WFC,1,3,37,4,women,False
+19754,FA Women's Super League,2018/2019,2019-03-24,Liverpool WFC,Arsenal WFC,1,5,37,4,women,False
+19724,FA Women's Super League,2018/2019,2018-09-23,Arsenal WFC,West Ham United LFC,4,3,37,4,women,False
+19814,FA Women's Super League,2018/2019,2019-04-28,Bristol City WFC,West Ham United LFC,1,2,37,4,women,False
+19729,FA Women's Super League,2018/2019,2019-03-24,Bristol City WFC,Everton LFC,1,0,37,4,women,False
+19796,FA Women's Super League,2018/2019,2019-02-20,Brighton & Hove Albion WFC,Birmingham City WFC,2,1,37,4,women,False

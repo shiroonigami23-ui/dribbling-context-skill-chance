@@ -1,0 +1,132 @@
+match_id,competition,season,date,home,away,home_score,away_score,comp_id,season_id,gender,has360
+3775563,FA Women's Super League,2020/2021,2021-05-09,Manchester United W,Everton LFC,2,0,37,90,women,False
+3775628,FA Women's Super League,2020/2021,2021-03-27,Manchester United W,West Ham United LFC,2,0,37,90,women,False
+3775638,FA Women's Super League,2020/2021,2021-03-07,Brighton & Hove Albion WFC,Tottenham Hotspur Women,2,0,37,90,women,False
+3775568,FA Women's Super League,2020/2021,2021-04-28,Birmingham City WFC,Aston Villa W,1,1,37,90,women,False
+3775629,FA Women's Super League,2020/2021,2021-01-24,Brighton & Hove Albion WFC,Manchester City WFC,1,7,37,90,women,False
+3775648,FA Women's Super League,2020/2021,2021-02-28,Aston Villa W,Arsenal WFC,0,4,37,90,women,False
+3775609,FA Women's Super League,2020/2021,2021-04-28,Arsenal WFC,West Ham United LFC,2,0,37,90,women,False
+3775633,FA Women's Super League,2020/2021,2021-02-06,Aston Villa W,Tottenham Hotspur Women,1,0,37,90,women,False
+3775570,FA Women's Super League,2020/2021,2021-03-28,Brighton & Hove Albion WFC,Everton LFC,0,5,37,90,women,False
+3775581,FA Women's Super League,2020/2021,2021-03-28,Chelsea FCW,Aston Villa W,2,0,37,90,women,False
+3775579,FA Women's Super League,2020/2021,2021-05-02,Reading WFC,Brighton & Hove Albion WFC,3,2,37,90,women,False
+3775544,FA Women's Super League,2020/2021,2021-05-02,Aston Villa W,West Ham United LFC,0,0,37,90,women,False
+3775622,FA Women's Super League,2020/2021,2021-04-25,Manchester United W,Tottenham Hotspur Women,4,1,37,90,women,False
+3775553,FA Women's Super League,2020/2021,2020-11-08,Birmingham City WFC,West Ham United LFC,1,2,37,90,women,False
+3775584,FA Women's Super League,2020/2021,2020-12-06,Arsenal WFC,Birmingham City WFC,3,0,37,90,women,False
+3775618,FA Women's Super League,2020/2021,2020-10-11,Reading WFC,Birmingham City WFC,0,1,37,90,women,False
+3775641,FA Women's Super League,2020/2021,2020-11-14,Aston Villa W,Birmingham City WFC,0,1,37,90,women,False
+3775636,FA Women's Super League,2020/2021,2020-10-18,Bristol City WFC,Birmingham City WFC,0,4,37,90,women,False
+3775653,FA Women's Super League,2020/2021,2021-03-11,Birmingham City WFC,Everton LFC,0,4,37,90,women,False
+3775654,FA Women's Super League,2020/2021,2021-03-28,Birmingham City WFC,Bristol City WFC,1,1,37,90,women,False
+3775643,FA Women's Super League,2020/2021,2021-03-17,West Ham United LFC,Birmingham City WFC,2,2,37,90,women,False
+3764237,FA Women's Super League,2020/2021,2020-09-13,Birmingham City WFC,Manchester United W,2,5,37,90,women,False
+3775594,FA Women's Super League,2020/2021,2021-01-24,Manchester United W,Birmingham City WFC,2,0,37,90,women,False
+3775560,FA Women's Super League,2020/2021,2021-05-09,Arsenal WFC,Aston Villa W,0,0,37,90,women,False
+3775624,FA Women's Super League,2020/2021,2020-11-14,Manchester United W,Manchester City WFC,2,2,37,90,women,False
+3764240,FA Women's Super League,2020/2021,2020-09-06,Bristol City WFC,Everton LFC,0,4,37,90,women,False
+3764233,FA Women's Super League,2020/2021,2020-09-06,Arsenal WFC,Reading WFC,6,1,37,90,women,False
+3775585,FA Women's Super League,2020/2021,2021-05-09,Brighton & Hove Albion WFC,Bristol City WFC,3,1,37,90,women,False
+3775593,FA Women's Super League,2020/2021,2021-05-09,Chelsea FCW,Reading WFC,5,0,37,90,women,False
+3775602,FA Women's Super League,2020/2021,2020-10-04,West Ham United LFC,Reading WFC,0,1,37,90,women,False
+3775620,FA Women's Super League,2020/2021,2020-10-11,Everton LFC,West Ham United LFC,3,1,37,90,women,False
+3764232,FA Women's Super League,2020/2021,2020-09-06,Manchester United W,Chelsea FCW,1,1,37,90,women,False
+3775559,FA Women's Super League,2020/2021,2020-12-20,Arsenal WFC,Everton LFC,4,0,37,90,women,False
+3775606,FA Women's Super League,2020/2021,2021-01-10,Reading WFC,Chelsea FCW,0,5,37,90,women,False
+3775567,FA Women's Super League,2020/2021,2021-01-17,Chelsea FCW,Manchester United W,2,1,37,90,women,False
+3775607,FA Women's Super League,2020/2021,2021-03-08,Bristol City WFC,Reading WFC,3,2,37,90,women,False
+3764230,FA Women's Super League,2020/2021,2020-09-06,Tottenham Hotspur Women,West Ham United LFC,1,1,37,90,women,False
+3764241,FA Women's Super League,2020/2021,2020-09-13,Manchester City WFC,Brighton & Hove Albion WFC,0,0,37,90,women,False
+3764235,FA Women's Super League,2020/2021,2020-09-13,Chelsea FCW,Bristol City WFC,9,0,37,90,women,False
+3764239,FA Women's Super League,2020/2021,2020-09-13,Everton LFC,Tottenham Hotspur Women,1,0,37,90,women,False
+3764236,FA Women's Super League,2020/2021,2020-09-13,Reading WFC,Aston Villa W,3,1,37,90,women,False
+3764231,FA Women's Super League,2020/2021,2020-09-06,Brighton & Hove Albion WFC,Birmingham City WFC,2,0,37,90,women,False
+3764234,FA Women's Super League,2020/2021,2020-09-05,Aston Villa W,Manchester City WFC,0,2,37,90,women,False
+3775543,FA Women's Super League,2020/2021,2020-10-11,Brighton & Hove Albion WFC,Arsenal WFC,0,5,37,90,women,False
+3775551,FA Women's Super League,2020/2021,2020-11-08,Manchester United W,Arsenal WFC,1,0,37,90,women,False
+3775540,FA Women's Super League,2020/2021,2021-04-24,Aston Villa W,Bristol City WFC,2,2,37,90,women,False
+3775550,FA Women's Super League,2020/2021,2021-03-17,Everton LFC,Chelsea FCW,0,3,37,90,women,False
+3775545,FA Women's Super League,2020/2021,2020-10-04,Manchester City WFC,Tottenham Hotspur Women,4,1,37,90,women,False
+3775556,FA Women's Super League,2020/2021,2020-11-08,Brighton & Hove Albion WFC,Aston Villa W,0,2,37,90,women,False
+3775575,FA Women's Super League,2020/2021,2020-10-03,Aston Villa W,Everton LFC,0,6,37,90,women,False
+3775562,FA Women's Super League,2020/2021,2020-10-04,Manchester United W,Brighton & Hove Albion WFC,3,0,37,90,women,False
+3775561,FA Women's Super League,2020/2021,2020-10-18,West Ham United LFC,Manchester United W,2,4,37,90,women,False
+3775582,FA Women's Super League,2020/2021,2020-10-18,Everton LFC,Brighton & Hove Albion WFC,2,2,37,90,women,False
+3775558,FA Women's Super League,2020/2021,2020-12-13,Reading WFC,Manchester United W,1,2,37,90,women,False
+3775552,FA Women's Super League,2020/2021,2021-02-28,Tottenham Hotspur Women,Everton LFC,2,3,37,90,women,False
+3775557,FA Women's Super League,2020/2021,2021-04-25,Arsenal WFC,Brighton & Hove Albion WFC,2,0,37,90,women,False
+3775564,FA Women's Super League,2020/2021,2021-03-27,Manchester City WFC,Reading WFC,1,0,37,90,women,False
+3775569,FA Women's Super League,2020/2021,2021-04-04,Bristol City WFC,Arsenal WFC,0,4,37,90,women,False
+3775548,FA Women's Super League,2020/2021,2021-02-10,Chelsea FCW,Arsenal WFC,3,0,37,90,women,False
+3775555,FA Women's Super League,2020/2021,2021-05-05,Tottenham Hotspur Women,Chelsea FCW,0,2,37,90,women,False
+3775549,FA Women's Super League,2020/2021,2021-05-09,Birmingham City WFC,Tottenham Hotspur Women,0,1,37,90,women,False
+3775572,FA Women's Super League,2020/2021,2020-10-04,Birmingham City WFC,Chelsea FCW,0,1,37,90,women,False
+3775577,FA Women's Super League,2020/2021,2021-05-02,Everton LFC,Arsenal WFC,1,2,37,90,women,False
+3775541,FA Women's Super League,2020/2021,2021-03-07,Manchester United W,Aston Villa W,3,0,37,90,women,False
+3775588,FA Women's Super League,2020/2021,2020-12-06,Tottenham Hotspur Women,Brighton & Hove Albion WFC,3,1,37,90,women,False
+3775586,FA Women's Super League,2020/2021,2020-10-18,Arsenal WFC,Tottenham Hotspur Women,6,1,37,90,women,False
+3775592,FA Women's Super League,2020/2021,2020-11-07,Tottenham Hotspur Women,Reading WFC,1,1,37,90,women,False
+3775580,FA Women's Super League,2020/2021,2020-12-13,Brighton & Hove Albion WFC,Chelsea FCW,0,1,37,90,women,False
+3775591,FA Women's Super League,2020/2021,2021-03-07,West Ham United LFC,Chelsea FCW,0,2,37,90,women,False
+3775590,FA Women's Super League,2020/2021,2021-02-07,Everton LFC,Birmingham City WFC,1,1,37,90,women,False
+3775571,FA Women's Super League,2020/2021,2021-01-23,Aston Villa W,Reading WFC,2,2,37,90,women,False
+3775589,FA Women's Super League,2020/2021,2021-01-17,Reading WFC,Arsenal WFC,1,1,37,90,women,False
+3775578,FA Women's Super League,2020/2021,2021-02-14,Reading WFC,Everton LFC,1,1,37,90,women,False
+3775596,FA Women's Super League,2020/2021,2021-03-17,Bristol City WFC,Manchester City WFC,0,3,37,90,women,False
+3775576,FA Women's Super League,2020/2021,2021-04-21,Manchester City WFC,Chelsea FCW,2,2,37,90,women,False
+3775574,FA Women's Super League,2020/2021,2021-05-02,Manchester City WFC,Birmingham City WFC,4,0,37,90,women,False
+3775573,FA Women's Super League,2020/2021,2021-05-09,West Ham United LFC,Manchester City WFC,0,1,37,90,women,False
+3775597,FA Women's Super League,2020/2021,2021-03-19,Arsenal WFC,Manchester United W,2,0,37,90,women,False
+3775611,FA Women's Super League,2020/2021,2020-10-11,Chelsea FCW,Manchester City WFC,3,1,37,90,women,False
+3775612,FA Women's Super League,2020/2021,2021-04-25,Birmingham City WFC,Reading WFC,1,1,37,90,women,False
+3775627,FA Women's Super League,2020/2021,2020-11-15,Arsenal WFC,Chelsea FCW,1,1,37,90,women,False
+3775644,FA Women's Super League,2020/2021,2020-10-10,Tottenham Hotspur Women,Manchester United W,0,1,37,90,women,False
+3775637,FA Women's Super League,2020/2021,2020-12-09,Bristol City WFC,Aston Villa W,0,4,37,90,women,False
+3775631,FA Women's Super League,2020/2021,2020-11-14,Bristol City WFC,Tottenham Hotspur Women,2,2,37,90,women,False
+3775621,FA Women's Super League,2020/2021,2020-12-06,Reading WFC,Bristol City WFC,1,1,37,90,women,False
+3775615,FA Women's Super League,2020/2021,2020-12-13,Tottenham Hotspur Women,Aston Villa W,3,1,37,90,women,False
+3775610,FA Women's Super League,2020/2021,2020-12-20,Manchester United W,Bristol City WFC,6,1,37,90,women,False
+3775616,FA Women's Super League,2020/2021,2020-12-13,Bristol City WFC,West Ham United LFC,0,4,37,90,women,False
+3775632,FA Women's Super League,2020/2021,2020-12-06,Everton LFC,Manchester City WFC,0,3,37,90,women,False
+3775619,FA Women's Super League,2020/2021,2020-12-20,Brighton & Hove Albion WFC,Reading WFC,1,3,37,90,women,False
+3775600,FA Women's Super League,2020/2021,2021-02-07,Arsenal WFC,Manchester City WFC,1,2,37,90,women,False
+3775605,FA Women's Super League,2020/2021,2021-01-31,Chelsea FCW,Tottenham Hotspur Women,4,0,37,90,women,False
+3775626,FA Women's Super League,2020/2021,2021-01-17,Manchester City WFC,Aston Villa W,7,0,37,90,women,False
+3775614,FA Women's Super League,2020/2021,2021-02-14,Bristol City WFC,Chelsea FCW,0,5,37,90,women,False
+3775603,FA Women's Super League,2020/2021,2021-02-10,Brighton & Hove Albion WFC,West Ham United LFC,1,0,37,90,women,False
+3775625,FA Women's Super League,2020/2021,2020-11-07,Manchester City WFC,Bristol City WFC,8,1,37,90,women,False
+3775613,FA Women's Super League,2020/2021,2021-03-27,Tottenham Hotspur Women,Arsenal WFC,0,3,37,90,women,False
+3775598,FA Women's Super League,2020/2021,2021-03-14,Reading WFC,Tottenham Hotspur Women,0,0,37,90,women,False
+3775601,FA Women's Super League,2020/2021,2021-05-02,Bristol City WFC,Manchester United W,0,1,37,90,women,False
+3775630,FA Women's Super League,2020/2021,2021-03-07,Birmingham City WFC,Arsenal WFC,0,4,37,90,women,False
+3775651,FA Women's Super League,2020/2021,2021-01-31,Manchester City WFC,West Ham United LFC,4,0,37,90,women,False
+3775635,FA Women's Super League,2020/2021,2021-04-25,West Ham United LFC,Everton LFC,0,0,37,90,women,False
+3775650,FA Women's Super League,2020/2021,2020-12-06,Chelsea FCW,West Ham United LFC,3,2,37,90,women,False
+3775647,FA Women's Super League,2020/2021,2021-01-17,Birmingham City WFC,Brighton & Hove Albion WFC,0,0,37,90,women,False
+3775659,FA Women's Super League,2020/2021,2020-10-18,Reading WFC,Manchester City WFC,1,1,37,90,women,False
+3775657,FA Women's Super League,2020/2021,2020-10-04,Arsenal WFC,Bristol City WFC,3,1,37,90,women,False
+3775649,FA Women's Super League,2020/2021,2021-04-03,Reading WFC,West Ham United LFC,0,5,37,90,women,False
+3775645,FA Women's Super League,2020/2021,2020-11-08,Chelsea FCW,Everton LFC,4,0,37,90,women,False
+3775639,FA Women's Super League,2020/2021,2021-03-07,Manchester City WFC,Everton LFC,1,0,37,90,women,False
+3775642,FA Women's Super League,2020/2021,2021-03-17,Aston Villa W,Brighton & Hove Albion WFC,0,2,37,90,women,False
+3775646,FA Women's Super League,2020/2021,2021-01-27,Aston Villa W,Chelsea FCW,0,4,37,90,women,False
+3775655,FA Women's Super League,2020/2021,2021-02-07,West Ham United LFC,Bristol City WFC,1,1,37,90,women,False
+3775640,FA Women's Super League,2020/2021,2021-02-07,Manchester United W,Reading WFC,0,2,37,90,women,False
+3775658,FA Women's Super League,2020/2021,2021-02-12,Manchester City WFC,Manchester United W,3,0,37,90,women,False
+3775623,FA Women's Super League,2020/2021,2020-11-15,West Ham United LFC,Brighton & Hove Albion WFC,0,1,37,90,women,False
+3775566,FA Women's Super League,2020/2021,2020-12-05,Aston Villa W,Manchester United W,0,2,37,90,women,False
+3775546,FA Women's Super League,2020/2021,2021-03-21,Tottenham Hotspur Women,Bristol City WFC,1,1,37,90,women,False
+3775547,FA Women's Super League,2020/2021,2021-02-28,Birmingham City WFC,Manchester City WFC,0,4,37,90,women,False
+3775587,FA Women's Super League,2020/2021,2021-01-31,Everton LFC,Manchester United W,0,2,37,90,women,False
+3775595,FA Women's Super League,2020/2021,2021-01-30,Bristol City WFC,Brighton & Hove Albion WFC,3,0,37,90,women,False
+3775604,FA Women's Super League,2020/2021,2021-04-04,Tottenham Hotspur Women,Manchester City WFC,0,3,37,90,women,False
+3775634,FA Women's Super League,2020/2021,2021-04-04,Everton LFC,Aston Villa W,3,1,37,90,women,False
+3775617,FA Women's Super League,2020/2021,2021-04-04,Brighton & Hove Albion WFC,Manchester United W,1,0,37,90,women,False
+3775565,FA Women's Super League,2020/2021,2021-04-04,Chelsea FCW,Birmingham City WFC,6,0,37,90,women,False
+3775583,FA Women's Super League,2020/2021,2020-12-13,Manchester City WFC,Arsenal WFC,2,1,37,90,women,False
+3775542,FA Women's Super League,2020/2021,2021-01-17,Everton LFC,Bristol City WFC,4,0,37,90,women,False
+3775608,FA Women's Super League,2020/2021,2021-01-17,West Ham United LFC,Tottenham Hotspur Women,0,1,37,90,women,False
+3775599,FA Women's Super League,2020/2021,2021-04-20,West Ham United LFC,Aston Villa W,0,0,37,90,women,False
+3775554,FA Women's Super League,2020/2021,2020-11-14,Everton LFC,Reading WFC,1,1,37,90,women,False
+3775652,FA Women's Super League,2020/2021,2021-02-07,Chelsea FCW,Brighton & Hove Albion WFC,1,2,37,90,women,False
+3764238,FA Women's Super League,2020/2021,2020-09-12,West Ham United LFC,Arsenal WFC,1,9,37,90,women,False

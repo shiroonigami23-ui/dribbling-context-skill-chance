@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or the released ratings, please cite the paper."
+title: "Separating context, skill and chance in football dribbling: empirical Bayes take-on ratings, their reliability and a break-even rule for when to dribble"
+authors:
+  - name: "Shiro Oni"
+    orcid: "https://orcid.org/0009-0007-2131-9570"
+    affiliation: "Rustamji Institute of Technology, Gwalior, India"
+repository-code: "https://github.com/shiroonigami23-ui/dribbling-context-skill-chance"
+license: MIT
+date-released: 2026-11-25
+keywords: [football, soccer, dribbling, empirical Bayes, reliability, mixed models, sports analytics]

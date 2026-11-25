@@ -1,0 +1,77 @@
+{
+ "sb_paired_share": 0.9435790600332562,
+ "sb": {
+  "n": 49369,
+  "attackers": 1875,
+  "defenders": 1951,
+  "sd_m0": {
+   "attacker": 0.25525397
+  },
+  "sd_m1": {
+   "defender": 0.38843312,
+   "attacker": 0.23055891
+  },
+  "sd_m2": {
+   "attacker": 0.25566491,
+   "defteam": 0.07016948
+  },
+  "aic": {
+   "m0": 65218.86005529,
+   "m1": 64762.05766377,
+   "m2": 65208.02982139
+  },
+  "lrt_defender_chisq": 458.80239152,
+  "lrt_defender_p": 8.76016499e-102,
+  "pbar": 0.5557806616846008,
+  "attacker_sd_pp": 5.692234755134002,
+  "defender_sd_pp": 9.589967725424867,
+  "attacker_only_sd_pp": 6.301927431127827,
+  "attacker_share_of_player_variance": 0.2605273979283534,
+  "attempts_R50": 77,
+  "attempts_R70": 178,
+  "latent_icc_attacker": 0.01521432274229754,
+  "latent_icc_defender": 0.043183845217302515,
+  "corr_attacker_m0_m1_30plus": 0.9895434877125827,
+  "attackers_30plus": 639,
+  "defenders_30plus": 668
+ },
+ "wy_paired_share": 0.9634396604969019,
+ "wy": {
+  "n": 48356,
+  "attackers": 2158,
+  "defenders": 2300,
+  "sd_m0": {
+   "attacker": 0.26315016
+  },
+  "sd_m1": {
+   "defender": 0.29917715,
+   "attacker": 0.24938361
+  },
+  "sd_m2": {
+   "attacker": 0.26338516,
+   "defteam": 0.08874697
+  },
+  "aic": {
+   "m0": 63084.38642024,
+   "m1": 62902.17526888,
+   "m2": 63063.76216699
+  },
+  "lrt_defender_chisq": 184.21115136,
+  "lrt_defender_p": 5.8346178e-42,
+  "pbar": 0.6005060668247295,
+  "attacker_sd_pp": 5.982676157762149,
+  "defender_sd_pp": 7.177215865357913,
+  "attacker_only_sd_pp": 6.312933669310886,
+  "attacker_share_of_player_variance": 0.40997055098200724,
+  "attempts_R50": 68,
+  "attempts_R70": 157,
+  "latent_icc_attacker": 0.018070890316388994,
+  "latent_icc_defender": 0.02600761794012743,
+  "corr_attacker_m0_m1_30plus": 0.9963342939769924,
+  "attackers_30plus": 579,
+  "defenders_30plus": 540
+ },
+ "sb_corr_two_stage_vs_glmm": 0.96455096727603,
+ "sb_corr_players": 604,
+ "sb_rank_of_top_two_stage_in_glmm": 1
+}

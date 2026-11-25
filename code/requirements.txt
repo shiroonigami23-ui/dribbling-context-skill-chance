@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14
+matplotlib>=3.8
+pyarrow>=15
+scikit-learn>=1.4
+adjustText>=1.0
+
+# Study 6 also needs R with lme4 and jsonlite (Rscript on PATH)
