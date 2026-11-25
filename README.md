@@ -7,7 +7,7 @@
 **Empirical Bayes take-on ratings, their reliability and a break-even rule for when to dribble**
 
 [![Reproducibility check](https://github.com/shiroonigami23-ui/dribbling-context-skill-chance/actions/workflows/reproducibility.yml/badge.svg)](https://github.com/shiroonigami23-ui/dribbling-context-skill-chance/actions/workflows/reproducibility.yml)
-![Status](https://img.shields.io/badge/status-under%20review%20JSDSS%20%232361-6250d6)
+![Status](https://img.shields.io/badge/status-under%20review%20JSDSS-6250d6)
 ![License](https://img.shields.io/badge/code-MIT-1baf7a)
 ![Python](https://img.shields.io/badge/python-3.11%2B-2a78d6)
 ![R](https://img.shields.io/badge/R-lme4-2a78d6)
@@ -122,7 +122,7 @@ To rebuild the manuscript: `quarto render index.qmd --to jasa-pdf` (needs Quarto
 ```
 ├── index.qmd                 manuscript (Quarto, JSDSS/JASA format)
 ├── references.bib
-├── submission/               manuscript.pdf / .docx, cover letter, submission notes
+├── submission/               manuscript.pdf / .docx as submitted
 ├── code/
 │   ├── run_all.sh            one-command pipeline
 │   ├── src/                  every analysis script (table above)
@@ -146,15 +146,9 @@ To rebuild the manuscript: `quarto render index.qmd --to jasa-pdf` (needs Quarto
 
 See the Limitations section of the paper for details.
 
-## 📬 Submission status
+## 📬 Status
 
-| Journal | Date | Outcome |
-|---|---|---|
-| International Journal of Performance Analysis in Sport | 13 Nov 2026 | Desk-rejected 14 Nov (single-player, descriptive) |
-| Journal of Quantitative Analysis in Sports (DGJQAS.2026.0321) | 17 Nov 2026 | Desk-rejected 23 Nov (wants new methodology; suggested JSDSS) |
-| **Journal of Statistics and Data Science in Sports** (diamond OA, no fees) | 26 Nov 2026 | Submitted, #2361; awaiting editor screening |
-
-Version history: [CHANGELOG.md](CHANGELOG.md).
+Under review at the *Journal of Statistics and Data Science in Sports*. Version history: [CHANGELOG.md](CHANGELOG.md).
 
 ## 📚 Data and licence
 

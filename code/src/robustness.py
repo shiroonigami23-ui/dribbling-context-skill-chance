@@ -1,4 +1,4 @@
-"""Reviewer-facing checks: out-of-fold context model, match-clustered uncertainty, rank stability, reliability.
+"""Robustness checks: out-of-fold context model, match-clustered uncertainty, rank stability, reliability.
 
 Reads results/takeons.parquet and results/benchmark_2015_16.csv (written by analysis.py).
 Writes results/robustness.json, results/calibration.csv, results/messi_career_clustered.csv, results/rank_boot.csv.
