@@ -1,4 +1,7 @@
-# Submitting to JSDSS (Journal of Statistics and Data Science in Sports)
+# Submitting to JSDSS
+
+**Status:** submitted 26 Nov 2026, submission **#2361**, [author dashboard](https://journals.charlotte.edu/jsdss/authorDashboard/submission/2361).
+ (Journal of Statistics and Data Science in Sports)
 
 Diamond open access: **no fee to submit, publish or read**. Review is not anonymised. The repository link stays in the
 Acknowledgements.
