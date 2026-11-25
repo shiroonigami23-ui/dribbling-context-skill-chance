@@ -1,5 +1,10 @@
 # Changelog
 
+## [v5.1] 2026-11-26: reference check before JSDSS submission
+### Fixed
+- Checked the cited references. Fixed the Opta Analyst dribbling guide: author Ryan Benson, published November 2023, not 2025.
+- Removed the appendix comparison with a social-media Opta graphic (UtdArena, 2020), together with its figure and reference. The source could not be verified and its data are not openly available, which conflicts with JSDSS's reproducibility rule.
+
 ## [v5] 2026-11-25: JSDSS version, own repository
 ### Changed
 - Moved out of the Research-Vault monorepo into this repository, built on the

@@ -286,7 +286,7 @@ The test that matters for recruitment, whether a first-period rating predicts a 
 
 -   **Judge decisions, not just success.** The decision score of Appendix A.6 separates a player's skill from where he chooses to dribble; most of its variation comes from the choice, which is coachable.
 
--   **Never mix providers.** Definitions differ by more than player skill does (Appendix B): on the same World Cup matches the two providers agree only moderately on a player's attempts (Appendix A.4).
+-   **Never mix providers.** On the same World Cup matches the two providers agree only moderately on a player's attempts (Appendix A.4).
 
 **For coaches.** -   **A dribble-or-pass guide.** gives, for each area, the success rate a take-on needs to beat a pass. It can be used directly in video review and player meetings: in the central box, take on a defender whenever the chance of beating him is better than about one in three; in the central channel of the middle and final thirds, encourage it for the team's best dribblers (top decile), not for everyone; on the wings of the final third and the box, the pass or cross is the better option on average even for elite dribblers.
 
@@ -411,7 +411,7 @@ The break-even analysis of @sec-decision gives a threshold per area; a player ha
 
 ![Take-on skill (shrunk success above expectation) against the decision score: expected xG of a player's take-ons relative to passing in the same areas, per 100 take-ons, from @eq-bayesdec. StatsBomb 2015/16 benchmark players with at least 60 attempts; point size is proportional to attempts. Absolute levels are conservative (see text).](figures/fig_decision_quality.png){#fig-decqual width="85%"}
 
-## Appendix B: Sensitivity, career and data sources {.unnumbered}
+## Appendix B: Sensitivity and career {.unnumbered}
 
 ::: {#tbl-sens}
 | Specification                                                               | Pool | Messi rank | Messi (pts) | Next (pts) |
@@ -433,10 +433,3 @@ The 2015/16 ranking is stable across seven alternative specifications (@tbl-sens
 **One season is not a career.** Across 18 seasons with at least 50 attempts, Messi was above expectation in 17, and the match-clustered lower bound was above zero in 12 (@fig-career). His median season was $+6.9$ points, which would rank about eleventh of 604 in 2015/16. The one season with complete leagues happens to be his best adjusted season, so "first" describes a peak, and a typical season is top 2%. This is the reliability problem of @sec-reliability in a single career: even for a player with an unusually large sample, single-season ratings vary by several points.
 
 ![Messi's career, seasons with at least 50 take-ons. Left: attempted and completed take-ons per 90. Centre: completion rate with 95% Jeffreys interval; dashed line is the all-player average (57.3%). Right: success above context expectation (raw, not shrunk) with 95% interval from resampling whole matches. \* Ligue 1 with PSG.](figures/fig_career.png){#fig-career width="100%"}
-
-### Same player, different sources {#sec-sources .unnumbered}
-
-Published dribbling statistics come from several providers with different definitions. A widely shared season-by-season completion series for Messi [@utdarena2020], built on Opta data, disagrees with our StatsBomb counts for the same seasons by 6--12 points in 2009/10--2016/17, and shows a sharp rise in 2017/18 (72%) that ours does not (64%) (@fig-sources). The likely causes are different definitions of an attempt (for example, whether duels ending in a foul count), different match coverage, and different coding. Neither series is "wrong"; they measure different things, and a gap of this size is larger than most differences between players.
-
-![Messi's La Liga take-on completion: StatsBomb events (this study, with 95% Jeffreys interval) against a previously cited Opta-based web graphic [@utdarena2020].](figures/fig_sources.png){#fig-sources width="75%"}
-
